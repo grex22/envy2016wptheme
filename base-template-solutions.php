@@ -11,6 +11,12 @@
           'illus' => "Envysion_solutions_icon_box_1.png"
         ),
         array(
+          'Q' => "Evidence of break-in?",
+          'A' => "<p>Quickly find and export video with date, time and location data to provide you with critical evidence to aid authorities and mitigate financial loss. The results:</p> <ul> <li> <p>Save evidence to the cloud or download legally-admissible video</p> </li> <li> <p>Minimize risk and loss</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
+          'icon' => "Envysion_solutions_icon_outside_6.png",
+          'illus' => "Envysion_solutions_icon_box_6.png"
+        ),
+        array(
           'Q' => "Proper cash handling?",
           'A' => "<p>Receive violation alerts via email, including a snapshot and a link to the video. Improve your bottom-line by identifying areas for improvement and training. The results:</p> <ul> <li> <p>Enforce cash-handling policies</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> <li> <p>Identify trends that require staff training to best practices</p> </li> <li> <p>Improve revenue retention</p> </li> </ul>",
           'icon' => "Envysion_solutions_icon_outside_2.png",
@@ -22,12 +28,7 @@
           'icon' => "Envysion_solutions_icon_outside_4.png",
           'illus' => "Envysion_solutions_icon_box_4.png"
         ),
-        array(
-          'Q' => "Evidence of break-in?",
-          'A' => "<p>Quickly find and export video with date, time and location data to provide you with critical evidence to aid authorities and mitigate financial loss. The results:</p> <ul> <li> <p>Save evidence to the cloud or download legally-admissible video</p> </li> <li> <p>Minimize risk and loss</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_6.png",
-          'illus' => "Envysion_solutions_icon_box_6.png"
-        ),
+
         array(
           'Q' => "False staff or customer claim?",
           'A' => "<p>Even the best of businesses are caught off guard with false claims. Envysion&rsquo;s transaction search and camera sync allow you to see an incident from all angles to counter false claims. The results:</p> <ul> <li> <p>Minimize the quantity of fraudulent claims</p> </li> <li> <p>Save evidence to the cloud or download legally-admissible video</p> </li> <li> <p>Minimize risk and mitigate potential loss</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
@@ -43,6 +44,12 @@
 
       ),
       'Grow' => array(
+        array(
+          'Q' => "Sales people effective?",
+          'A' => "<p>Envysion allows you to directly compare entrance counting and employee interaction with sales so that have a complete picture with an employee conversion report. Use this report to gauge sales effectiveness and boost performance.</p> <ul> <li> <p>Improve customer service</p> </li> <li> <p>Reward stellar performance</p> </li> <li> <p>Identify employees who need to be coached</p> </li> <li> <p>Increase sales</p> </li> </ul>",
+          'icon' => "Envysion_solutions_icon_outside_15.png",
+          'illus' => "Envysion_solutions_icon_box_15.png"
+        ),
         array(
           'Q' => "Staff discount abuse?",
           'A' => "<p>Envysion makes it easy to know if discounts are being abused. Experience the ease of POS/video integration and our video audit services team to gain high level summary reports so that you can quickly dig in and act on the things that matter most. The results:</p> <ul> <li> <p>Reduce discount abuse, sweet-hearting, and under-ringing</p> </li> <li> <p>Implement corrective actions to employees in violation</p> </li> <li> <p>Examine trends at employee, store and regional levels</p> </li> <li> <p>Reduce costs due to error and theft</p> </li> </ul>",
