@@ -592,7 +592,7 @@ a:hover {
 }
 /* line 590, ../sass/app.scss */
 .reports_header_wrap .container .row div:first-child {
-  border-right: 2px dotted #ccc;
+  border-right: 2px solid #ccc;
   margin: -25px 0;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -612,12 +612,11 @@ a:hover {
 }
 /* line 605, ../sass/app.scss */
 .reports_columns_wrap .row > div:first-child {
-  border-right: 2px dotted #ddd;
+  border-right: 2px solid #ddd;
 }
 /* line 608, ../sass/app.scss */
 .reports_columns_wrap .row > div:last-child .report-button:after {
-  right: auto;
-  left: -37px;
+  top: -35px;
 }
 
 /* line 614, ../sass/app.scss */
@@ -667,11 +666,11 @@ a:hover {
 /* line 653, ../sass/app.scss */
 .report-button:after {
   content: "";
-  width: 35px;
-  height: 0px;
-  border-top: 2px dotted #ddd;
-  right: -37px;
-  top: 50%;
+  height: 35px;
+  width: 0px;
+  border-right: 2px dotted #ddd;
+  top: -37px;
+  right: 50%;
   position: absolute;
 }
 
