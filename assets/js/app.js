@@ -150,7 +150,7 @@ $(document).ready(function(){
 			if ((element_bottom_position >= window_top_position) &&
 					(element_top_position <= window_bottom_position - 50)) {
 					if($element.attr('data-delay')){
-						console.log($element.attr('id'));
+						//console.log($element.attr('id'));
 						setTimeout(function(){$element.addClass($element.attr('data-animation-class'))}, parseInt($element.attr('data-delay')) )
 					}else{
 						$element.addClass($element.attr('data-animation-class'));

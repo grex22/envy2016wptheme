@@ -7,7 +7,7 @@
         array(
           'Q' => "How do you know if your employees are stealing from you at the point-of-sale?",
           'A' => "<p> Envysion’s point of sale exception reports identify suspicious transactions. Used in conjunction with video management, you can pinpoint potential situations for review. The results: </p> <ul> <li> Easily identify and review suspicious transactions </li> <li> Improve revenue retention </li> <li> Reward and promote trusted employees </li> </ul>",
-          'icon' => "insights-icon-gray.svg",
+          'icon' => "pos-theft-audit.svg",
           'illus' => "report-graph-illustration.svg"
         ),
         array(
@@ -51,19 +51,19 @@
         array(
           'Q' => "Do cashiers consistently offer high-margin items to your guests?",
           'A' => "<p> Envysion’s point-of-sale data and video management allow you to monitor performance to ensure employees promote and offer items that you recognize as critical. Additionally, audit services can provide direct feedback to you on the performance of employees specifically as a percentage of times certain items are offered. The results: </p> <ul> <li> Improve training by identifying trends </li> <li> Identify employees who need performance management </li> <li> Increase top-line revenue by improving practices </li> </ul>",
-          'icon' => "qg-shopping-bag.svg",
+          'icon' => "pos-theft-audit.svg",
           'illus' => "report-graph-illustration.svg"
         ),
         array(
           'Q' => "How fast are your customers greeted?",
           'A' => "<p> Envysion’s audit services can provide detailed reports that add invaluable insight into the experience your customers experience at each location. You can use these customizable reports to insure your employees are meeting the brand expectations of the customer experience. The results: </p> <ul> <li> Improve training by identifying trends </li> <li> Identify employees who need performance management </li> <li> Increase top-line revenue by improving practices </li> </ul>",
-          'icon' => "qg-gauge.svg",
+          'icon' => "pos-theft-audit.svg",
           'illus' => "report-graph-illustration.svg"
         ),
         array(
           'Q' => "How long do customers wait in line before reaching the register?",
           'A' => "<p> Envysion’s insight and analytics provides reports that include an hour-by-hour break down of customer wait times. This data can be used to make comparisons related to number of transactions and the average transaction value during each designated time period. The results: </p> <ul> <li> Optimize staffing relative to traffic and customer needs </li> <li> Decrease wait time to improve customer experience </li> <li> Minimize customer abandonment </li> <li> Improve training by identifying trends </li> </ul>",
-          'icon' => "insights-icon-gray.svg",
+          'icon' => "pos-theft-audit.svg",
           'illus' => "report-graph-illustration.svg"
         ),
         array(
@@ -251,7 +251,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h1>Intelligent Insights</h1>
+            <h1>Solutions</h1>
             <p class="lead">Envysion is the only platform that marries the power of video, POS and audio, providing you actionable insights that you can only get from the visual context of what is actually happening in your stores.</p>
             <a href="http://envysion.com/case-studies/" class="cta-btn cta-btn-lg orange">Demo Today!</a>
           </div>
@@ -259,93 +259,69 @@
       </div>
     </div>
   </div>
-  <div class="icon_tabs_wrap">
-    <div style="display:none">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/quickserve-blue.svg">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/quickserve-white.svg">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/retail-blue.svg">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/retail-white.svg">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/wireless-blue.svg">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/wireless-white.svg">
-    </div>
-    <div class="page_section container">
-      <h3 class="text-center white more_bottom_margin no_top_margin">Insights to meet your unique needs.</h3>
-      <ul>
-        <li id="industrytab_retail" role="presentation"><a href="#" data-toggle="tab">Retail<br>&nbsp;</a></li>
-        <li id="industrytab_quickserve" role="presentation" class="active"><a href="#" data-toggle="tab">Quick&nbsp;Service<br>Restaurant</a></li>
-        <li id="industrytab_wireless" role="presentation"><a href="#" data-toggle="tab">Wireless<br>Retail</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="page_section container less_padding">
-    <div class="row more_bottom_margin">
-      <div class="col-md-11 col-centered">
-        <h2 class="text-center more_bottom_margin">Know exactly where you can improve.</h2>
-        <h4 class="text-center no_top_margin even_more_bottom_margin pn_light">We bring you closer to the pulse of what’s happening inside your stores and provide powerful insights so you can make smart decisions to <strong>protect</strong> and <strong>grow</strong> your business. </h4>
-        <br>
+  <div class="container" id="logo_spread">
+    <div class="row">
+      <div class="col-md-5 text-center">
+        <img src="/assets/img/logos/logo-spread-1of2.png">
+      </div>
+      <div class="col-sm-7 text-center hidden-sm hidden-xs">
+        <img src="/assets/img/logos/logo-spread-2of2.png">
       </div>
     </div>
   </div>
-  <div class="reports_header_wrap">
+  <div class="blurry_wrap">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 text-center">
-          <h3 class="more_bottom_margin">PROTECT YOUR BUSINESS</h3>
-          <ul class="iconlist list-unstyled row">
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="400">
-              <img src="/assets/img/theft.svg">
-              <br>
-              THEFT &amp;<BR>FRAUD
-            </li>
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="600">
-              <img src="/assets/img/legal.svg">
-              <br>
-              HR &amp;<BR>LEGAL
-            </li>
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
-              <img src="/assets/img/safety.svg">
-              <br>
-              SAFETY &amp;<BR>SECURITY
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-6 text-center">
-          <h3 class="more_bottom_margin">GROW YOUR BUSINESS</h3>
-          <ul class="iconlist list-unstyled row">
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="400">
-              <img src="/assets/img/service.svg">
-              <br>
-              CUSTOMER<BR>EXPERIENCE
-            </li>
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="600">
-              <img src="/assets/img/operations.svg">
-              <br>
-              OPERATIONS
-            </li>
-            <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
-              <img src="/assets/img/sales.svg">
-              <br>
-              SALES<BR>PERFORMANCE
-            </li>
-          </ul>
+      <div class="row more_padding">
+        <div class="col-md-11 col-centered">
+          <h2 class="text-center more_bottom_margin larger">Know exactly where you can improve.</h2>
+          <h3 class="text-center no_top_margin pn_light">We bring you closer to the pulse of what’s happening inside your stores and provide powerful insights so you can make smart decisions to <strong>protect</strong> and <strong>grow</strong> your business. </h4>
+          <br>
         </div>
       </div>
     </div>
-  </div>
-
-    <div class="page_section container reports_columns_wrap">
+    <div class="container reports_columns_wrap">
       <div class="row equal_row">
         <div class="col-sm-6">
+          <div class="text-center">
+            <h2 class="more_bottom_margin">PROTECT YOUR BUSINESS</h3>
+            <ul class="iconlist list-unstyled row">
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="400">
+                <img src="/assets/img/theft.svg">
+                <br>
+                THEFT &amp;<BR>FRAUD
+              </li>
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="600">
+                <img src="/assets/img/legal.svg">
+                <br>
+                HR &amp;<BR>LEGAL
+              </li>
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
+                <img src="/assets/img/safety.svg">
+                <br>
+                SAFETY &amp;<BR>SECURITY
+              </li>
+            </ul>
+          </div>
           <?php foreach($reportsdata as $industrykey => $industry): ?>
             <?php if($industrykey == 'QSR'): //REMOVE ME AFTER DEMO ?>
             <?php foreach($industry as $focuskey => $focus): ?>
               <?php if($focuskey == 'Grow'): //REMOVE ME AFTER DEMO ?>
                 <?php foreach($focus as $key => $report): ?>
-                  <a data-toggle="modal" href="#report_<?php echo $industrykey ."_". $focuskey . "_" . $key; ?>" class="report-button <?php echo strtolower($focuskey) ?> <?php echo strtolower($industrykey); ?>">
-                    <img class="alignleft" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solutionsicons/<?php echo $report['icon']; ?>">
-                    <h3><?php echo $report['Q']; ?></h3>
-                    <div class="clearfix"></div>
-                  </a>
+                  <div class="report-button-wrap">
+                    <a data-toggle="modal" href="#report_<?php echo $industrykey ."_". $focuskey . "_" . $key; ?>" class="report-button <?php echo strtolower($focuskey) ?> <?php echo strtolower($industrykey); ?>">
+                      <div class="container">
+                        <div class="row equal_row">
+                          <div class="col-sm-5">
+                            <img class="solutionillustration" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solutionsicons/<?php echo $report['icon']; ?>">
+                          </div>
+                          <div class="col-sm-7">
+                            <h3><?php echo $report['Q']; ?></h3>
+                            <img class="plus" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/plus-blue.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
                 <?php endforeach; ?>
               <?php endif; //REMOVE ME AFTER DEMO ?>
             <?php endforeach; ?>
@@ -353,21 +329,64 @@
           <?php endforeach; ?>
         </div>
         <div class="col-sm-6">
+          <div class="text-center">
+            <h2 class="more_bottom_margin">GROW YOUR BUSINESS</h3>
+            <ul class="iconlist list-unstyled row">
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="400">
+                <img src="/assets/img/service.svg">
+                <br>
+                CUSTOMER<BR>EXPERIENCE
+              </li>
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="600">
+                <img src="/assets/img/operations.svg">
+                <br>
+                OPERATIONS
+              </li>
+              <li class="col-xs-4 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
+                <img src="/assets/img/sales.svg">
+                <br>
+                SALES<BR>PERFORMANCE
+              </li>
+            </ul>
+          </div>
           <?php foreach($reportsdata as $industrykey => $industry): ?>
             <?php if($industrykey == 'QSR'): //REMOVE ME AFTER DEMO ?>
             <?php foreach($industry as $focuskey => $focus): ?>
               <?php if($focuskey == 'Protect'): //REMOVE ME AFTER DEMO ?>
                 <?php foreach($focus as $key => $report): ?>
-                  <a data-toggle="modal" href="#report_<?php echo $industrykey ."_". $focuskey . "_" . $key; ?>" class="report-button <?php echo strtolower($focuskey) ?> <?php echo strtolower($industrykey); ?>">
-                    <img class="alignleft" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/<?php echo $report['icon']; ?>">
-                    <h3><?php echo $report['Q']; ?></h3>
-                    <div class="clearfix"></div>
-                  </a>
+                  <div class="report-button-wrap">
+                    <a data-toggle="modal" href="#report_<?php echo $industrykey ."_". $focuskey . "_" . $key; ?>" class="report-button <?php echo strtolower($focuskey) ?> <?php echo strtolower($industrykey); ?>">
+                      <div class="container">
+                        <div class="row equal_row">
+                          <div class="col-sm-5">
+                            <img class="solutionillustration" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solutionsicons/<?php echo $report['icon']; ?>">
+                          </div>
+                          <div class="col-sm-7">
+                            <h3><?php echo $report['Q']; ?></h3>
+                            <img class="plus" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/plus-blue.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
                 <?php endforeach; ?>
               <?php endif; //REMOVE ME AFTER DEMO ?>
             <?php endforeach; ?>
           <?php endif; //REMOVE ME AFTER DEMO ?>
           <?php endforeach; ?>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dark_blue_wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          Learn more
+          <a href="#">VIDEO MANAGEMENT</a>
+          <a href="#">INSIGHTS &amp; ANALYTICS</a>
+          <a href="#">VIDEO AUDITS</a>
         </div>
       </div>
     </div>
@@ -388,7 +407,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2>Within minutes, I can see all of the exceptions across 30,000 employees across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
+              <h2 class="quote">Within minutes, I can see all of the exceptions across 30,000 employees across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
               <p class="attrib">Tim Spong, Director of Safety, Security and Risk, Chipotle</p>
             </div>
           </div>
@@ -400,7 +419,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2>Another quote, I can see all of the exceptions across 30,000 employees and also across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
+              <h2 class="quote">Another quote, I can see all of the exceptions across 30,000 employees and also across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
               <p class="attrib">Tim Spong, Director of Safety, Security and Risk, Chipotle</p>
             </div>
           </div>
@@ -412,7 +431,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2>Lorem ipsum sans tranta sic gloria fisher sic sempre fi beekeeper, malta ma tran sict sa melto clas sictum"</h2>
+              <h2 class="quote">Lorem ipsum sans tranta sic gloria fisher sic sempre fi beekeeper, malta ma tran sict sa melto clas sictum"</h2>
               <p class="attrib">Alex Bauer, Director of Safety, Security and Risk, Chipotle</p>
             </div>
           </div>
@@ -420,18 +439,6 @@
       </div>
     </div>
   </div>
-  <div class="page_section container">
-    <div class="row">
-      <div class="col-sm-12 text-center casestudyicons">
-        <a href="#" data-toggle="popover" title="Case Study">Some logo</a>
-        <a href="#" data-toggle="popover" title="Case Study">Some logo</a>
-        <a href="#" data-toggle="popover" title="Case Study">Some logo</a>
-        <a href="#" data-toggle="popover" title="Case Study">Some logo</a>
-        <a href="#" data-toggle="popover" title="Case Study">Some logo</a>
-      </div>
-    </div>
-  </div>
-
 
   <!--
   <div class="page_section container">
@@ -464,7 +471,7 @@
               <div class="modal-body">
                 <div class="row">
                   <div class="col-sm-5 modal-illustration text-center">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/<?php echo $report['illus'] ?>">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/solutionsillus/<?php echo $report['illus'] ?>">
                   </div>
                   <div class="col-sm-7 modal-illustration-content">
                     <h2><?php echo $report['Q'] ?></h2>

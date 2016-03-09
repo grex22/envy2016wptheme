@@ -91,6 +91,7 @@ h1,h2,h3,h4,h5,h6{
 
   a:hover{text-decoration:none}
 }
+h3{line-height:1.25em}
 body {
   font-family:$mainfont;
   padding-top: $navbarheight - 0;
@@ -122,7 +123,7 @@ a{
   padding-right:5%;
 }
 #logo_spread{
-  padding:14px 0;
+  padding:33px 0;
   img{max-width:100%;}
 }
 .message-block{
@@ -577,56 +578,71 @@ a{
   background-color:$blue-transparent;
 }
 
-/* ==========================================================================
-   Hero Slider
-   ========================================================================== */
-
 .fancybox-inner{
   border: 5px solid white !important;
 }
-.reports_header_wrap{
-  padding:25px 0;
-  background-color: #ddd;
-  .container .row div:first-child{
-    border-right: 2px solid #ccc;
-    margin: -25px 0;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+
+.blurry_wrap{
+  background-image: url('/assets/img/white-blur-bg.jpg');
+  background-size:cover;
+  background-position: center center;
+  padding:30px 0 0px;
 }
+
 .reports_columns_wrap{
   padding:25px 0 0px!important;
-  .row > div{
+  & > .row > div{
     padding-right:35px;
     padding-left:35px;
     margin: -25px 0 0px 0;
     padding-top: 25px;
     padding-bottom: 120px;
     &:first-child{
-      border-right: 2px solid #ddd;
-    }
-    &:last-child .report-button:after{
-
-      top:-35px;
+      border-right: 1px solid #ddd;
     }
   }
+  h2{
+    font-family: $pn_reg_bold;
+    font-size:28px;
+    letter-spacing: .1em;
+  }
+  .iconlist{
+    margin-bottom: 50px;
+    li{border-color:#ddd}
+  }
+}
+.report-button-wrap{
+  background:white;
+  border:2px solid #ddd;
+  margin-bottom:35px;
 }
 .report-button{
-  border: solid #ddd;
-  border-width:1px 1px 4px 1px;
-  border-radius: 2px;
+  border:solid #fff;
+  border-width:6px;
   box-sizing: border-box;
   display: block;
   position:relative;
-  padding:15px 15px;
-  margin-bottom:35px;
-
+  //padding:15px 15px;
   transition: .3s all;
   overflow:visible;
 
-  img.alignleft{
-    margin-right:20px;
-    max-width:60px;
+  img.plus{width:35px;}
+
+  & > .container > .row{
+    padding:20px 0;
+    & > div{
+      padding-top:5px;
+      padding-bottom: 10px;
+      &:last-child{
+        text-align: center;
+        border-left:1px solid #ddd;
+      }
+    }
+  }
+
+  img.solutionillustration{
+    width:100%;
+    height:122px;
   }
 
   @media(max-width:$sm-width - 1){
@@ -634,8 +650,7 @@ a{
     margin-bottom:15px;
   }
   &:hover{
-    border-color: $brightblue;
-    background-color: #f1f1f1;
+    border-color: #ddd;
   }
 
   h3{
@@ -650,14 +665,25 @@ a{
     font-size: 16px!important;
     color:$darkblue!important;
   }
-  &:after{
-    content:"";
-    height:35px;
-    width:0px;
-    border-right:2px dotted #ddd;
-    top:-37px;
-    right:50%;
-    position: absolute;
+}
+
+.dark_blue_wrap{
+  background:$darkblue;
+  padding:35px 0 38px;
+  color:white;
+  font-size:25px;
+
+  a{
+    &:first-child{margin-left:20px;}
+    color:white;
+    font-size:19px;
+    font-family: $pn_reg_bold;
+    letter-spacing: .1em;
+    padding:10px 16px 10px 18px;
+    border-left:2px solid $brightblue;
+    transition:.3s all;
+
+    &:hover{color:$orange;}
   }
 }
 
@@ -1991,6 +2017,9 @@ img.polaroid{
 .more_right_padding{
   padding-right:40px;
 }
+.row.more_padding{
+  padding:45px 0 15px 0;
+}
 
 .cta-btn{
   background:$warmgray;
@@ -2444,7 +2473,7 @@ div.postcta{
 /* ==========================================================================
    Content
    ========================================================================== */
-
+h2.larger{font-size:35px;}
 .content {
   margin-top:45px;
   padding-bottom:50px;

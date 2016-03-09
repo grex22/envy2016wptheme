@@ -27,7 +27,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
-                <h2>It's what you can't see that can hurt you.</h2>
+                <h2>See at scale. Act on what matters.</h2>
                 <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location.</p>
                 <p class="lead">Envysion provides you actionable insights that you can only get from the visual context of what is actually happening in your stores.</p>
                 <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
@@ -98,9 +98,10 @@
 
   <div class="container">
     <div class="row more_bottom_margin">
-      <div class="col-xs-12">
-        <h2 class="text-center">See at scale. Act on what matters.</h2>
-        <h4 class="text-center">See how your business is performing at scale and choose to act on the things that matter most.</h4>
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h2 class="">Our Brand Promise</h2>
+        <p class="lead">Envysion exists to help passionate business people enhance their customer experience, streamline operations, mitigate loss, and increase profitability. We do this by providing actionable insights that can only be derived from visual context of what is actually happening inside and across all stores.</p>
+        <p class="lead">See at scale. Act on what matters.<br>Protect &amp; Grow your business.</p>
       </div>
     </div>
     <div class="row more_bottom_margin">
@@ -129,18 +130,21 @@
         </ul>
       </div>
     </div>
-    <div class="row gutter-90 more_bottom_margin">
-      <div class="col-md-4">
+    <div class="row gutter-90 even_more_bottom_margin">
+      <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Video Management</h3>
         <p>Search for, watch, save, share and manage video among all your store locations via one cloud-based application.</p>
+        <a href="#" class="cta-btn orange">Learn More</a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Insights &amp; Analytics</h3>
         <p>Keep a pulse on your organization's performance with a suite of video analytics and delivered insights.</p>
+        <a href="#" class="cta-btn orange">Learn More</a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Video Audits</h3>
         <p>Utilize a team of trained auditors to review your video and deliver insights - save time, money & resources.</p>
+        <a href="#" class="cta-btn orange">Learn More</a>
       </div>
     </div>
 
