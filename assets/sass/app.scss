@@ -795,19 +795,19 @@ h2.bold-n-big{
     background-position:center center;
     h2{
       font-size:60px;
-      margin-top:0;
+      margin-top:12px;
       letter-spacing:-.05em;
       line-height:.8em;
       font-family:$pn_light;
       color:lighten($brightblue,10);
-      margin-bottom:20px;
+      margin-bottom:25px;
     }
     p.lead{
       font-family:$pn_light;
       font-size: 18px;
       line-height: 1.6em;
       font-weight: 100;
-      margin-bottom:20px;
+      margin-bottom:28px;
     }
     .cta-btn{font-size:17px;}
     @media(max-width:$md-width - 1){

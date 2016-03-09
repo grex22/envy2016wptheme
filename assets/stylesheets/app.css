@@ -861,12 +861,12 @@ h2.bold-n-big {
 /* line 796, ../sass/app.scss */
 #home_carousel .item h2 {
   font-size: 60px;
-  margin-top: 0;
+  margin-top: 12px;
   letter-spacing: -.05em;
   line-height: .8em;
   font-family: "proxima_novalight";
   color: #63b3dc;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 /* line 805, ../sass/app.scss */
 #home_carousel .item p.lead {
@@ -874,7 +874,7 @@ h2.bold-n-big {
   font-size: 18px;
   line-height: 1.6em;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 /* line 812, ../sass/app.scss */
 #home_carousel .item .cta-btn {
