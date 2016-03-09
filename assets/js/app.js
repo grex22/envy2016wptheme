@@ -181,6 +181,6 @@ $(document).ready(function(){
     });
   }
 
-	equalHeights();
+	setTimeout(function() { equalHeights(); }, 100);
 
 });

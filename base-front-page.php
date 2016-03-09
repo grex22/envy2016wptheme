@@ -27,9 +27,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
-                <h2>See at scale. Act on what matters.</h2>
-                <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location.</p>
-                <p class="lead">Envysion provides you actionable insights that you can only get from the visual context of what is actually happening in your stores.</p>
+                <h2>See at scale.<br>Act on what matters.</h2>
+                <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location. <em>Until now&hellip;</em></p>
                 <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -44,8 +43,7 @@
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Protect your business.</h2>
-                <p class="lead">As stores expand into new locations, add employees and the number of transactions increase, it becomes difficult for loss prevention professionals and store managers to see, identify and correct instances of fraud without the visual context of what is actually happening in your stores.</p>
-                <p class="lead">Envysion marries Point-of-Sale, video and audio to provide full visibility, transaction records and actionable insights.</p>
+                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, it becomes difficult for loss prevention professionals and store managers to see, identify and correct instances of fraud without the visual context of what is actually happening in your stores. <em>Until now&hellip;</em></p>
                 <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -60,9 +58,7 @@
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Grow your business.</h2>
-                <p class="lead">As stores expand into new locations, add employees and the number of transactions increase, best practices such as customer experience, store cleanliness, food handling become difficult to maintain, measure and improve without the visual context of what is actually happening in your stores.</p>
-                <p class="lead">Envysion marries Point-of-Sale, video and audio to provide full visibility, transaction records and actionable insights.</p>
-
+                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, best practices such as sales conversion, throughput, store cleanliness, food handling become difficult to maintain, measure and improve without the visual context of what is actually happening in your stores. <em>Until now&hellip;</em></p>
                 <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -96,34 +92,35 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container even_more_bottom_margin">
     <div class="row more_bottom_margin">
       <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h2 class="">Our Brand Promise</h2>
+        <h2 class="bold-n-big">OUR BRAND PROMISE</h2>
         <p class="lead">Envysion exists to help passionate business people enhance their customer experience, streamline operations, mitigate loss, and increase profitability. We do this by providing actionable insights that can only be derived from visual context of what is actually happening inside and across all stores.</p>
-        <p class="lead">See at scale. Act on what matters.<br>Protect &amp; Grow your business.</p>
+        <p class="lead">See at scale. <strong>Act on what matters.</strong></p>
+        <p class="lead"><strong>Protect</strong> &amp; <strong>Grow</strong> your business.</p>
       </div>
     </div>
     <div class="row more_bottom_margin">
       <div class="col-sm-10 col-xs-12 col-centered">
         <ul class="iconlist list-unstyled row">
           <li class="col-sm-3 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="400">
-            <img src="assets/img/icon-customerexperience.svg">
+            <img src="assets/img/service.svg">
             <br>
             ENHANCE CUSTOMER<BR>EXPERIENCE
           </li>
           <li class="col-sm-3 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="600">
-            <img src="assets/img/icon-operations.svg">
+            <img src="assets/img/operations.svg">
             <br>
             STREAMLINE<BR>OPERATIONS
           </li>
           <li class="col-sm-3 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
-            <img src="assets/img/icon-mitigateloss.svg">
+            <img src="assets/img/safety.svg">
             <br>
             MITIGATE<BR>LOSS
           </li>
           <li class="col-sm-3 animated scroll-animate transparent" data-animation-class="fadeIn" data-delay="800">
-            <img src="assets/img/icon-profitability.svg">
+            <img src="assets/img/sales.svg">
             <br>
             INCREASE<BR>PROFITABILITY
           </li>
@@ -134,17 +131,17 @@
       <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Video Management</h3>
         <p>Search for, watch, save, share and manage video among all your store locations via one cloud-based application.</p>
-        <a href="#" class="cta-btn orange">Learn More</a>
+        <a href="/products/envysion-video" class="cta-btn orange">Learn More</a>
       </div>
       <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Insights &amp; Analytics</h3>
         <p>Keep a pulse on your organization's performance with a suite of video analytics and delivered insights.</p>
-        <a href="#" class="cta-btn orange">Learn More</a>
+        <a href="/products/envysion-insight" class="cta-btn orange">Learn More</a>
       </div>
       <div class="col-md-4 text-center">
         <h3 class="col-tab-header">Video Audits</h3>
         <p>Utilize a team of trained auditors to review your video and deliver insights - save time, money & resources.</p>
-        <a href="#" class="cta-btn orange">Learn More</a>
+        <a href="/products/envysion-audit-services" class="cta-btn orange">Learn More</a>
       </div>
     </div>
 
