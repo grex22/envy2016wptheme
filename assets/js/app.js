@@ -165,4 +165,22 @@ $(document).ready(function(){
 	$window.on('scroll resize', check_if_in_view);
 	$window.trigger('scroll');
 
+	//Utility equalheights function
+	function equalHeights(){
+    $(".equal_row").each(function(){
+      //If the equal_row is inside a hidden tab-pane, just skip it
+      //We'll handle the equal heights once the tab is shown by the user
+      if($(this).parents(".tab-pane:not('.active')").length === 1 ){
+        return;
+      }
+      var maxheight = 0;
+      $(this).children('div').each(function(){
+        if($(this).outerHeight() >= maxheight){maxheight = $(this).outerHeight();}
+      });
+      $(this).children('div').outerHeight(maxheight);
+    });
+  }
+
+	equalHeights();
+
 });
