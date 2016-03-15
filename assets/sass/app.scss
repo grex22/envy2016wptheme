@@ -617,8 +617,11 @@ h2.bold-n-big{
   margin-bottom:35px;
 }
 .report-button{
-  border:solid #fff;
+  border:solid transparent;
   border-width:6px;
+  background-image:url('/assets/img/solutions-bokeh.jpg');
+  background-size:cover;
+  background-position: center center;
   box-sizing: border-box;
   display: block;
   position:relative;
@@ -629,7 +632,7 @@ h2.bold-n-big{
   img.plus{width:35px;height:35px;}
 
   & > .container > .row{
-    padding:20px 0;
+    padding:26px 0;
     & > div{
       padding-top:5px;
       padding-bottom: 10px;
@@ -652,13 +655,13 @@ h2.bold-n-big{
     margin-bottom:15px;
   }
   &:hover{
-    border-color: #ddd;
+    border-color: $brightblue;
   }
 
   h3{
-    padding:0 0px 15px 0px;
+    padding:0 0px 10px 0px;
     margin: 10px 5px 0px;
-    color:#4a4f55;
+    color:#fff;
     font-size:24px;
     font-family: $pn_light;
   }
@@ -669,10 +672,11 @@ h2.bold-n-big{
     color:$darkblue!important;
   }
   h5{
-    color:#999;
-    font-family: $pn_reg_bold_italic;
+    color:#fff;
+    font-family: $pn_reg_italic;
     letter-spacing:.05em;
     font-size:15px;
+    margin:7px 16px;
   }
 }
 
