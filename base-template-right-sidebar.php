@@ -19,7 +19,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
     }
   ?>
   <div id="main_wrap">
-  
+
     <?php if(get_field('display_page_header')): ?>
     <?php //load up our variables:
           $herostyle = get_field('hero_style');
@@ -36,10 +36,10 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
           $bgimg = get_field('hero_image_background');
           $highlightimg = get_field('hero_image');
           $bgcolor = get_field('hero_background_color');
-          
+
           if($herostyle == 'split'):
     ?>
-    
+
       <div class="page_hero bluebg" style="background-color:<?php echo $bgcolor; ?>">
         <div class="wrap container extra_padding">
           <div class="row">
@@ -65,7 +65,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
         </div>
       </div>
       <?php elseif($herostyle == 'center'): ?>
-      
+
       <div class="page_hero bluebg" style="background:url('<?php $bgimgsrc = wp_get_attachment_image_src($bgimg, 'full'); echo $bgimgsrc[0]; ?>');background-size:cover;background-position:center center;">
         <?php if($bgcolor) $bgcolor_opacity = hex2rgba( $bgcolor, 0.8); ?>
         <div style=" <?php if($bgcolor_opacity) echo 'background-color:'. $bgcolor_opacity; ?> ">
@@ -98,25 +98,25 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
           <div class="trapezoid left"></div><div class="trapezoid right"></div>
         </div>
       </div>
-      
+
       <?php endif; ?>
     <?php endif; ?>
     <div class="wrap container" role="document">
       <div class="content row">
-        
-        
+
+
         <div class="main <?php echo roots_main_class(); ?>" role="main">
-          
+
           <?php if(get_field('hide_content')): ?>
           	<?php the_field('substitute_content'); ?>
           <?php else: ?>
           	<?php include roots_template_path(); ?>
           <?php endif; ?>
-          
+
         </div><!-- /.main -->
-        
+
         <?php if (roots_display_sidebar()) : ?>
-					
+
             <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
             	<div id="blog_sidebar_wrapper">
                 <?php get_template_part('templates/summit','sidebar'); ?>
@@ -124,15 +124,16 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
             </aside>
 
         <?php endif; ?>
-        
+
       </div><!-- /.content -->
     </div><!-- /.wrap -->
     <?php if(get_field('display_page_footer')): ?>
+    <!--
     <div class="message-block graybg leading_arrow">
       <div class="container">
         <div class="col-lg-12">
           <h2><?php the_field('footer_headline'); ?></h2>
-          
+
           <?php if(get_field('f_primary_button_text')): ?>
           <a href="<?php the_field('f_primary_button_link'); ?>" class="cta-btn medium primary"><i class="fa fa-play-circle"></i> <?php the_field('f_primary_button_text'); ?></a>
           <?php endif; ?>
@@ -142,8 +143,9 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
         </div>
       </div>
     </div>
+    -->
     <?php endif; ?>
-    
+
 
     <?php get_template_part('templates/footer'); ?>
   </div>

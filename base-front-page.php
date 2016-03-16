@@ -29,7 +29,7 @@
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>See at scale.<br>Act on what matters.</h2>
                 <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location. <strong><em>Until now&hellip;</em></strong></p>
-                <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
+                <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
                 <img src="assets/img/home-app-screen.png">
@@ -44,7 +44,7 @@
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Protect your business.</h2>
                 <p class="lead">As you expand into new locations, add employees and the number of transactions increase, it becomes difficult for loss prevention professionals and store managers to see, identify and correct instances of fraud without the visual context of what is actually happening in your stores. <strong><em>Until now&hellip;</em></strong></p>
-                <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
+                <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
                 <img src="assets/img/home-app-screen-2-2.png">
@@ -59,7 +59,7 @@
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Grow your business.</h2>
                 <p class="lead">As you expand into new locations, add employees and the number of transactions increase, best practices such as sales conversion, throughput, store cleanliness, food handling become difficult to maintain, measure and improve without the visual context of what is actually happening in your stores. <strong><em>Until now&hellip;</em></strong></p>
-                <a href="#" class="cta-btn cta-btn-lg orange">Learn More</a>
+                <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
                 <img src="assets/img/home-app-screen-3-2.png">

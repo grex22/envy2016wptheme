@@ -148,6 +148,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
         <?php endif; ?>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
+    <!--
     <?php if(get_field('display_page_footer')): ?>
     <div class="message-block graybg leading_arrow">
       <div class="container">
@@ -164,6 +165,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
       </div>
     </div>
     <?php endif; ?>
+    -->
 
 
     <?php get_template_part('templates/footer'); ?>

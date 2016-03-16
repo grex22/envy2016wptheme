@@ -342,25 +342,6 @@
     </div>
   </div>
 
-
-  <!--
-  <div class="page_section container">
-    <div class="row more_bottom_margin">
-      <div class="col-xs-12">
-        <h2 class="text-center">Featured Case Studies</h2>
-      </div>
-    </div>
-    <div class="row vertical-align-col-fix more_bottom_margin">
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_shell" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/shell.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_popeyes" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/popeyes.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_att" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/att.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_cinemark" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/cinemark.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_noodles" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/noodles.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_footlocker" class="big-border-button"><img class="vcenter" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/foot-locker.png"></a></div>
-    </div>
-  </div>
-  -->
-
   <?php foreach($reportsdata as $industrykey => $industry): ?>
     <?php foreach($industry as $focuskey => $focus): ?>
       <?php foreach($focus as $key => $report): ?>
@@ -388,109 +369,6 @@
       <?php endforeach; ?>
     <?php endforeach; ?>
   <?php endforeach; ?>
-
-
-  <div class="modal fade chunky-modal" id="cs_shell" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/shell.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade chunky-modal" id="cs_popeyes" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/popeyes.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade chunky-modal" id="cs_att" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/att.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade chunky-modal" id="cs_cinemark" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/cinemark.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade chunky-modal" id="cs_noodles" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/noodles.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade chunky-modal" id="cs_footlocker" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <div class="clearfix"></div>
-        </div>
-        <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/foot-locker.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <?php get_template_part('templates/footer'); ?>
   </div>
