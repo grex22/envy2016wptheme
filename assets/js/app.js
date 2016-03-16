@@ -72,7 +72,7 @@ $(document).ready(function(){
 
   $("#scroller_list").simplyScroll({
     auto: true,
-    speed: 2
+    speed: 1
   });
 
   $('#home_hero_slider').carousel({

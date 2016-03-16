@@ -81,13 +81,30 @@
       </a>
     </div>
   </div>
-  <div class="container" id="logo_spread">
-    <div class="row">
-      <div class="col-md-5 text-center">
-        <img src="/assets/img/logos/logo-spread-1of2.png">
-      </div>
-      <div class="col-sm-7 text-center hidden-sm hidden-xs">
-        <img src="/assets/img/logos/logo-spread-2of2.png">
+  <div id="home_industry_ticker" class="">
+    <div class="wrap container">
+      <div id="logo_ticker">
+        <!--
+        <div class="simply-scroll-back simply-scroll-btn simply-scroll-btn-left slidecontrol"><i class="fa fa-chevron-left"></i></div>
+        <div class="simply-scroll-forward simply-scroll-btn simply-scroll-btn-right slidecontrol"><i class="fa fa-chevron-right"></i></div>
+        -->
+        <ul id="scroller_list">
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/att-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/bootbarn-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/chipotle-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/cinemark-ticker-wide.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/einstein-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/elpolloloco-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/fallas-ticker-wide.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/footlocker-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/gpc-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/kfc-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/murdochs-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/noodles-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/popeyes-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/pizzahut-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/verizon-ticker.png'></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -197,19 +214,19 @@
       </div>
     </div>
     <div class="row vertical-align-col-fix more_bottom_margin">
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_shell" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="200"><img class="vcenter" src="assets/img/logos/shell.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_popeyes" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="300"><img class="vcenter" src="assets/img/logos/popeyes.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_att" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="400"><img class="vcenter" src="assets/img/logos/att.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_cinemark" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="200"><img class="vcenter" src="assets/img/logos/cinemark.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_noodles" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="300"><img class="vcenter" src="assets/img/logos/noodles.png"></a></div>
-      <div class="col-sm-4"><a data-toggle="modal" href="#cs_footlocker" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="400"><img class="vcenter" src="assets/img/logos/foot-locker.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_chipotle" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="0"><img class="vcenter" src="assets/img/logos/chipotle.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_kfc" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="100"><img class="vcenter" src="assets/img/logos/kfc.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_att" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="200"><img class="vcenter" src="assets/img/logos/att.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_elpolloloco" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="000"><img class="vcenter" src="assets/img/logos/elpolloloco.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_einstein" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="100"><img class="vcenter" src="assets/img/logos/einstein.png"></a></div>
+      <div class="col-sm-4"><a data-toggle="modal" href="#cs_verizon" class="big-border-button scroll-animate animated transparent" data-animation-class="fadeIn" data-delay="200"><img class="vcenter" src="assets/img/logos/verizon.png"></a></div>
     </div>
     <div class="row text-center"><a href="http://envysion.com/case-studies/" class="cta-btn cta-btn-lg orange">View More</a></div>
   </div>
 
 
 
-  <div class="modal fade chunky-modal" id="cs_shell" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal fade chunky-modal" id="cs_chipotle" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -217,16 +234,16 @@
           <div class="clearfix"></div>
         </div>
         <div class="modal-body text-center">
-          <img src="assets/img/logos/shell.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <img src="assets/img/logos/chipotle.png">
+          <h3 class="quote">Within minutes, I can see all of the exceptions across 30,000 employees in nearly 2,000 locations, and drill into the video for the 10 or 15 transactions that actually matter"</h3>
+          <p class="attrib">Tim Spong, Director of Safety, Security and Risk, Chipotle</p>
+          <a href="http://envysion.com/media/Envysion-Case-Study-Chipotle1.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade chunky-modal" id="cs_popeyes" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal fade chunky-modal" id="cs_kfc" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -234,10 +251,10 @@
           <div class="clearfix"></div>
         </div>
         <div class="modal-body text-center">
-          <img src="assets/img/logos/popeyes.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <img src="assets/img/logos/kfc.png">
+          <h3 class="quote">We’ve had cameras in place for years but without any real insights or solid use cases. We learned about Envysion and the ways they can help with reduction in food costs,managing labor and helping to ensure our customers have a positive experience. Within a matter of weeks, we rolled out Envysion to all locations."</h3>
+          <p class="attrib">Brian Wilson, Senior Vice President, West Quality</p>
+          <a href="http://envysion.com/media/Envysion-Case-Study-KFC.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>
@@ -252,15 +269,15 @@
         </div>
         <div class="modal-body text-center">
           <img src="assets/img/logos/att.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <h3 class="quote">Envysion helps us maximize every foot of floor space, which is really helpful when it comes to moving accessories and other high-margin items."</h3>
+          <p class="attrib">Attique Rasheed, Head of Training and Operations</p>
+          <a href="http://envysion.com/media/Envysion-Case-Study-ATT-Portables.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade chunky-modal" id="cs_cinemark" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal fade chunky-modal" id="cs_elpolloloco" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -268,16 +285,16 @@
           <div class="clearfix"></div>
         </div>
         <div class="modal-body text-center">
-          <img src="assets/img/logos/cinemark.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <img src="assets/img/logos/elpolloloco.png">
+          <h3 class="quote">We are primarily focused on loss prevention, however, we want to implement Envysion across the whole company— marketing, HR, QA in the kitchen. Our goal is to improve operations and increase profitability. We see Envysion as a key tool, enabling us to do that."</h3>
+          <p class="attrib">Shaun Jackson, Director of Risk Management</p>
+          <a href="http://envysion.com/media/El-Pollo-Loco-Case-Study.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade chunky-modal" id="cs_noodles" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal fade chunky-modal" id="cs_einstein" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -285,16 +302,16 @@
           <div class="clearfix"></div>
         </div>
         <div class="modal-body text-center">
-          <img src="assets/img/logos/noodles.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <img src="assets/img/logos/einstein.png">
+          <h3 class="quote">After reviewing other advanced video alternatives, we found Envysion not only demonstrated an excellent ROI (return on investment), but they also provided unparalleled scalability and ease of use.</h3>
+          <p class="attrib">Mike Froelich, Audit Services</p>
+          <a href="http://envysion.com/media/Einstein-Case-Study-Final.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade chunky-modal" id="cs_footlocker" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal fade chunky-modal" id="cs_verizon" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -302,10 +319,10 @@
           <div class="clearfix"></div>
         </div>
         <div class="modal-body text-center">
-          <img src="assets/img/logos/foot-locker.png">
-          <h3 class="quote"> We never have to worry about upgrades or having outdated video capabilities because our users simply log in to the Envysion application and have access to the latest features and capabilities."</h3>
-          <p class="attrib">Sonny Goyal, COO, Au Energy, Shell Branded Dealer</p>
-          <a href="#" class="cta-btn orange">View Case Study</a>
+          <img src="assets/img/logos/verizon.png">
+          <h3 class="quote">We can’t expand just by doubling, tripling, or quadrupling our team. We need to use technology as much as possible to define inefficiencies, reduce loss and fine tune our sales process.  That’s where Envysion comes in."</h3>
+          <p class="attrib">Rob Metzger, Director of Sales Operations and Business Development</p>
+          <a href="http://envysion.com/media/Envysion-Case-Study-4G-Wireless.pdf" target="_blank" class="cta-btn orange">View Case Study</a>
         </div>
       </div>
     </div>

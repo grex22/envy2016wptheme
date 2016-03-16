@@ -699,6 +699,11 @@ h2.bold-n-big{
 
     &:hover{color:$orange;}
   }
+  @media(max-width:$md-width - 1){
+    text-align:center;
+    a{display:block;padding:6px;border:none;text-align: center;}
+    a:first-child{margin-top:15px;}
+  }
 }
 
 .icon_tabs_wrap{
@@ -1637,7 +1642,7 @@ ul.iconlist{
   position:relative;
 
   .wrap{
-    padding-top: 45px;
+    padding-top: 35px;
   }
 
   h2{color:$gray8;font-weight:300}
@@ -1645,8 +1650,7 @@ ul.iconlist{
   #logo_ticker{
     overflow:hidden;
     width:100%;
-    max-width:960px;
-    margin:20px auto 55px;
+    margin:20px auto 35px;
     position:relative;
 
     .slidecontrol{
@@ -1662,7 +1666,6 @@ ul.iconlist{
     }
     .simply-scroll {
       width:100%;
-      max-width:960px;
       height: 90px;
       padding:0 40px;
       margin-bottom: 1em;
@@ -1710,12 +1713,12 @@ ul.iconlist{
     }
     .simply-scroll-clip{
       width:100%;
-      max-width:880px;
       height:90px;
+      overflow:hidden;
     }
     .simply-scroll .simply-scroll-list li {
       float: left; /* Horizontal scroll only */
-      width: 90px;
+      width: auto;
       height: 90px;
     }
     simply-scroll-btn {
@@ -1738,14 +1741,21 @@ ul.iconlist{
 
     ul#scroller_list{
 
-      width:auto;
+      width:100%;
       list-style:none;
       margin:0;
       padding:0;
+      vertical-align: middle;
 
       li{
         display:inline-block;
-        margin:0 11px;
+        margin:0 15px;
+        vertical-align: middle;
+        img{
+          vertical-align: middle;
+          width:auto;
+          max-height:90px;
+        }
       }
     }
   }

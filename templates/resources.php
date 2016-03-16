@@ -9,7 +9,7 @@ if( is_tax('industry') ) :
 else :
 
   $tax_term_slug = false;
-  $posts_per_page = 10;
+  $posts_per_page = 3;
   while (have_posts()) : the_post();
     the_content();
   endwhile;
@@ -38,7 +38,7 @@ endif;
     <div class="resource_row">
       <a href="<?php the_field( 'white_paper_upload', $whitepaper->ID ); ?>" target="_blank" class="cta-btn small secondary pull-right"><i class="fa fa-file-pdf-o"></i> PDF</a>
       <a href="<?php the_field( 'white_paper_upload', $whitepaper->ID ); ?>" target="_blank" class="resource_title"><?php echo $whitepaper->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $whitepaper->ID ); ?></p>
     </div>
     <?php
@@ -51,7 +51,7 @@ endif;
   if ( ! empty( $casestudies ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-book fa-fw"></i> Case Studies 
+      <i class="fa fa-book fa-fw"></i> Case Studies
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/case-studies/'); ?>">view all</a>
       <?php endif; ?>
@@ -65,7 +65,7 @@ endif;
     <div class="resource_row">
       <a href="<?php the_field( 'case_study_pdf', $casestudy->ID ); ?>" target="_blank" class="cta-btn small secondary pull-right"><i class="fa fa-file-pdf-o"></i> PDF</a>
       <a href="<?php the_field( 'case_study_pdf', $casestudy->ID ); ?>" target="_blank" class="resource_title"><?php echo $casestudy->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $casestudy->ID); ?></p>
     </div>
     <?php
@@ -78,7 +78,7 @@ endif;
   if ( ! empty( $videos ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-file-video-o fa-fw"></i> Videos 
+      <i class="fa fa-file-video-o fa-fw"></i> Videos
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/video/'); ?>">view all</a>
       <?php endif; ?>
@@ -92,7 +92,7 @@ endif;
     <div class="resource_row">
       <a href="<?php echo post_permalink( $video->ID ); ?>" class="cta-btn small secondary pull-right"><i class="fa fa-video-camera"></i> View</a>
       <a href="<?php echo post_permalink( $video->ID ); ?>" class="resource_title"><?php echo $video->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $video->ID); ?></p>
     </div>
     <?php
@@ -105,7 +105,7 @@ endif;
   if ( ! empty( $webinars ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-desktop fa-fw"></i> Webinars 
+      <i class="fa fa-desktop fa-fw"></i> Webinars
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/webinars/'); ?>">view all</a>
       <?php endif; ?>
@@ -119,7 +119,7 @@ endif;
     <div class="resource_row">
       <a href="<?php echo post_permalink( $webinar->ID ); ?>" class="cta-btn small secondary pull-right"><i class="fa fa-video-camera"></i> View</a>
       <a href="<?php echo post_permalink( $webinar->ID ); ?>" class="resource_title"><?php echo $webinar->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $webinar->ID); ?></p>
     </div>
     <?php
@@ -132,7 +132,7 @@ endif;
   if ( ! empty( $podcasts ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-file-audio-o fa-fw"></i> Podcasts 
+      <i class="fa fa-file-audio-o fa-fw"></i> Podcasts
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/podcasts/'); ?>">view all</a>
       <?php endif; ?>
@@ -146,7 +146,7 @@ endif;
     <div class="resource_row">
 		<a href="<?php echo post_permalink( $podcast->ID ); ?>" class="cta-btn small secondary pull-right"><i class="fa fa-music"></i> Listen</a>
       <a href="<?php echo post_permalink( $podcast->ID ); ?>"><?php echo $podcast->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $podcast->ID); ?></p>
     </div>
     <?php
@@ -159,7 +159,7 @@ endif;
   if ( ! empty( $tools ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-wrench fa-fw"></i> Tools 
+      <i class="fa fa-wrench fa-fw"></i> Tools
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/tools/'); ?>">view all</a>
       <?php endif; ?>
@@ -173,7 +173,7 @@ endif;
     <div class="resource_row">
       <a href="<?php echo post_permalink( $tool->ID ); ?>" class="cta-btn small secondary pull-right"><i class="fa fa-files-o"></i> View</a>
       <a href="<?php echo post_permalink( $tool->ID ); ?>" class="resource_title"><?php echo $tool->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $tool->ID); ?></p>
     </div>
     <?php
@@ -186,7 +186,7 @@ endif;
   if ( ! empty( $kits ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-briefcase fa-fw"></i> Kits 
+      <i class="fa fa-briefcase fa-fw"></i> Kits
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/kits/'); ?>">view all</a>
       <?php endif; ?>
@@ -200,7 +200,7 @@ endif;
     <div class="resource_row">
     	<a href="<?php echo post_permalink( $kit->ID ); ?>" class="cta-btn small secondary pull-right"><i class="fa fa-files-o"></i> View</a>
       	<a href="<?php echo post_permalink( $kit->ID ); ?>" class="resource_title"><?php echo $kit->post_title; ?></a>
-      
+
       	<p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $kit->ID); ?></p>
     </div>
     <?php
@@ -213,7 +213,7 @@ endif;
   if ( ! empty( $reports ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-file-text fa-fw"></i> Reports 
+      <i class="fa fa-file-text fa-fw"></i> Reports
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/reports/'); ?>">view all</a>
       <?php endif; ?>
@@ -227,7 +227,7 @@ endif;
     <div class="resource_row">
     	<a href="<?php the_field( '_simple_fields_fieldGroupID_3_fieldID_3_numInSet_0', $report->ID ); ?>" target="_blank" class="cta-btn small secondary pull-right"><i class="fa fa-file-pdf-o"></i> PDF</a>
       <a href="<?php the_field( '_simple_fields_fieldGroupID_3_fieldID_3_numInSet_0', $report->ID ); ?>" target="_blank" class="resource_title"><?php echo $report->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $report->ID); ?></p>
     </div>
     <?php
@@ -240,7 +240,7 @@ endif;
   if ( ! empty( $slicks ) ) :
     ?>
     <h2 class="resource_type">
-      <i class="fa fa-file-image-o fa-fw"></i> Marketing Slicks 
+      <i class="fa fa-file-image-o fa-fw"></i> Marketing Slicks
       <?php if ( ! $tax_term_slug ) : ?>
         <a class="pull-right" href="<?php echo home_url('/slicks/'); ?>">view all</a>
       <?php endif; ?>
@@ -254,7 +254,7 @@ endif;
     <div class="resource_row">
     	<a href="<?php the_field( '_simple_fields_fieldGroupID_3_fieldID_3_numInSet_0', $slick->ID ); ?>" target="_blank" class="cta-btn small secondary pull-right"><i class="fa fa-file-pdf-o"></i> PDF</a>
       <a href="<?php the_field( '_simple_fields_fieldGroupID_3_fieldID_3_numInSet_0', $slick->ID ); ?>" target="_blank" class="resource_title"><?php echo $slick->post_title; ?></a>
-      
+
       <p><?php the_field( '_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0', $slick->ID); ?></p>
     </div>
     <?php

@@ -155,13 +155,30 @@
       </div>
     </div>
   </div>
-  <div class="container" id="logo_spread">
-    <div class="row">
-      <div class="col-md-5 text-center">
-        <img src="/assets/img/logos/logo-spread-1of2.png">
-      </div>
-      <div class="col-sm-7 text-center hidden-sm hidden-xs">
-        <img src="/assets/img/logos/logo-spread-2of2.png">
+  <div id="home_industry_ticker" class="">
+    <div class="wrap container">
+      <div id="logo_ticker">
+        <!--
+        <div class="simply-scroll-back simply-scroll-btn simply-scroll-btn-left slidecontrol"><i class="fa fa-chevron-left"></i></div>
+        <div class="simply-scroll-forward simply-scroll-btn simply-scroll-btn-right slidecontrol"><i class="fa fa-chevron-right"></i></div>
+        -->
+        <ul id="scroller_list">
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/att-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/bootbarn-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/chipotle-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/cinemark-ticker-wide.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/einstein-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/elpolloloco-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/fallas-ticker-wide.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/footlocker-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/gpc-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/kfc-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/murdochs-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/noodles-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/popeyes-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/pizzahut-ticker.png'></li>
+          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/verizon-ticker.png'></li>
+        </ul>
       </div>
     </div>
   </div>
