@@ -1,3 +1,16 @@
+<div class="dark_blue_wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        Learn more
+        <a href="#">VIDEO MANAGEMENT</a>
+        <a href="#">INSIGHTS &amp; ANALYTICS</a>
+        <a href="#">VIDEO AUDITS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="call-to-action-box" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
   <div class="container">
     <h2 class="text-center">Could video be doing more for you?</h2>

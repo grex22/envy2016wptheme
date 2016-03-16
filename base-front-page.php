@@ -174,10 +174,10 @@
                 </div>
                 <div class="col-sm-6">
                   <ul class="text-left bullet-points">
-                    <li>High-Risk Transactions</li>
-                    <li>Sales Performance</li>
-                    <li>Customer Experience</li>
-                    <li>Sales Conversions</li>
+                    <li>Store Cleanliness</li>
+                    <li>Environment</li>
+                    <li>Food Safety</li>
+                    <li>Return Fraud</li>
                   </ul>
                 </div>
               </div>

@@ -277,19 +277,6 @@
     </div>
   </div>
 
-  <div class="dark_blue_wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          Learn more
-          <a href="#">VIDEO MANAGEMENT</a>
-          <a href="#">INSIGHTS &amp; ANALYTICS</a>
-          <a href="#">VIDEO AUDITS</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div id="quote_carousel_1" class="carousel fade quote-carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -337,6 +324,7 @@
       </div>
     </div>
   </div>
+
 
   <!--
   <div class="page_section container">

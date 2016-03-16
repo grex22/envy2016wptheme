@@ -656,6 +656,7 @@ h2.bold-n-big{
   }
   &:hover{
     border-color: $brightblue;
+    transform: scale(1.05);
   }
 
   h3{
