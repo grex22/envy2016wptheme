@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div class="call-to-action-box" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
+<div id="hubspot_form_footer" class="call-to-action-box" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
   <div class="container">
     <h2 class="text-center">Could video be doing more for you?</h2>
     <div class="row">

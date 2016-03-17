@@ -147,9 +147,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h1>Solutions</h1>
+            <h1>Solutions to Protect &amp; Grow</h1>
             <p class="lead">Envysion is the only platform that marries the power of video, POS and audio, providing you actionable insights that you can only get from the visual context of what is actually happening in your stores.</p>
-            <a href="http://envysion.com/case-studies/" class="cta-btn cta-btn-lg orange">Demo Today!</a>
+            <a href="#" class="scroll_to_hubspot_form cta-btn cta-btn-lg orange">Demo Today!</a>
           </div>
         </div>
       </div>
@@ -169,7 +169,6 @@
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/cinemark-ticker-wide.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/einstein-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/elpolloloco-ticker.png'></li>
-          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/fallas-ticker-wide.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/footlocker-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/gpc-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/kfc-ticker.png'></li>
@@ -347,12 +346,23 @@
             <div class="col-md-12 text-center">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/client_logo_att.png">
               <h2 class="quote">Envysion gives us unfiltered visibility into every transaction so we can see what is going on in all of our stores. This gives us actionable insights enabling us to improve sales and marketing, tighten operating procedures and reduce loss."</h2>
-              <p class="attrib">Attique Rasheed, Head of Training and Operations, Portables, AT&T</p>
+              <p class="attrib">Attique Rasheed, Head of Training and Operations, Portables, AT&amp;T</p>
             </div>
           </div>
         </div>
       </div>
+
+
     </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
+      <span class="fa fa-angle-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#quote_carousel_1" role="button" data-slide="next">
+      <span class="fa fa-angle-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
   <?php foreach($reportsdata as $industrykey => $industry): ?>

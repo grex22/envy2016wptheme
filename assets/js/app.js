@@ -68,7 +68,10 @@ $(document).ready(function(){
     $("#more-nav-overlay").fadeOut(100);
   });
 
-
+	$('.scroll_to_hubspot_form').click(function(e){
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $('#hubspot_form_footer').offset().top }, 'slow');
+	});
 
   $("#scroller_list").simplyScroll({
     auto: true,

@@ -27,8 +27,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
-                <h2>See at scale.<br>Act on what matters.</h2>
-                <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location. <strong><em>Until now&hellip;</em></strong></p>
+                <h2>See at scale.<br><strong>Act on what matters.</strong></h2>
+                <p class="lead">It’s difficult to oversee day-to-day activities across all your stores. It’s even more challenging to identify instances of fraud and operational inefficiencies, without the time and expense of having to be physically on location. <strong><em>Until Envysion&hellip;</em></strong></p>
                 <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -43,7 +43,7 @@
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Protect your business.</h2>
-                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, it becomes difficult for loss prevention professionals and store managers to see, identify and correct instances of fraud without the visual context of what is actually happening in your stores. <strong><em>Until now&hellip;</em></strong></p>
+                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, it becomes difficult for loss prevention professionals and store managers to see, identify and correct instances of fraud without the visual context of what is actually happening in your stores. <strong><em>Until Envysion&hellip;</em></strong></p>
                 <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -58,7 +58,7 @@
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Grow your business.</h2>
-                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, best practices such as sales conversion, throughput, store cleanliness, food handling become difficult to maintain, measure and improve without the visual context of what is actually happening in your stores. <strong><em>Until now&hellip;</em></strong></p>
+                <p class="lead">As you expand into new locations, add employees and the number of transactions increase, best practices such as sales conversion, throughput, store cleanliness, food handling become difficult to maintain, measure and improve without the visual context of what is actually happening in your stores. <strong><em>Until Envysion&hellip;</em></strong></p>
                 <a href="/solutions" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
@@ -95,7 +95,6 @@
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/cinemark-ticker-wide.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/einstein-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/elpolloloco-ticker.png'></li>
-          <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/fallas-ticker-wide.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/footlocker-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/gpc-ticker.png'></li>
           <li><img src='<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logos/logoticker/kfc-ticker.png'></li>
@@ -108,6 +107,8 @@
       </div>
     </div>
   </div>
+
+
 
   <div class="container even_more_bottom_margin">
     <div class="row more_bottom_margin">
@@ -144,27 +145,35 @@
         </ul>
       </div>
     </div>
-    <div class="row gutter-90 even_more_bottom_margin">
-      <div class="col-md-4 text-center">
-        <h3 class="col-tab-header">Video Management</h3>
-        <p>Search for, watch, save, share and manage video among all your store locations via one cloud-based application.</p>
-        <a href="/products/envysion-video" class="cta-btn orange">Learn More</a>
+  </div>
+  <div class="gray_wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2 class="bold-n-big">OUR SOLUTION</h2>
+        </div>
       </div>
-      <div class="col-md-4 text-center">
-        <h3 class="col-tab-header">Insights &amp; Analytics</h3>
-        <p>Keep a pulse on your organization's performance with a suite of video analytics and delivered insights.</p>
-        <a href="/products/envysion-insight" class="cta-btn orange">Learn More</a>
-      </div>
-      <div class="col-md-4 text-center">
-        <h3 class="col-tab-header">Video Audits</h3>
-        <p>Utilize a team of trained auditors to review your video and deliver insights - save time, money & resources.</p>
-        <a href="/products/envysion-audit-services" class="cta-btn orange">Learn More</a>
+      <div class="row gutter-90">
+        <div class="col-md-4 text-center">
+          <h3 class="col-tab-header col-tab-header-small">Video Management</h3>
+          <p>Search for, watch, save, share and manage video among all your store locations via one cloud-based application.</p>
+          <a href="/products/envysion-video" class="larger">Learn More</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="col-tab-header col-tab-header-small">Insights &amp; Analytics</h3>
+          <p>Keep a pulse on your organization's performance with a suite of video analytics and delivered insights.</p>
+          <a href="/products/envysion-insight" class="larger">Learn More</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="col-tab-header col-tab-header-small">Video Audits</h3>
+          <p>Utilize a team of trained auditors to review your video and deliver insights - save time, money & resources.</p>
+          <a href="/products/envysion-audit-services" class="larger">Learn More</a>
+        </div>
       </div>
     </div>
-
   </div>
 
-  <div id="quote_carousel_1" class="carousel fade quote-carousel">
+  <div id="quote_carousel_1" class="carousel quote-carousel">
     <!-- Indicators -->
     <!--<ol class="carousel-indicators">
       <li data-target="#quote_carousel_1" data-slide-to="0" class="active"></li>

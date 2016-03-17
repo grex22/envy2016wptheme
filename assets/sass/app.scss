@@ -807,10 +807,14 @@ h2.bold-n-big{
       font-size:60px;
       margin-top:12px;
       letter-spacing:-.05em;
-      line-height:.8em;
+      line-height:.85em;
       font-family:$pn_light;
       color:lighten($brightblue,10);
       margin-bottom:25px;
+      strong{
+        font-family:$pn_reg;
+        font-weight: normal;
+      }
     }
     p.lead{
       font-family:$pn_light;
@@ -946,7 +950,34 @@ h2.bold-n-big{
     .item{padding:45px 0 50px;}
     h2{font-size:28px;margin-bottom: 25px;}
     .attrib{font-size:16px;}
+    .carousel-control{display:none;}
   }
+
+  .carousel-control{
+    z-index:2;
+    background:none;
+    background-image:none;
+    width:6%;
+
+    .fa{
+      font-size: 80px;
+      top: 50%;
+      position: absolute;
+      margin-top: -40px;
+      opacity:.4;
+    }
+    &.right span{
+      right:5px;
+    }
+    &.left span{
+      left:5px;
+    }
+  }
+}
+
+.gray_wrap{
+    background:#f2f2f2;
+    padding:40px 0 60px;
 }
 
 .modal.chunky-modal{
@@ -1460,6 +1491,20 @@ h3.col-tab-header{
     font-family:$pn_reg;
     padding:5px 4%;
   }
+  &.col-tab-header-small{
+    text-transform: uppercase;
+    font-family:$pn_reg_bold;
+    letter-spacing:.1em;
+    font-size:18px;
+    padding:11px 0;
+    border-radius:3px 3px 0 0;
+  }
+
+}
+a.larger{
+  font-size: 18px;
+  color:$orange;
+  font-weight:bold;
 }
 
 ul.iconlist{
