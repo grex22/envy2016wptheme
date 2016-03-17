@@ -959,27 +959,27 @@ h2.bold-n-big {
   background: #278dc1;
   color: white;
 }
-/* line 872, ../sass/app.scss */
+/* line 871, ../sass/app.scss */
 .carousel.quote-carousel .item {
   padding: 65px 0 70px;
   height: auto !important;
 }
-/* line 874, ../sass/app.scss */
+/* line 873, ../sass/app.scss */
 .carousel.quote-carousel img {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
-/* line 878, ../sass/app.scss */
+/* line 877, ../sass/app.scss */
 .carousel.quote-carousel ul.bullet-points {
   margin-top: 20px;
   font-size: 20px;
   list-style: none;
 }
-/* line 882, ../sass/app.scss */
+/* line 881, ../sass/app.scss */
 .carousel.quote-carousel ul.bullet-points li {
   padding: 9px 0 8px 45px;
   position: relative;
 }
-/* line 885, ../sass/app.scss */
+/* line 884, ../sass/app.scss */
 .carousel.quote-carousel ul.bullet-points li:before {
   content: "";
   position: absolute;
@@ -989,23 +989,24 @@ h2.bold-n-big {
   height: 30px;
   background-image: url("/assets/img/checkmark.png");
 }
-/* line 897, ../sass/app.scss */
+/* line 896, ../sass/app.scss */
 .carousel.quote-carousel h3 {
   color: white;
   font-size: 25px;
 }
-/* line 898, ../sass/app.scss */
+/* line 897, ../sass/app.scss */
 .carousel.quote-carousel h2 {
   color: white;
-  font-size: 38px;
-  line-height: 1.5em;
+  font-size: 26px;
+  line-height: 1.4em;
+  margin-top: 15px;
   margin-bottom: 35px;
   position: relative;
 }
 @media (max-width: 767px) {
-  /* line 898, ../sass/app.scss */
+  /* line 897, ../sass/app.scss */
   .carousel.quote-carousel h2 {
-    font-size: 25px !important;
+    font-size: 18px !important;
     line-height: 1.3em;
   }
 }
@@ -1025,7 +1026,7 @@ h2.bold-n-big {
 /* line 924, ../sass/app.scss */
 .carousel.quote-carousel .attrib {
   font-family: "proxima_novalight_italic";
-  font-size: 25px;
+  font-size: 21px;
   line-height: 1.2em;
 }
 /* line 930, ../sass/app.scss */

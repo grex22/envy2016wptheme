@@ -868,11 +868,10 @@ h2.bold-n-big{
 .carousel.quote-carousel{
   background:$blue;
   color:white;
-
   .item{padding:65px 0 70px;height:auto!important;}
 
   img{
-    margin-bottom:30px;
+    margin-bottom:5px;
   }
 
   ul.bullet-points{
@@ -897,13 +896,14 @@ h2.bold-n-big{
   h3{color:white;font-size:25px;}
   h2{
     color:white;
-    font-size:38px;
-    line-height:1.5em;
+    font-size:26px;
+    line-height:1.4em;
+    margin-top:15px;
     margin-bottom:35px;
     position: relative;
 
     @media(max-width:767px){
-      font-size:25px!important;
+      font-size:18px!important;
       line-height:1.3em;
     }
 
@@ -923,7 +923,7 @@ h2.bold-n-big{
   }
   .attrib{
     font-family: $pn_light_italic;
-    font-size:25px;
+    font-size:21px;
     line-height: 1.2em;
   }
   .carousel-indicators{

@@ -300,6 +300,7 @@
       <li data-target="#quote_carousel_1" data-slide-to="0" class="active"></li>
       <li data-target="#quote_carousel_1" data-slide-to="1"></li>
       <li data-target="#quote_carousel_1" data-slide-to="2"></li>
+      <li data-target="#quote_carousel_1" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -308,8 +309,32 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2 class="quote">Within minutes, I can see all of the exceptions across 30,000 employees across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/client_logo_pizzahut.png">
+              <h2 class="quote">We have hundreds of units located all over the country which is challenging to manage and understand what is going on in each of the restaurants. Envysion enables us to easily see and manage all of our operations &mdash; all sites, all the time."</h2>
+              <p class="attrib">Tommy Laughary, American Pizza Partners, Pizza Hut franchisee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/client_logo_kfc.png">
+              <h2 class="quote">We’ve had cameras in place for years but without any real insights or solid use cases. We learned about Envysion and the ways they can help with reduction in food costs, managing labor and helping to ensure our customers have a positive experience."</h2>
+              <p class="attrib">Brian Wilson, Senior Vice President, West Quality Foods, KFC franchisee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img style="padding:15px 0;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
+              <h2 class="quote">Within minutes, I can see all of the exceptions across 30,000 employees in nearly 2,000 locations, and drill into the video for the 10 or 15 transactions that actually matter."</h2>
               <p class="attrib">Tim Spong, Director of Safety, Security and Risk, Chipotle</p>
             </div>
           </div>
@@ -320,21 +345,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2 class="quote">Another quote, I can see all of the exceptions across 30,000 employees and also across 1,750 locations, and drill into the video for the 10 or 15 transactions that actually matter.”</h2>
-              <p class="attrib">Tim Spong, Director of Safety, Security and Risk, Chipotle</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/chipotle-logo-white.png">
-              <h2 class="quote">Lorem ipsum sans tranta sic gloria fisher sic sempre fi beekeeper, malta ma tran sict sa melto clas sictum"</h2>
-              <p class="attrib">Alex Bauer, Director of Safety, Security and Risk, Chipotle</p>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/client_logo_att.png">
+              <h2 class="quote">Envysion gives us unfiltered visibility into every transaction so we can see what is going on in all of our stores. This gives us actionable insights enabling us to improve sales and marketing, tighten operating procedures and reduce loss."</h2>
+              <p class="attrib">Attique Rasheed, Head of Training and Operations, Portables, AT&T</p>
             </div>
           </div>
         </div>

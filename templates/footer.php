@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-xs-12 text-center">
         Learn more
-        <a href="#">VIDEO MANAGEMENT</a>
-        <a href="#">INSIGHTS &amp; ANALYTICS</a>
-        <a href="#">VIDEO AUDITS</a>
+        <a href="<?php echo get_permalink(7018); ?>">VIDEO MANAGEMENT</a>
+        <a href="<?php echo get_permalink(7015); ?>">INSIGHTS &amp; ANALYTICS</a>
+        <a href="<?php echo get_permalink(7029); ?>">VIDEO AUDITS</a>
       </div>
     </div>
   </div>
