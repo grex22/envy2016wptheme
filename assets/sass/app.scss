@@ -292,6 +292,9 @@ a{
     .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
       &:before{color:white;}
     }
+    .dropdown-menu>.current-menu-item a{
+      background:#ddd;
+    }
 
       &.open>a,&>a:hover{background:transparent;}
       &>a,
@@ -469,6 +472,8 @@ a{
 
     .navbar-nav>li>a:hover:before,
     .navbar-nav>li.active>a:before,
+    .navbar-nav>li.current-menu-item>a:before,
+    .navbar-nav>li.current-menu-ancestor>a:before,
     .navbar-nav>li.active>a:hover:before{
 
       content:"";
@@ -479,6 +484,10 @@ a{
       position:absolute;
       bottom:0;
       left:0;
+
+      @media(max-width:$sm-width - 1){
+        display:none;
+      }
 
     }
 
@@ -2728,7 +2737,8 @@ h2.resource_type{
         }
       }
 
-      &.active a{
+      &.active a,
+      &.current-menu-item a{
         background:#e5e5e5;
         color:$blue;
         border-left:5px solid $blue;

@@ -1,47 +1,47 @@
 <?php while (have_posts()) : the_post(); ?>
   <?php the_content(); ?>
-  
+
   <?php
-  
-  	
-  
+
+
+
     // check if the flexible content field has rows of data
     if( have_rows('page_content_blocks') ):
-     
+
          // loop through the rows of data
         while ( have_rows('page_content_blocks') ) : the_row();
-     
+
             if( get_row_layout() == 'standard_content' ):
 
               echo "<div class='contentblock'>";
                 the_sub_field('paragraph_content');
               echo "</div>";
-     
-            elseif( get_row_layout() == 'tabbed_box' ): 
-              
+
+            elseif( get_row_layout() == 'tabbed_box' ):
+
               $introblurb = get_sub_field('tab_block_intro');
               
               if( have_rows('tabs') ):
-			  	
-				if(is_page(array(7339,9576))): // only show this on the envysion user summit page for now...
- 
+
+				if(is_page(array(7339,9576,7015))): // only show this on the envysion user summit page, or the insights and analytics page
+
                 // loop through the rows of data
                   $tabsarray = array();
                   $tabscontent = array();
-                  
+
                   while ( have_rows('tabs') ) : the_row();
-               
+
                       $tabsarray[] = get_sub_field('tab_title');
                       $tabscontent[] = get_sub_field('tab_content');
-               
+
                   endwhile;
-                  
+
                   if($tabsarray && $tabscontent):
-                    
+
                     $i = 1;
                     $tabs_string = "<ul class='nav nav-tabs'>";
                     $tabscontent_string = "<div class='tab-content'>";
-                    
+
                     foreach($tabsarray as $tabtitle):
                       $tabs_string .= '<li';
                       if($i == 1) $tabs_string.=' class="active"';
@@ -49,41 +49,41 @@
                       $i++;
                     endforeach;
                     $tabs_string .= "</ul>";
-                    
+
                     $i = 1;
-                    
+
                     foreach($tabscontent as $tabcont):
                       $tabscontent_string .= '<div class="tab-pane';
                       if($i == 1) $tabscontent_string.=' active';
                       $tabscontent_string.='" id="tab'.$i.'">'.$tabcont.'</div>';
                       $i++;
                     endforeach;
-                    
+
                     ?>
-                  
+
                     <div class='contentblock'>
-                    
+
                       <?php if($introblurb) echo $introblurb; ?>
                       <?php echo $tabs_string; ?>
                       <?php echo $tabscontent_string; ?>
 
                     </div>
-                    
+
                     </div>
-                    
+
                     <?php
-                    
+
                   endif;
-				  
+
 				  endif;
-               
-				
+
+
 			  else :
-               
+
                   // no rows found
-               
+
               endif;
-     
+
             elseif( get_row_layout() == 'headshots_and_bios' ):
 				if( have_rows('headshot_row') ):
 				echo "<div class='contentblock'>";
@@ -125,7 +125,7 @@
 							if($wid):
 								//  Initiate curl
 								$url = "http://fast.wistia.com/oembed?url=".urlencode("http://home.wistia.com/medias/".$wid."?embedType=api&handle=oEmbedVideo&width=220");
-								
+
 								$ch = curl_init();
 								// Disable SSL verification
 								curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -138,12 +138,12 @@
 								// Closing
 								curl_close($ch);
 								$data = json_decode($result, true);
-								
+
 								$v_player = $data['html'];
 								$thumb = $data['thumbnail_url'];
-								
+
 								$v_player = '<a href="http://fast.wistia.net/embed/iframe/'.$wid.'?autoPlay=true&controlsVisibleOnLoad=true&playButton=false&playerColor=36ABFF&popover=true&version=v1&videoHeight=360&videoWidth=640" class="wistiathumb wistia-popover[height=360,playerColor=F36F36,width=640]"><img src="'.$thumb.'&image_play_button=1&image_play_button_color=36ABFFe0" alt="" /></a>';
-								
+
 							endif;
 						break;
 					endswitch;
@@ -162,18 +162,18 @@
 				echo "</div>";
 				endif;
 			endif;
-     
+
         endwhile;
-     
-	  
-	
+
+
+
 	else :
-     
+
         // no layouts found.. echo the_content maybe??
-     
+
     endif;
-    
+
   ?>
-  
+
   <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
 <?php endwhile; ?>

@@ -92,14 +92,14 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
                 ?></h1>
                 <?php if($blurb): ?><p><?php echo $blurb; ?></p><?php endif; ?>
                 <?php if($button_p_text): ?>
-                  <?php if($button_p_link_type == 'rdmodal') $button_p_link = '#leadform'; ?>
+                  <?php if($button_p_link_type == 'rdmodal') $button_p_link = '#'; ?>
                   <?php if($button_p_link_type == 'url') $button_p_link = $button_p_url; ?>
-                  <a href="<?php echo $button_p_link; ?>" class="<?php if($button_p_link_type == 'rdmodal') echo " "; ?>cta-btn primary"><?php echo $button_p_text; ?></a>
+                  <a href="<?php echo $button_p_link; ?>" class="<?php if($button_p_link_type == 'rdmodal') echo "scroll_to_hubspot_form "; ?>cta-btn primary"><?php echo $button_p_text; ?></a>
                 <?php endif; ?>
                 <?php if($button_s_text): ?>
-                  <?php if($button_s_link_type == 'rdmodal') $button_s_link = '#leadform'; ?>
+                  <?php if($button_s_link_type == 'rdmodal') $button_s_link = '#'; ?>
                   <?php if($button_s_link_type == 'url') $button_s_link = $button_s_url; ?>
-                  <a href="<?php echo $button_s_link; ?>" class="<?php if($button_s_link_type == 'rdmodal') echo " "; ?>cta-btn"><?php echo $button_s_text; ?></a>
+                  <a href="<?php echo $button_s_link; ?>" class="<?php if($button_s_link_type == 'rdmodal') echo "scroll_to_hubspot_form "; ?>cta-btn"><?php echo $button_s_text; ?></a>
                 <?php endif; ?>
               </div>
             </div>
