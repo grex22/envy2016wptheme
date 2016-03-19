@@ -17,8 +17,8 @@ get_template_part('templates/head');
     }
   ?>
   <div id="main_wrap">
-  
-    
+
+
       <div class="page_hero bluebg" style="background:url('http://envysion.com/wp-content/themes/roots/assets/img/chipotle-line.jpg');background-size:cover;background-position:center center;">
       	<div style="background-color: rgba(36,112,174,0.85)">
 			<style>
@@ -31,7 +31,7 @@ get_template_part('templates/head');
                 <div class="col-sm-6 col-xs-12 page_hero_content">
                 	<h5>Featured Case Study:</h5>
                   <h1 class="more_bottom_margin">Chipotle gains visibility into daily operations at every location.</h1>
-                    <a href="http://envysion.com/media/Envysion-Case-Study-Chipotle.pdf" class="cta-btn primary"><i class="fa fa-play-circle"></i> Read Full Case Study</a>
+                    <a href="http://envysion.com/media/Envysion-Case-Study-Chipotle1.pdf" class="cta-btn primary"><i class="fa fa-play-circle"></i> Read Full Case Study</a>
                 </div>
                 <div class="col-sm-6 hidden-xs case_study_hero_quote">
                   <div class="quote_wrapper">
@@ -48,12 +48,12 @@ get_template_part('templates/head');
             <div class="trapezoid left"></div><div class="trapezoid right"></div>
       	</div>
       </div>
-      
-      
+
+
     <div class="wrap container" role="document">
       <div class="content row">
-        
-        
+
+
         <div class="main <?php echo roots_main_class(); ?>" role="main">
         	<?php
 						$casestudies = get_posts(array(
@@ -96,9 +96,9 @@ get_template_part('templates/head');
             </div>
 
 						<?php include roots_template_path(); ?>
-            
-            <?php 
-									
+
+            <?php
+
 									if($casestudies):
 										echo "<div class='isotope-container'>";
 										echo "<div class='isotope-sizer'></div>";
@@ -110,11 +110,11 @@ get_template_part('templates/head');
 											$blurb = get_field('_simple_fields_fieldGroupID_29_fieldID_1_numInSet_0');
 											$directlink = get_permalink($post->ID);
 											$hascontent = $post->post_content ? true : false;
-											
+
 											//Remove the below lines to turn on gating
 											$isgated = false;
 											//endremove
-											
+
 											if($isgated && $pdf):
 												$defaultlink = get_permalink(9591) . "?cs=" . $post->ID;
 												$directlink = $defaultlink;
@@ -123,9 +123,9 @@ get_template_part('templates/head');
 											else:
 												$defaultlink = $pdf;
 											endif;
-											
-											
-											
+
+
+
 											?>
 											<div class="isotope-item <?php if($terms):
 												foreach($terms as $t):
@@ -144,7 +144,7 @@ get_template_part('templates/head');
                           </div>
                         <?php endif; ?>
                         <h2><a href="<?php echo $defaultlink; ?>" title="<?php echo $post->post_title;?>"><?php echo $post->post_title;?></a></h2>
-                        
+
                         <?php if ( has_post_thumbnail($post->ID) ):
 													$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 													$post_thumbnail_url = wp_get_attachment_image_src( $post_thumbnail_id, 'casestudy_thumbnail' );
@@ -154,7 +154,7 @@ get_template_part('templates/head');
 													</a>
                           <?php endif; ?>
                         <?php endif; ?>
-                        
+
                         <?php if($blurb) echo "<p>".$blurb."</p>"; ?>
                         <div class="case_study_button_bar">
                         <?php if($pdf && $isgated):
@@ -172,15 +172,15 @@ get_template_part('templates/head');
                         </div>
                         </div>
                       </div>
-                    
+
 										<?php
 										endforeach;
 										echo "</div>"; // close isotope-container
 									endif;
 						?>
-          
+
         </div><!-- /.main -->
-        
+
       </div><!-- /.content -->
     </div><!-- /.wrap -->
     <?php if(get_field('display_page_footer')): ?>
@@ -188,7 +188,7 @@ get_template_part('templates/head');
       <div class="container">
         <div class="col-lg-12">
           <h2><?php the_field('footer_headline'); ?></h2>
-          
+
           <?php if(get_field('f_primary_button_text')): ?>
           <a href="<?php the_field('f_primary_button_link'); ?>" class="cta-btn medium primary"><i class="fa fa-play-circle"></i> <?php the_field('f_primary_button_text'); ?></a>
           <?php endif; ?>
@@ -199,18 +199,18 @@ get_template_part('templates/head');
       </div>
     </div>
     <?php endif; ?>
-    
+
 		<script>
 			// This bit sets up jQuery isotope
 			$(document).ready(function(){
-																 
+
       var $container = jQuery('.isotope-container');
 			$container.isotope({
 				itemSelector: ".isotope-item",
 				columnWidth: ".isotope-item"
 			});
-			
-			
+
+
 			// This does the filter by binding an event on the change of a select box
 			jQuery("#isotope-filter").on("change", function() {
 				group = jQuery(this).val();

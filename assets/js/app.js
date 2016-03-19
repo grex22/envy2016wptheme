@@ -72,11 +72,13 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: $('#hubspot_form_footer').offset().top }, 'slow');
 	});
-
-  $("#scroller_list").simplyScroll({
-    auto: true,
-    speed: 1
-  });
+	
+	setTimeout(function() {
+	  $("#scroller_list").simplyScroll({
+	    auto: true,
+	    speed: 1
+	  });
+	}, 1000);
 
   $('#home_hero_slider').carousel({
     interval: 6000
