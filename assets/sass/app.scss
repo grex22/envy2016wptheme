@@ -701,7 +701,12 @@ h2.bold-n-big{
   font-size:25px;
 
   a{
-    &:first-child{margin-left:20px;}
+    &:first-child{
+      margin-left:20px;
+      @media(max-width:$sm-width - 1){
+        margin-left:0;
+      }
+    }
     color:white;
     font-size:19px;
     font-family: $pn_reg_bold;
