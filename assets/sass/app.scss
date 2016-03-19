@@ -599,7 +599,8 @@ a{
 }
 
 .reports_columns_wrap{
-  padding:25px 0 0px!important;
+  padding-top:25px!important;
+  padding-bottom:0px!important;
   & > .row > div{
     padding-right:35px;
     padding-left:35px;
@@ -622,7 +623,7 @@ h2.bold-n-big{
 }
 .report-button-wrap{
   background:white;
-  border:2px solid #ddd;
+  border:none;
   margin-bottom:35px;
 }
 .report-button{
@@ -649,6 +650,9 @@ h2.bold-n-big{
       &:last-child{
         text-align: center;
         border-left:1px solid #ddd;
+        @media(max-width:$sm-width - 1){
+          border-left:none;
+        }
       }
     }
   }
@@ -1054,6 +1058,7 @@ h2.bold-n-big{
 }
 .modal-illustration{
   padding-top:0px;
+  margin-bottom:12px;
 
   img{
     margin:0 20px;
@@ -1075,6 +1080,7 @@ h2.bold-n-big{
   @media(max-width: $sm-width - 1){
     padding-left:15px;
     border-left:none;
+
   }
 }
 
