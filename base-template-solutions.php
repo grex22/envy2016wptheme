@@ -5,125 +5,68 @@
     'QSR' => array(
       'Protect' => array(
         array(
-          'Q' => "Theft at register?",
-          'A' => "<p>Envysion flags suspicious transactions allowing you to easily access and view recorded video married with audio and transaction data to determine whether a theft occurred.</p> <p>The results:</p> <ul> <li> <p>Easily identify and review suspicious transactions</p> </li> <li> <p>Use recorded video and transaction to train or terminate</p> </li> <li> <p>Mitigate loss due to error and theft</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_1.png",
-          'illus' => "Envysion_solutions_icon_box_1.png"
+          'Q' => "Theft at registers?",
+          'A' => "<p>Envysion flags and alerts you of suspicious transactions and enables you to easily access and reviews the video married with audio and your POS data to determine whether a theft occurred. &nbsp;Easily monitor cash handling compliance such as refunds, discounts, under-ringing, manager comps and other commonly abused transaction types. &nbsp;</p> <p>The results:</p> <ul> <li>Easily identify and review suspicious transactions</li> <li>Identify staff who may need training or corrective action</li> <li>Mitigate loss due to error and theft</li> <li>Return valuable profit to your bottom line</li> </ul>",
+          'icon' => "1 - Front.png",
+          'illus' => "1 - Inside.png"
         ),
         array(
           'Q' => "Evidence of break-in?",
-          'A' => "<p>Quickly find and export video with date, time and location data to provide you with critical evidence to aid authorities and mitigate financial loss. The results:</p> <ul> <li> <p>Save evidence to the cloud or download legally-admissible video</p> </li> <li> <p>Minimize risk and loss</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_6.png",
-          'illus' => "Envysion_solutions_icon_box_6.png"
+          'A' => "<p>Quickly find and export video and snapshot images with date, time and location data to provide you with critical evidence to aid authorities and mitigate financial loss. &nbsp;The results:</p> <ul> <li>Easily save, share and download legally admissible video</li> <li>Save on investigation time and travel</li> <li>Minimize risk and loss</li> <li>Identify staff who may need training or corrective action</li> </ul>",
+          'icon' => "6 - Front.png",
+          'illus' => "6 - Inside.png"
         ),
         array(
-          'Q' => "Proper cash handling?",
-          'A' => "<p>Receive violation alerts via email, including a snapshot and a link to the video. Improve your bottom-line by identifying areas for improvement and training. The results:</p> <ul> <li> <p>Enforce cash-handling policies</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> <li> <p>Identify trends that require staff training to best practices</p> </li> <li> <p>Improve revenue retention</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_2.png",
-          'illus' => "Envysion_solutions_icon_box_2.png"
-        ),
-        array(
-          'Q' => "Product missing?",
-          'A' => "<p>Envysion&rsquo;s video and motion search technology makes it easy to monitor activity at exterior doors, office doors and walk-way, while our video audit services team reduce the time and cost of reviewing video and pin-pointing instances of theft.</p> <ul> <li> <p>Reduce shrinkage and theft</p> </li> <li> <p>Monitor restricted areas for unusual activity</p> </li> <li> <p>Control product costs</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_4.png",
-          'illus' => "Envysion_solutions_icon_box_4.png"
+          'Q' => "Inventory loss?",
+          'A' => "<p>Envysion makes it easy to monitor and identify operational compliance issues and theft at exterior doors, cash deposit safes, office doors and product storage areas. &nbsp;&nbsp;</p> <ul> <li>Reduce inventory shrinkage and theft</li> <li>Monitor restricted areas for unusual activity</li> <li>Reduce product costs</li> <li>Ensure employee and guest safety</li> </ul>",
+          'icon' => "4 - Front.png",
+          'illus' => "4 - Inside.png"
         ),
 
         array(
-          'Q' => "False staff or customer claim?",
-          'A' => "<p>Even the best of businesses are caught off guard with false claims. Envysion&rsquo;s transaction search and camera sync allow you to see an incident from all angles to counter false claims. The results:</p> <ul> <li> <p>Minimize the quantity of fraudulent claims</p> </li> <li> <p>Save evidence to the cloud or download legally-admissible video</p> </li> <li> <p>Minimize risk and mitigate potential loss</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_7.png",
-          'illus' => "Envysion_solutions_icon_box_7.png"
-        ),
-        array(
-          'Q' => "Back door break-in?",
-          'A' => "<p>Envysion&rsquo;s monitoring system can combine video and motion search to monitor unwanted activity in hidden places. Use Envysion to sure your product isn&rsquo;t escaping and unwanted guests aren&rsquo;t entering after hours. The results:</p> <ul> <li> <p>Monitor activity at your back door or high risk areas.</p> </li> <li> <p>Save evidence to the cloud or export with time/date/location-stamped video as needed</p> </li> <li> <p>Minimize risk and mitigate potential loss with evidence for law enforcement and insurance</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_16.png",
-          'illus' => "Envysion_solutions_icon_box_16.png"
+          'Q' => "Staff or customer claim?",
+          'A' => "<p>Even the best of businesses are caught off guard with false claims. Envysion allows you to see an incident from all angles to counter false claims. &nbsp;The results:</p> <ul> <li>Minimize the cost of or dismiss fraudulent claims</li> <li>Save evidence to the cloud or download legally-admissible video</li> <li>Minimize risk and mitigate potential loss</li> </ul>",
+          'icon' => "7 - Front.png",
+          'illus' => "7 - Inside.png"
         )
-
       ),
       'Grow' => array(
         array(
-          'Q' => "Sales people effective?",
-          'A' => "<p>Envysion allows you to directly compare entrance counting and employee interaction with sales so that have a complete picture with an employee conversion report. Use this report to gauge sales effectiveness and boost performance.</p> <ul> <li> <p>Improve customer service</p> </li> <li> <p>Reward stellar performance</p> </li> <li> <p>Identify employees who need to be coached</p> </li> <li> <p>Increase sales</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_15.png",
-          'illus' => "Envysion_solutions_icon_box_15.png"
-        ),
-        array(
-          'Q' => "Staff discount abuse?",
-          'A' => "<p>Envysion makes it easy to know if discounts are being abused. Experience the ease of POS/video integration and our video audit services team to gain high level summary reports so that you can quickly dig in and act on the things that matter most. The results:</p> <ul> <li> <p>Reduce discount abuse, sweet-hearting, and under-ringing</p> </li> <li> <p>Implement corrective actions to employees in violation</p> </li> <li> <p>Examine trends at employee, store and regional levels</p> </li> <li> <p>Reduce costs due to error and theft</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_3.png",
-          'illus' => "Envysion_solutions_icon_box_3.png"
+          'Q' => "Know your store conversion rate?",
+          'A' => "<p>Envysion enables you to easily compare store traffic numbers with actual sales transactions. Know whether or not you have enough staff on hand and how effective they are.</p> <ul> <li>Boost sales and Increase profitability</li> <li>Identify employees who need to be coached</li> <li>Improve customer service</li> </ul>",
+          'icon' => "14 - Front.png",
+          'illus' => "14 - Inside.png"
         ),
         array(
           'Q' => "Proper food handling?",
-          'A' => "<p>Envysion&rsquo;s video management system allows you to remotely view video to observe employee behavior when handling food and equipment. The results:</p> <ul> <li> <p>Improve food safety and handling best practices</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> <li> <p>Protect your company from food safety liability</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_5.png",
-          'illus' => "Envysion_solutions_icon_box_5.png"
+          'A' => "<p>Envysion allows you to easily observe employee behavior when handling food and equipment. The results:</p> <ul> <li>Improve food safety and handling best practices</li> <li>Identify staff who may need training or corrective action</li> <li>Protect your company from food safety liability</li> </ul>",
+          'icon' => "5 - Front.png",
+          'illus' => "5 - Inside.png"
         ),
         array(
-          'Q' => "Product upsells offered?",
-          'A' => "<p>Envysion&rsquo;s combined video, audio, and point-of-sale data make it easy to ensure employees following sales best practices and offering the items that are critical to your top-line revenue. The results:</p> <ul> <li> <p>Identify trends and use to improve operational best practices</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> <li> <p>Increase top-line revenue by improving practices</p> </li> <li> <p>Identify trends to monitor effectiveness of marketing activities</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_8.png",
-          'illus' => "Envysion_solutions_icon_box_8.png"
+          'Q' => "Upsells / cross-sells offered?",
+          'A' => "<p>Envysion ensures employees are following sales and operational best practices and offering the items that are most critical to your top-line revenue. The results:</p> <ul> <li>Increase top-line revenue by improving practices&middot; &nbsp;&nbsp;&nbsp;&nbsp;</li> <li>Identify trends and use to improve operational best practices</li> <li>Identify staff who may need training or corrective action</li> </ul>",
+          'icon' => "8 - Front.png",
+          'illus' => "8 - Inside.png"
         ),
         array(
-          'Q' => "Proper customer greeting?",
-          'A' => "<p>Receive invaluable insight as to how your staff and customers interact. Use these insights to ensure your employees are meeting your best practice standards related to customer experience. The results:</p> <ul> <li> <p>Improve training by identifying trends</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> <li> <p>Increase top-line revenue by improving operations</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_9.png",
-          'illus' => "Envysion_solutions_icon_box_9.png"
+          'Q' => "Exceptional customer experience?",
+          'A' => "<p>Ensure your customers receive the best possible experience. Were they greeted promptly and friendly? Did the staff engage in the proper conversations in order to minimize errors and maximize cross-sells and upsells? Envysion enables you to know. The results:</p> <ul> <li>Ensure your employees are meeting your best practice standards</li> <li>Improve training by identifying trends</li> <li>Identify staff who may need training or corrective action</li> <li>Increase top-line revenue by improving operations</li> </ul>",
+          'icon' => "9 - Front.png",
+          'illus' => "9 - Inside.png"
         ),
         array(
-          'Q' => "Customer wait time?",
-          'A' => "<p>Envysion makes it easy to track an hour-by-hour break down of customer wait times. Use this insight to make comparisons related to number of transactions and the average transaction value during each designated time period. The results:</p> <ul> <li> <p>Optimize staffing relative to traffic and customer needs</p> </li> <li> <p>Decrease wait time to improve customer experience</p> </li> <li> <p>Minimize customer abandonment</p> </li> <li> <p>Improve training by identifying trends</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_10.png",
-          'illus' => "Envysion_solutions_icon_box_10.png"
+          'Q' => "Customers waiting too long?",
+          'A' => "<p>Envysion makes it easy to know if your customers are waiting too long in lines or to be served. &nbsp;Use this information to know exactly where to improve staffing and register throughput in order to minimize wait-times. &nbsp;The results:</p> <ul> <li>Optimize staffing relative to traffic and customer needs</li> <li>Decrease wait time to improve customer experience</li> <li>Improve training by identifying trends</li> </ul>",
+          'icon' => "10 - Front.png",
+          'illus' => "10 - Inside.png"
         ),
         array(
-          'Q' => "Proper Staff Interaction with Customers?",
-          'A' => "<p>Envysion&rsquo;s video audit team provides insight into employee interaction with guests, and can provide recommendations to help streamline and train staff to your best practices and service standards. The results:</p> <ul> <li> <p>Improve customer service</p> </li> <li> <p>Improve training by identifying trends</p> </li> <li> <p>Identify staff who may need training or corrective action</p> </li> </ul>",
-          'icon' => "Envysion_solutions_icon_outside_11.png",
-          'illus' => "Envysion_solutions_icon_box_11.png"
-        ),
-        /*
-        array(
-          'Q' => "Store front clean?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
-        ),
-        array(
-          'Q' => "Drink & condiment bar presentable?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
-        ),
-        array(
-          'Q' => "Enough staff on hand?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
-        ),
-        array(
-          'Q' => "Sales people effective?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
-        ),
-        array(
-          'Q' => "Accessory offered?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
-        ),
-        array(
-          'Q' => "Time it takes to greet customers?",
-          'A' => "",
-          'icon' => "Envysion_solutions_icon_outside_X.png",
-          'illus' => "Envysion_solutions_icon_box_X.png"
+          'Q' => "Store presentable?",
+          'A' => "<p>Envysion enables you to monitor store cleanliness, including drink and condiment stations, table cleanliness, trash overflow and more. Make impactful improvements and ensure best practices are followed to yield a great customer experience. &nbsp;The results:</p> <ul> <li>Ensure proper health code standards</li> <li>Improve customer experience</li> <li>Identify employees who need to be coached</li> </ul>",
+          'icon' => "12 - Front.png",
+          'illus' => "12 - Inside.png"
         )
-        */
       )
     )
   );
