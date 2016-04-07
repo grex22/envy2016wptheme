@@ -5,26 +5,26 @@
     'QSR' => array(
       'Protect' => array(
         array(
-          'Q' => "Theft at registers?",
+          'Q' => "Theft at<br>registers?",
           'A' => "<p>Envysion flags and alerts you of suspicious transactions and enables you to easily access and reviews the video married with audio and your POS data to determine whether a theft occurred. &nbsp;Easily monitor cash handling compliance such as refunds, discounts, under-ringing, manager comps and other commonly abused transaction types. &nbsp;</p> <p>The results:</p> <ul> <li>Easily identify and review suspicious transactions</li> <li>Identify staff who may need training or corrective action</li> <li>Mitigate loss due to error and theft</li> <li>Return valuable profit to your bottom line</li> </ul>",
           'icon' => "1 - Front.png",
           'illus' => "1 - Inside.png"
         ),
         array(
-          'Q' => "Evidence of break-in?",
+          'Q' => "Evidence of<br>break-in?",
           'A' => "<p>Quickly find and export video and snapshot images with date, time and location data to provide you with critical evidence to aid authorities and mitigate financial loss. &nbsp;The results:</p> <ul> <li>Easily save, share and download legally admissible video</li> <li>Save on investigation time and travel</li> <li>Minimize risk and loss</li> <li>Identify staff who may need training or corrective action</li> </ul>",
           'icon' => "6 - Front.png",
           'illus' => "6 - Inside.png"
         ),
         array(
-          'Q' => "Inventory loss?",
+          'Q' => "Inventory<br>loss?",
           'A' => "<p>Envysion makes it easy to monitor and identify operational compliance issues and theft at exterior doors, cash deposit safes, office doors and product storage areas. &nbsp;&nbsp;</p> <ul> <li>Reduce inventory shrinkage and theft</li> <li>Monitor restricted areas for unusual activity</li> <li>Reduce product costs</li> <li>Ensure employee and guest safety</li> </ul>",
           'icon' => "4 - Front.png",
           'illus' => "4 - Inside.png"
         ),
 
         array(
-          'Q' => "Staff or customer claim?",
+          'Q' => "Staff or<br>customer claim?",
           'A' => "<p>Even the best of businesses are caught off guard with false claims. Envysion allows you to see an incident from all angles to counter false claims. &nbsp;The results:</p> <ul> <li>Minimize the cost of or dismiss fraudulent claims</li> <li>Save evidence to the cloud or download legally-admissible video</li> <li>Minimize risk and mitigate potential loss</li> </ul>",
           'icon' => "7 - Front.png",
           'illus' => "7 - Inside.png"
@@ -32,37 +32,37 @@
       ),
       'Grow' => array(
         array(
-          'Q' => "Know your store conversion rate?",
+          'Q' => "Know your store<br>conversion rate?",
           'A' => "<p>Envysion enables you to easily compare store traffic numbers with actual sales transactions. Know whether or not you have enough staff on hand and how effective they are.</p> <ul> <li>Boost sales and Increase profitability</li> <li>Identify employees who need to be coached</li> <li>Improve customer service</li> </ul>",
           'icon' => "14 - Front.png",
           'illus' => "14 - Inside.png"
         ),
         array(
-          'Q' => "Proper food handling?",
+          'Q' => "Proper food<br>handling?",
           'A' => "<p>Envysion allows you to easily observe employee behavior when handling food and equipment. The results:</p> <ul> <li>Improve food safety and handling best practices</li> <li>Identify staff who may need training or corrective action</li> <li>Protect your company from food safety liability</li> </ul>",
           'icon' => "5 - Front.png",
           'illus' => "5 - Inside.png"
         ),
         array(
-          'Q' => "Upsells / cross-sells offered?",
+          'Q' => "Upsells / cross-sells<br>offered?",
           'A' => "<p>Envysion ensures employees are following sales and operational best practices and offering the items that are most critical to your top-line revenue. The results:</p> <ul> <li>Increase top-line revenue by improving practices&middot; &nbsp;&nbsp;&nbsp;&nbsp;</li> <li>Identify trends and use to improve operational best practices</li> <li>Identify staff who may need training or corrective action</li> </ul>",
           'icon' => "8 - Front.png",
           'illus' => "8 - Inside.png"
         ),
         array(
-          'Q' => "Exceptional customer experience?",
+          'Q' => "Exceptional customer<br>experience?",
           'A' => "<p>Ensure your customers receive the best possible experience. Were they greeted promptly and friendly? Did the staff engage in the proper conversations in order to minimize errors and maximize cross-sells and upsells? Envysion enables you to know. The results:</p> <ul> <li>Ensure your employees are meeting your best practice standards</li> <li>Improve training by identifying trends</li> <li>Identify staff who may need training or corrective action</li> <li>Increase top-line revenue by improving operations</li> </ul>",
           'icon' => "9 - Front.png",
           'illus' => "9 - Inside.png"
         ),
         array(
-          'Q' => "Customers waiting too long?",
+          'Q' => "Customers waiting<br>too long?",
           'A' => "<p>Envysion makes it easy to know if your customers are waiting too long in lines or to be served. &nbsp;Use this information to know exactly where to improve staffing and register throughput in order to minimize wait-times. &nbsp;The results:</p> <ul> <li>Optimize staffing relative to traffic and customer needs</li> <li>Decrease wait time to improve customer experience</li> <li>Improve training by identifying trends</li> </ul>",
           'icon' => "10 - Front.png",
           'illus' => "10 - Inside.png"
         ),
         array(
-          'Q' => "Store presentable?",
+          'Q' => "Store<br>presentable?",
           'A' => "<p>Envysion enables you to monitor store cleanliness, including drink and condiment stations, table cleanliness, trash overflow and more. Make impactful improvements and ensure best practices are followed to yield a great customer experience. &nbsp;The results:</p> <ul> <li>Ensure proper health code standards</li> <li>Improve customer experience</li> <li>Identify employees who need to be coached</li> </ul>",
           'icon' => "12 - Front.png",
           'illus' => "12 - Inside.png"

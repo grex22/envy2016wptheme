@@ -948,6 +948,7 @@ h2.bold-n-big {
   /* line 849, ../sass/app.scss */
   #home_carousel .item p.lead {
     font-size: 18px;
+    line-height: 1.3em;
   }
 }
 /* line 854, ../sass/app.scss */
