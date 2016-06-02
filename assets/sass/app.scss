@@ -724,6 +724,55 @@ h2.bold-n-big{
   }
 }
 
+/* Mobile App Page */
+
+.wrap.more_padding{
+  padding:30px 0;
+}
+
+.app-store-btn{
+  display:inline-block;
+  img{
+    max-width:190px!important;
+  }
+}
+
+.fa-fw.feature-icon {
+  font-size: 39px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin-bottom: 10px;
+}
+
+.feature-grid .row > div{
+  padding:30px 30px;
+  
+  p{font-size:17px;}
+}
+
+#iosScreenCarousel{
+  padding-top: 53px;
+  padding-left: 12px;
+  box-sizing: content-box;
+  width: 248px;
+}
+#iosScreenCarouselWrap{
+  width:270px;
+  height:500px;
+  overflow:hidden;
+  margin: -50px auto 0;
+  background-image:url('/assets/img/mobileapp/phone-frame.png');
+  
+  @media(max-width:$md-width - 1){
+    height:550px;
+    margin-bottom:30px;
+    margin-top:0px;
+  }
+}
+
 .icon_tabs_wrap{
   background:$darkblue;
   padding-top:40px;
@@ -1242,6 +1291,11 @@ h2.bold-n-big{
 
   @media(max-width:767px){
     padding:50px 0 50px;
+  }
+  
+  &.ctab-mobilelp-padding{
+    padding-bottom:0px;
+    padding-top:80px;
   }
 
   h1{
@@ -2934,6 +2988,7 @@ ul.footer_nav{
 .no_bottom_margin{margin-bottom:0px!important;}
 .no_top_margin{margin-top:0px!important;}
 .more_bottom_margin{margin-bottom:20px;}
+.more_top_margin{margin-top:20px;}
 .even_more_bottom_margin{margin-bottom:40px!important;}
 .no_right_padding{padding-right: 0;}
 .no_left_padding{padding-left: 0;}
@@ -2946,7 +3001,9 @@ ul.footer_nav{
     display:none;
   }
 }
+.bluetext{color:$blue!important;}
 .white{color:white!important}
+.orange{color:$orange!important}
 .pn_light{font-family:$pn_light!important;}
 
 /* ==========================================================================
