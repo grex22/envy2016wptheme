@@ -75,14 +75,14 @@
         <div class="row">
           <div class="col-md-6">
             <div class="text-center">
-              <i class="fa fa-eye fa-fw orange feature-icon"></i>
+              <i class="fa fa-eye fa-fw orangetext feature-icon"></i>
               <h3>Enjoy complete visibility</h3>
               <p>Are employees following best practices? Perform look-ins by individual store or across multiple locations at once.</p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="text-center">
-              <i class="fa fa-search fa-fw orange feature-icon"></i>
+              <i class="fa fa-search fa-fw orangetext feature-icon"></i>
               <h3>Drill deeper</h3>
               <p>Jump back to review a questionable incident by searching across locations, cameras, or even by day and time.</p>
             </div>
@@ -91,14 +91,14 @@
         <div class="row">
           <div class="col-md-6">
             <div class="text-center">
-              <i class="fa fa-check-square-o fa-fw orange feature-icon"></i>
+              <i class="fa fa-check-square-o fa-fw orangetext feature-icon"></i>
               <h3>Take action</h3>
               <p>Easily pinpoint interactions that need attention and share a snapshot with anyone on your team instantly to make impactful improvements.</p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="text-center">
-              <i class="fa fa-arrows-alt fa-fw orange feature-icon"></i>
+              <i class="fa fa-arrows-alt fa-fw orangetext feature-icon"></i>
               <h3>Maximize 360&deg; views</h3>
               <p>Get the most from your 360&deg; cameras by dewarping views with simple gestures.</p>
             </div>
@@ -195,7 +195,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center more_bottom_margin">
-          <h2 class="orange">Install Now</h2>
+          <h2 class="orangetext">Install Now</h2>
           <a href="#" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
             <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/ios-store-btn.png" alt="Download Envysion Mobile App in iOS App Store">
           </a>
@@ -209,7 +209,7 @@
       <div class="row padded">
         <div class="col-sm-8 col-centered text-center padded">
           <h2 class="text-center">Have an Android device?</h2>
-          <h3 class="text-center no_top_margin pn_light">Don't worry - we've got an app for you in the works!<br><a href="#" class="orange">Click here</a> to receive updates on the upcoming release.</h3>
+          <h3 class="text-center no_top_margin pn_light">Don't worry - we've got an app for you in the works!<br><a href="#" class="orangetext">Click here</a> to receive updates on the upcoming release.</h3>
         </div>
       </div>
     </div>
