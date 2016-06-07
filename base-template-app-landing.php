@@ -202,18 +202,46 @@
       </div>
     </div>
   </div>
-  <!--
   <div class="blurry_wrap" style="padding-bottom:25px;">
     <div class="container">
       <div class="row padded">
         <div class="col-sm-8 col-centered text-center padded">
+          <div class="text-center">
+            <h4><i class="fa fa-android fa-3x" style="color:#8bc34a"></i></h4>
+          </div>
           <h2 class="text-center">Have an Android device?</h2>
-          <h3 class="text-center no_top_margin pn_light">Don't worry - we've got an app for you in the works!<br><a href="#" class="orangetext">Click here</a> to receive updates on the upcoming release.</h3>
+          <h3 class="text-center no_top_margin pn_light">Don't worry - we've got an app for you in the works!<br><a data-toggle="modal" href="#androidModal" class="orangetext">Click here</a> to receive updates on the upcoming release.</h3>
         </div>
       </div>
     </div>
   </div>
-  -->       
+
+  <div class="modal fade" id="androidModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Get Notified about our Android App</h4>
+        </div>
+        <div class="modal-body">
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+          <script>
+            hbspt.forms.create({ 
+            portalId: '444576',
+            formId: '8c9e0613-9e73-4f24-b8fd-b176573e41e5'
+            });
+          </script>
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  
 
   <?php get_template_part('templates/footer'); ?>
   </div>
