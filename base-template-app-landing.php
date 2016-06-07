@@ -202,7 +202,7 @@
       </div>
     </div>
   </div>
-  
+  <!--
   <div class="blurry_wrap" style="padding-bottom:25px;">
     <div class="container">
       <div class="row padded">
@@ -213,7 +213,7 @@
       </div>
     </div>
   </div>
-          
+  -->       
 
   <?php get_template_part('templates/footer'); ?>
   </div>
