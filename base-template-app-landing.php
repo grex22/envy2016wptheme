@@ -22,7 +22,7 @@
               <div class="col-md-7 col-md-push-5 text-center even_more_bottom_margin more_top_margin">
                 <h2>Complete visibility<br><strong>on the go</strong></h2>
                 <p class="lead">Our elegantly simple mobile interface makes keeping up with your stores' performance easier than ever before. </p>
-                <a href="#" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
+                <a href="https://itunes.apple.com/us/app/envysion/id1097606625?ls=1&mt=8" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
                   <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/ios-store-btn.png" alt="Download Envysion Mobile App in iOS App Store">
                 </a>
               </div>
@@ -195,7 +195,7 @@
       <div class="row">
         <div class="col-xs-12 text-center more_bottom_margin">
           <h2 class="orangetext">Install Now</h2>
-          <a href="#" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
+          <a href="https://itunes.apple.com/us/app/envysion/id1097606625?ls=1&mt=8" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
             <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/ios-store-btn.png" alt="Download Envysion Mobile App in iOS App Store">
           </a>
         </div>
