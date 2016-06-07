@@ -63,8 +63,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
-          <h2 class="text-center more_bottom_margin larger">You can't physically be in each of your stores to oversee day-to-day operations&mdash;but Envysion can.</h2>
-          <h3 class="text-center no_top_margin pn_light">Enjoy on-the-go visibility into every interaction with live and recorded video, and share instant snapshots to take action and make improvements.</h3>
+          <h3 class="text-center more_bottom_margin larger pn_light">You can't physically be in each of your stores to oversee day-to-day operations&mdash;but Envysion can.</h3>
         </div>
       </div>
     </div>
@@ -93,7 +92,7 @@
             <div class="text-center">
               <i class="fa fa-check-square-o fa-fw orangetext feature-icon"></i>
               <h3>Take action</h3>
-              <p>Easily pinpoint interactions that need attention and share a snapshot with anyone on your team instantly to make impactful improvements.</p>
+              <p>Easily pinpoint interactions that need attention and share an instant snapshot with anyone on your team to make impactful improvements.</p>
             </div>
           </div>
           <div class="col-md-6">
@@ -135,7 +134,7 @@
           <div class="row">
             <div class="col-md-10 col-centered text-center">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/clientlogos/ntouch-wireless.png">
-              <h2 class="quote">It's super user­friendly and straight­forward. I can easily drag my finger across the timeline and move all cameras at the same time."</h2>
+              <h2 class="quote">It's super user friendly and straight­forward. I can easily drag my finger across the timeline and move all cameras at the same time."</h2>
               <p class="attrib">Jeremy Roberts, Director of Operations at NTouch Wireless</p>
             </div>
           </div>
