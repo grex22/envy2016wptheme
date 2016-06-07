@@ -3896,11 +3896,11 @@ figure.alignnone {
   text-align: center;
   border-radius: 6px !important;
   border: 1px solid #071b2f !important;
+  background-color: #071b2f !important;
   padding: 21px 15px !important;
   color: white !important;
   font-family: proxima_nova_rgregular !important;
   font-size: 22px !important;
-  background-color: #071b2f !important;
   box-sizing: border-box !important;
   height: 55px !important;
   line-height: 23px;
@@ -3923,9 +3923,16 @@ figure.alignnone {
   display: none;
 }
 
-/* line 3187, ../sass/app.scss */
+/* line 3188, ../sass/app.scss */
 #androidModal .hs-form label {
   color: #333 !important;
+}
+/* line 3189, ../sass/app.scss */
+#androidModal .hs-form .hs-input {
+  text-align: left;
+  border: 1px solid #888 !important;
+  background-color: #f2f2f2 !important;
+  color: #444 !important;
 }
 
 /* Fonts */
