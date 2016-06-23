@@ -138,6 +138,14 @@ function mycustom_extract_shortcode_arguments($args, $keys) {
 
 function output_jobvite_iframe(){
 	$return = '<!-- BEGIN JOBVITE CODE -->
+  <div class="jv-careersite" data-careersite="envysion"></div>
+
+  <script src="https://jobs.jobvite.com/__assets__/scripts/careersite/public/iframe.js"></script>
+  
+  <script>Jobvite = { careersite: "envysion" };</script>
+
+  <script src="https://jobs.jobvite.com/__assets__/scripts/careersite/public/redirect.js"> </script>
+    <!-- old jobvite code
     <iframe id="jobviteframe" src="http://hire.jobvite.com/CompanyJobs/Jobs.aspx?c=qv1aVfwl&jvresize=http://envysion.com/FrameResize.html" width="100%" height="500px" scrolling="no" frameborder="0" allowtransparency="true">Sorry, iframes are not supported.</iframe>
     <script type="text/javascript">
           var l = location.href;
@@ -175,7 +183,7 @@ function output_jobvite_iframe(){
                 var oFrame = document.getElementById("jobviteframe");
                 if (oFrame) oFrame.height = height;
           }
-    </script>
+    </script>-->
     <!--END JOBVITE CODE -->';
 	
 	return $return;
