@@ -749,7 +749,7 @@ h2.bold-n-big{
 
 .feature-grid .row > div{
   padding:30px 47px;
-  
+
   p{font-size:17px;}
 }
 
@@ -765,7 +765,7 @@ h2.bold-n-big{
   overflow:hidden;
   margin: -50px auto 0;
   background-image:url('/assets/img/mobileapp/phone-frame.png');
-  
+
   @media(max-width:$md-width - 1){
     height:550px;
     margin-bottom:30px;
@@ -1292,10 +1292,14 @@ h2.bold-n-big{
   @media(max-width:767px){
     padding:50px 0 50px;
   }
-  
+
   &.ctab-mobilelp-padding{
     padding-bottom:0px;
     padding-top:80px;
+  }
+
+  &.ctab-less-padding{
+    padding:80px;
   }
 
   h1{
@@ -3193,6 +3197,83 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     color:#444!important;
   }
 }
+
+
+/* Hubspot Form Demos */
+
+#blog_header_hero{
+  h1{
+    color:white;
+    font-size:48px;
+    font-family:proxima_nova_rgregular;
+    margin-bottom:10px;
+  }
+  p.lead{font-size:22px;}
+}
+
+.blog_verticals_column_wrap{
+  margin-top:-60px;
+  margin-bottom:80px;
+
+  .verticals_wrap{
+    background:white;
+
+    .verticals_header_button{
+      background:#4b4e53;
+      color:white;
+      font-family: proxima_novasemibold;
+      font-size:18px;
+      display:block;
+      padding:23px 20px;
+      position: relative;
+      border-bottom:$orange solid 9px;
+      &:after{
+        content:"\f105";
+        font-family:fontawesome;
+        color:white;
+        position:absolute;
+        right:10px;
+        font-size:22px;
+      }
+    }
+    .verticals_posts_wrap{
+      border:1px solid #eee;
+      img{
+        max-width: 100%;
+      }
+      ul.verticals_posts_ul{
+        height:900px;
+        overflow-y:auto;
+        margin-bottom: 0;
+        li{
+          border-top:0;
+          & + li{border-top:1px solid #eee;}
+          &>a{
+            display:block;
+            transition:.4s all;
+            &:hover{
+              background:#f0f0f0;
+            }
+          }
+          .post_blurb_wrap{
+            padding:9px 12px;
+          }
+        }
+      }
+
+      .vertical_col_footer_readmore{
+        background:#e5e5e5;
+        color:#4b4e53;
+        text-align:center;
+        display:block;
+        padding:11px 5px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
 
 
 /* Fonts */
