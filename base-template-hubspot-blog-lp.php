@@ -46,7 +46,7 @@
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
                     <a href="#">
-                      <img src="http://placehold.it/365x176">
+                      <img src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/hubspot/qsr-cat.jpg">
                       <div class="post_blurb_wrap">
                         <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
                         <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
@@ -111,7 +111,7 @@
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
                     <a href="#">
-                      <img src="http://placehold.it/365x176">
+                      <img src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/hubspot/wireless-cat.jpg">
                       <div class="post_blurb_wrap">
                         <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
                         <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
@@ -201,7 +201,7 @@
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
                     <a href="#">
-                      <img src="http://placehold.it/365x176">
+                      <img src="<?php echo get_stylesheet_directory_uri() ;?>/assets/img/hubspot/retail-cat.jpg">
                       <div class="post_blurb_wrap">
                         <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
                         <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>

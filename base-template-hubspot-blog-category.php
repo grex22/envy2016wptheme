@@ -66,7 +66,7 @@
             <div class="article">
               <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
-              <a href="#"><img class="blog_feature_image" src="http://placehold.it/847x415"></a>
+              <a href="#"><img class="blog_feature_image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hubspot/wireless-single.jpg"></a>
               <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
               <a href="#">Read More...</a>
             </div>
