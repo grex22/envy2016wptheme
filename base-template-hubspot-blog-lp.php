@@ -38,8 +38,10 @@
               <a class="verticals_header_button" href="#">Quick Service Restaurants</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
-                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
-                  <input type="text" placeholder="Enter your email to subscribe...">
+                  <div class="blog_input_w_button">
+                    <a href="#" class="blog_input_button"><i class="fa fa-envelope-o"></i></a>
+                    <input type="text" placeholder="Enter your email to subscribe...">
+                  </div>
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
@@ -101,8 +103,10 @@
               <a class="verticals_header_button" href="#">Wireless</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
-                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
-                  <input type="text" placeholder="Enter your email to subscribe...">
+                  <div class="blog_input_w_button">
+                    <a href="#" class="blog_input_button"><i class="fa fa-envelope-o"></i></a>
+                    <input type="text" placeholder="Enter your email to subscribe...">
+                  </div>
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
@@ -189,8 +193,10 @@
               <a class="verticals_header_button" href="#">Retail</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
-                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
-                  <input type="text" placeholder="Enter your email to subscribe...">
+                  <div class="blog_input_w_button">
+                    <a href="#" class="blog_input_button"><i class="fa fa-envelope-o"></i></a>
+                    <input type="text" placeholder="Enter your email to subscribe...">
+                  </div>
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>

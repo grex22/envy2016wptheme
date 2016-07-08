@@ -3280,9 +3280,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .subscribe_vertical_box{
-  padding:11px 13px;
-  position: relative;
+  padding:14px 13px;
   border-bottom:1px solid #ddd;
+}
+
+.blog_input_w_button{
+  position: relative;
   input[type=text]{
     width:100%;
     border-radius:4px;
@@ -3290,21 +3293,22 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     border:1px solid #ddd;
     font-size:17px;
     z-index: 5;
+    &.wider{
+      min-width:300px;
+    }
   }
-  .submit_subscribe{
+  .blog_input_button{
     z-index: 10;
     position: absolute;
-    right: 13px;
+    right: 0px;
     font-size: 18px;
-    top: 11px;
-    padding: 8px 8px 8px 3px;
+    top: 0px;
+    padding: 8px 8px 8px 6px;
   }
 
-  &.with_prompt{
-    padding:14px 0;
-    input{min-width:300px;}
-  }
 }
+
+
 
 #blog_nav_wrap{
   background:#565656;
@@ -3349,6 +3353,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     color:#004b7f;
     font-weight: 600;
   }
+  ul.pagination .active a{color:white;}
   h1{
     font-size:32px;
     line-height:42px;
@@ -3388,6 +3393,43 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   ::-webkit-scrollbar:horizontal{height:0}
   ::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid #dadada;background-color:rgba(0,0,0,0.3)}
   ::-webkit-scrollbar-track{background-color:#dadada;border-radius:8px;}
+}
+
+#blogsidebar{
+  background: #f6f6f6;
+  padding-top: 15px;
+  font-size:14px;
+  h5{font-size:16px;}
+  a{font-weight:normal;}
+  .module{
+    padding: 5px 0 29px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+
+    &:last-child{border-bottom:0;margin-bottom: 0;}
+  }
+
+  ul.list-unstyled{
+    margin-bottom:5px;
+    li{
+      line-height: 18px;
+      margin-bottom: 11px;
+      &:last-child{margin-bottom:0;}
+    }
+  }
+}
+
+.blog_social_icons{
+  i{font-size:30px;}
+  a .fa-facebook-square{color:#2e5693;}
+  a .fa-twitter-square{color:#20a7d4;}
+  a .fa-linkedin-square{color:#0077bc;}
+  a .fa-google-plus-square{color:#d83636;}
+}
+
+div.blog_author{
+  margin-top:30px;
+  h3{margin-top:0px;}
 }
 
 

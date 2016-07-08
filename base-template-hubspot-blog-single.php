@@ -67,37 +67,49 @@
               <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
               <a href="#"><img class="blog_feature_image" src="http://placehold.it/847x415"></a>
-              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
-              <a href="#">Read More...</a>
+              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes.</p>
+              <p class="blog_excerpt">While leading the pack for yet the lorem ipsum dolor quantas while last the last half decade, QSRs are starting to yet the lorem ipsum dolor quantas while last see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes.</p>
+              <p class="blog_excerpt">Leading the pack for the last half decade, QSRs are starting to see While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the consumer.</p>
+              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem quants.</p>
+              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are yet the lorem ipsum dolor quantas while last yet the lorem ipsum dolor quantas while last starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the consumer consumer.</p>
+              <p class="blog_excerpt">Leading the pack for the last half decade, QSRs are starting to see While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum.</p>
             </div>
-            <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
-              <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
-              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
-              <a href="#">Read More...</a>
-            </div>
-            <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
-              <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
-              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
-              <a href="#">Read More...</a>
+            <ul class="list-inline topics_list more_bottom_margin more_top_margin">
+              <li><strong>Topics:</strong></li>
+              <li><a href="#">Social Media</a></li>
+              <li><a href="#">Wireless Retail</a></li>
+              <li><a href="#">POS</a></li>
+            </ul>
+            <hr>
+            <div class="blog_author">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://placehold.it/180x180" class="img-circle img-responsive">
+                </div>
+                <div class="col-sm-9">
+                  <h3>About the Author</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
             </div>
             <div class="article adinject">
+              <br>
               <a href="#">Some sort of ad TBD</a>
+              <br>
+              <br>
             </div>
-            <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
-              <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
-              <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
-              <a href="#">Read More...</a>
+            <div class="post-navigation">
+              <div class="row">
+                <div class="col-sm-5 text-left">
+                  Previous:<br>
+                  <a href="#">The new Client Intake Form for 2016</a>
+                </div>
+                <div class="col-sm-5 col-sm-offset-2 text-right">
+                  Next:<br>
+                  <a href="#">How your WIFI Network's Speed may be Affecting Profits</a>
+                </div>
+              </div>
             </div>
-            <ul class="pagination">
-              <li><a href="#">1</a></li>
-              <li class="active"><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-            </ul>
           </div>
           <div class="col-sm-3 col-sm-offset-1" id="blogsidebar">
             <div class="module">

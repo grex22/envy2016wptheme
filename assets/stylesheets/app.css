@@ -4033,12 +4033,16 @@ figure.alignnone {
 
 /* line 3282, ../sass/app.scss */
 .subscribe_vertical_box {
-  padding: 11px 13px;
-  position: relative;
+  padding: 14px 13px;
   border-bottom: 1px solid #ddd;
 }
-/* line 3286, ../sass/app.scss */
-.subscribe_vertical_box input[type=text] {
+
+/* line 3287, ../sass/app.scss */
+.blog_input_w_button {
+  position: relative;
+}
+/* line 3289, ../sass/app.scss */
+.blog_input_w_button input[type=text] {
   width: 100%;
   border-radius: 4px;
   padding: 7px 27px 7px 7px;
@@ -4046,43 +4050,39 @@ figure.alignnone {
   font-size: 17px;
   z-index: 5;
 }
-/* line 3294, ../sass/app.scss */
-.subscribe_vertical_box .submit_subscribe {
-  z-index: 10;
-  position: absolute;
-  right: 13px;
-  font-size: 18px;
-  top: 11px;
-  padding: 8px 8px 8px 3px;
-}
-/* line 3303, ../sass/app.scss */
-.subscribe_vertical_box.with_prompt {
-  padding: 14px 0;
-}
-/* line 3305, ../sass/app.scss */
-.subscribe_vertical_box.with_prompt input {
+/* line 3296, ../sass/app.scss */
+.blog_input_w_button input[type=text].wider {
   min-width: 300px;
 }
+/* line 3300, ../sass/app.scss */
+.blog_input_w_button .blog_input_button {
+  z-index: 10;
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+  top: 0px;
+  padding: 8px 8px 8px 6px;
+}
 
-/* line 3309, ../sass/app.scss */
+/* line 3313, ../sass/app.scss */
 #blog_nav_wrap {
   background: #565656;
   border-bottom: 5px solid #282828;
   margin-bottom: 25px;
 }
-/* line 3313, ../sass/app.scss */
+/* line 3317, ../sass/app.scss */
 #blog_nav_wrap ul {
   margin-bottom: 0;
   height: auto;
   font-size: 0;
 }
-/* line 3317, ../sass/app.scss */
+/* line 3321, ../sass/app.scss */
 #blog_nav_wrap ul li {
   display: inline-block;
   height: auto;
   padding: 0;
 }
-/* line 3321, ../sass/app.scss */
+/* line 3325, ../sass/app.scss */
 #blog_nav_wrap ul li a {
   display: inline-block;
   color: white;
@@ -4094,49 +4094,53 @@ figure.alignnone {
   margin-bottom: -5px;
   transition: .3s all;
 }
-/* line 3333, ../sass/app.scss */
+/* line 3337, ../sass/app.scss */
 #blog_nav_wrap ul li.active a, #blog_nav_wrap ul li:hover a {
   background-color: #f1760a;
   text-decoration: none;
   border-bottom-color: #915a2e;
 }
 
-/* line 3343, ../sass/app.scss */
+/* line 3347, ../sass/app.scss */
 #mainblog {
   color: #474747;
   font-size: 17px;
   line-height: 24px;
   padding-bottom: 50px;
 }
-/* line 3348, ../sass/app.scss */
+/* line 3352, ../sass/app.scss */
 #mainblog a {
   color: #004b7f;
   font-weight: 600;
 }
-/* line 3352, ../sass/app.scss */
+/* line 3356, ../sass/app.scss */
+#mainblog ul.pagination .active a {
+  color: white;
+}
+/* line 3357, ../sass/app.scss */
 #mainblog h1 {
   font-size: 32px;
   line-height: 42px;
   margin: 10px 0 20px;
   font-weight: 600;
 }
-/* line 3358, ../sass/app.scss */
+/* line 3363, ../sass/app.scss */
 #mainblog h2 {
   font-size: 32px;
   line-height: 42px;
   margin: 10px 0 20px;
   font-weight: 600;
 }
-/* line 3364, ../sass/app.scss */
+/* line 3369, ../sass/app.scss */
 #mainblog div.article {
   border-bottom: 1px solid #efefef;
   padding: 30px 0;
 }
-/* line 3367, ../sass/app.scss */
+/* line 3372, ../sass/app.scss */
 #mainblog div.article p {
   margin-bottom: 17px;
 }
-/* line 3370, ../sass/app.scss */
+/* line 3375, ../sass/app.scss */
 #mainblog div.article.adinject {
   width: 100%;
   display: block;
@@ -4147,44 +4151,113 @@ figure.alignnone {
   padding: 40px 20px;
   margin: 20px 0;
 }
-/* line 3381, ../sass/app.scss */
+/* line 3386, ../sass/app.scss */
 #mainblog img {
   max-width: 100%;
 }
-/* line 3382, ../sass/app.scss */
+/* line 3387, ../sass/app.scss */
 #mainblog img.blog_feature_image {
   margin-bottom: 20px;
 }
 
 @media (min-width: 767px) {
-  /* line 3386, ../sass/app.scss */
+  /* line 3391, ../sass/app.scss */
   ::-webkit-scrollbar {
     -webkit-appearance: none;
   }
 
-  /* line 3387, ../sass/app.scss */
+  /* line 3392, ../sass/app.scss */
   ::-webkit-scrollbar:vertical {
     width: 12px;
   }
 
-  /* line 3388, ../sass/app.scss */
+  /* line 3393, ../sass/app.scss */
   ::-webkit-scrollbar:horizontal {
     height: 0;
   }
 
-  /* line 3389, ../sass/app.scss */
+  /* line 3394, ../sass/app.scss */
   ::-webkit-scrollbar-thumb {
     border-radius: 8px;
     border: 2px solid #dadada;
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-  /* line 3390, ../sass/app.scss */
+  /* line 3395, ../sass/app.scss */
   ::-webkit-scrollbar-track {
     background-color: #dadada;
     border-radius: 8px;
   }
 }
+/* line 3398, ../sass/app.scss */
+#blogsidebar {
+  background: #f6f6f6;
+  padding-top: 15px;
+  font-size: 14px;
+}
+/* line 3402, ../sass/app.scss */
+#blogsidebar h5 {
+  font-size: 16px;
+}
+/* line 3403, ../sass/app.scss */
+#blogsidebar a {
+  font-weight: normal;
+}
+/* line 3404, ../sass/app.scss */
+#blogsidebar .module {
+  padding: 5px 0 29px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+/* line 3409, ../sass/app.scss */
+#blogsidebar .module:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 3412, ../sass/app.scss */
+#blogsidebar ul.list-unstyled {
+  margin-bottom: 5px;
+}
+/* line 3414, ../sass/app.scss */
+#blogsidebar ul.list-unstyled li {
+  line-height: 18px;
+  margin-bottom: 11px;
+}
+/* line 3417, ../sass/app.scss */
+#blogsidebar ul.list-unstyled li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 3423, ../sass/app.scss */
+.blog_social_icons i {
+  font-size: 30px;
+}
+/* line 3424, ../sass/app.scss */
+.blog_social_icons a .fa-facebook-square {
+  color: #2e5693;
+}
+/* line 3425, ../sass/app.scss */
+.blog_social_icons a .fa-twitter-square {
+  color: #20a7d4;
+}
+/* line 3426, ../sass/app.scss */
+.blog_social_icons a .fa-linkedin-square {
+  color: #0077bc;
+}
+/* line 3427, ../sass/app.scss */
+.blog_social_icons a .fa-google-plus-square {
+  color: #d83636;
+}
+
+/* line 3430, ../sass/app.scss */
+div.blog_author {
+  margin-top: 30px;
+}
+/* line 3432, ../sass/app.scss */
+div.blog_author h3 {
+  margin-top: 0px;
+}
+
 /* Fonts */
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on February 27, 2016 */
 @font-face {
