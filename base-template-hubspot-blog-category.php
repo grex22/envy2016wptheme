@@ -64,20 +64,20 @@
         <div class="row" id="articles_wrap">
           <div class="col-sm-8">
             <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
+              <h2><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
               <a href="#"><img class="blog_feature_image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hubspot/wireless-single.jpg"></a>
               <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
               <a href="#">Read More...</a>
             </div>
             <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
+              <h2><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
               <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
               <a href="#">Read More...</a>
             </div>
             <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
+              <h2><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
               <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
               <a href="#">Read More...</a>
@@ -86,7 +86,7 @@
               <a href="#">Some sort of ad TBD</a>
             </div>
             <div class="article">
-              <h2><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></h2>
+              <h2><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></h2>
               <p class="byline">By <a href="#">Jennifer Taylor</a> :: Jun 18, 2016</p>
               <p class="blog_excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the lorem ipsum dolor quantas while last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
               <a href="#">Read More...</a>
@@ -111,7 +111,7 @@
             <div class="module">
               <h5>Recommended Content</h5>
               <ul class="list-unstyled">
-                <li><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></li>
+                <li><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></li>
                 <li><a href="#">Quick Sonsumer Tastes, Wait Times.</a></li>
                 <li><a href="#">Quick Service to Spot Shift in Consumer Tastes, Wait Times.</a></li>
                 <li><a href="#">Quick Service Restaurants Per Tastes, Wait Times.</a></li>

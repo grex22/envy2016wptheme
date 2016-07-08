@@ -123,7 +123,7 @@
             <div class="module">
               <h5>Recommended Content</h5>
               <ul class="list-unstyled">
-                <li><a href="#">Quick Service Restaurants Using Analytics to Spot Shift in Consumer Tastes, Wait Times.</a></li>
+                <li><a href="#">Video Intelligence Uncovers Opportunities to Boost Sales in Wireless Stores.</a></li>
                 <li><a href="#">Quick Sonsumer Tastes, Wait Times.</a></li>
                 <li><a href="#">Quick Service to Spot Shift in Consumer Tastes, Wait Times.</a></li>
                 <li><a href="#">Quick Service Restaurants Per Tastes, Wait Times.</a></li>
