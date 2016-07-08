@@ -21,7 +21,7 @@
             <div class="row">
               <div id="blog_header_hero" class="col-sm-12 text-center even_more_bottom_margin more_top_margin">
                 <h1>Protect, Grow, and Act on What Matters.</h2>
-                <p class="lead">Stay up-to-date with the latest out of Envysion</p>
+                <p class="lead">Stay up-to-date with the latest from Envysion</p>
               </div>
             </div>
           </div>
@@ -38,6 +38,7 @@
               <a class="verticals_header_button" href="#">Quick Service Restaurants</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
+                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
                   <input type="text" placeholder="Enter your email to subscribe...">
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
@@ -100,12 +101,37 @@
               <a class="verticals_header_button" href="#">Wireless</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
+                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
                   <input type="text" placeholder="Enter your email to subscribe...">
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
                   <li>
                     <a href="#">
                       <img src="http://placehold.it/365x176">
+                      <div class="post_blurb_wrap">
+                        <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
+                        <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="post_blurb_wrap">
+                        <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
+                        <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="post_blurb_wrap">
+                        <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
+                        <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
                       <div class="post_blurb_wrap">
                         <h4>Quick Service Restaurants see shift in consumer tastes, wait times.</h4>
                         <p class="excerpt">While leading the pack for the last half decade, QSRs are starting to see a shift in consumer tastes, yet the...</p>
@@ -163,6 +189,7 @@
               <a class="verticals_header_button" href="#">Retail</a>
               <div class="verticals_posts_wrap">
                 <div class="subscribe_vertical_box">
+                  <a href="#" class="submit_subscribe"><i class="fa fa-envelope-o"></i></a>
                   <input type="text" placeholder="Enter your email to subscribe...">
                 </div>
                 <ul class="list-unstyled verticals_posts_ul">
