@@ -98,6 +98,11 @@
               <br>
               <br>
             </div>
+            <div id="comment_wrap">
+              <div class="well">
+              <p>Comments accordion / form goes here!</p>
+              </div>
+            </div>
             <div class="post-navigation">
               <div class="row">
                 <div class="col-sm-5 text-left">
@@ -135,7 +140,7 @@
             </div>
 
             <div class="module">
-              <h5>Categories</h5>
+              <h5>Topics</h5>
               <ul class="list-unstyled">
                 <li><a href="#">Quick Service Restaurants</a></li>
                 <li><a href="#">Retail</a></li>

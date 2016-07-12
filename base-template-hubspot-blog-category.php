@@ -123,7 +123,7 @@
             </div>
 
             <div class="module">
-              <h5>Categories</h5>
+              <h5>Topics</h5>
               <ul class="list-unstyled">
                 <li><a href="#">Quick Service Restaurants</a></li>
                 <li><a href="#">Retail</a></li>
