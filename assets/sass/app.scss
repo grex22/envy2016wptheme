@@ -724,6 +724,48 @@ h2.bold-n-big{
   }
 }
 
+/* Nextwave Landing Page */
+
+#envy_nextwave_logo{
+  max-width:240px!important;
+}
+
+.gray_wrap.dark_gray_wrap{
+  background-color: #7d7d7d;
+}
+
+.next_wave_contact_row{
+  padding-top:25px;
+  padding-bottom:25px;
+  &>div:first-child{
+    padding-top:40px;
+  }
+  &>div:last-child{
+    border-left:1px solid #888;
+    @media(max-width:$md-width - 1){
+      border-left:none;
+    }
+  }
+}
+
+#funnel{
+  margin-bottom:-100px;
+  max-width:380px!important;
+
+  @media(max-width:$lg-width - 1){
+    margin-bottom:-130px;
+  }
+  @media(max-width:$md-width - 1){
+    margin-bottom:-80px;
+  }
+}
+
+.gray_wrap.make_room_for_small_funnel{
+  @media(max-width:$md-width - 1){
+    padding-top:80px;
+  }
+}
+
 /* Mobile App Page */
 
 .wrap.more_padding{
@@ -737,7 +779,7 @@ h2.bold-n-big{
   }
 }
 
-.fa-fw.feature-icon {
+.fa-fw.feature-icon{
   font-size: 39px;
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -747,10 +789,28 @@ h2.bold-n-big{
   margin-bottom: 10px;
 }
 
+.feature-icon[class^="icon-budicon"]{
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  line-height: 176px;
+  font-size: 65px;
+  margin-bottom: 10px;
+  display: inline-block;
+
+}
+
 .feature-grid .row > div{
   padding:30px 47px;
-  
+
   p{font-size:17px;}
+}
+
+.feature-grid h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #iosScreenCarousel{
@@ -765,7 +825,7 @@ h2.bold-n-big{
   overflow:hidden;
   margin: -50px auto 0;
   background-image:url('/assets/img/mobileapp/phone-frame.png');
-  
+
   @media(max-width:$md-width - 1){
     height:550px;
     margin-bottom:30px;
@@ -940,6 +1000,7 @@ h2.bold-n-big{
   background:$blue;
   color:white;
   .item{padding:65px 0 70px;height:auto!important;}
+  .item.weird_height{height:auto!important;min-height:340px!important;padding:75px 0 90px;}
 
   img{
     margin-bottom:5px;
@@ -1292,7 +1353,7 @@ h2.bold-n-big{
   @media(max-width:767px){
     padding:50px 0 50px;
   }
-  
+
   &.ctab-mobilelp-padding{
     padding-bottom:0px;
     padding-top:80px;
@@ -3184,7 +3245,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   .hs-form-required{display:none}
 }
 
-#androidModal .hs-form{
+#androidModal .hs-form,
+.modal_white_form .hs-form{
   label{color:#333!important;}
   .hs-input{
     text-align: left;
