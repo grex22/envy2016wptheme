@@ -65,7 +65,7 @@
               <h4>Theft-Smart Reports Spotlight Employee Theft</h4>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-sm-offset-3">
+          <div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
             <div class="text-center">
               <i class="icon-budicon-730 orangetext feature-icon"></i>
               <h4>Hotline Connection to Theft Analysts</h4>
