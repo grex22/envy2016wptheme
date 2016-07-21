@@ -266,16 +266,11 @@
           <h4 class="modal-title">Learn more about our Envysion Next Wave platform:</h4>
         </div>
         <div class="modal-body">
-          <!--[if lte IE 8]>
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-          <![endif]-->
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-          <script>
-            hbspt.forms.create({
-            portalId: '444576',
-            formId: '8c9e0613-9e73-4f24-b8fd-b176573e41e5'
-            });
-          </script>
+          <?php
+            if(function_exists('gravity_form')):
+              gravity_form( 3, false, false, false, null, true, 150 );
+            endif;
+          ?>
 
         </div>
         <div class="modal-footer">
