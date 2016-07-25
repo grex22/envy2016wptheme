@@ -3199,6 +3199,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 /* Hubspot Form Styles */
+
+body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!important;}
+
 .hs-button{
   background: $orange!important;
   border: none!important;

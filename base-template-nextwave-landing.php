@@ -163,6 +163,18 @@
 
   <div class="wrap more_padding">
     <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">We Follow the Money</h2>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//qL2ZL6fiVwc' frameborder='0' allowfullscreen></iframe></div></div>
+        <div class="col-sm-4"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnZgYtlluQk' frameborder='0' allowfullscreen></iframe></div></div>
+        <div class="col-sm-4"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//cLwAkLiD9yY' frameborder='0' allowfullscreen></iframe></div></div>
+      </div>
+      <br>
       <div class="col-sm-10 col-centered feature-grid">
         <div class="row">
           <div class="col-sm-12">

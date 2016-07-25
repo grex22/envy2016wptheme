@@ -3953,7 +3953,12 @@ figure.alignnone {
   }
 }
 /* Hubspot Form Styles */
-/* line 3202, ../sass/app.scss */
+/* line 3203, ../sass/app.scss */
+body.page-template-template-nextwave-landing #hubspot_form_footer {
+  display: none !important;
+}
+
+/* line 3205, ../sass/app.scss */
 .hs-button, #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   background: #f98e2b !important;
@@ -3968,16 +3973,16 @@ figure.alignnone {
   border-radius: 6px !important;
 }
 
-/* line 3215, ../sass/app.scss */
+/* line 3218, ../sass/app.scss */
 .hs-form {
   text-align: left;
 }
-/* line 3216, ../sass/app.scss */
+/* line 3219, ../sass/app.scss */
 .hs-form .actions {
   text-align: center;
   margin-left: 0 !important;
 }
-/* line 3218, ../sass/app.scss */
+/* line 3221, ../sass/app.scss */
 .hs-form .hs-input {
   max-width: 100% !important;
   width: 100% !important;
@@ -3993,7 +3998,7 @@ figure.alignnone {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3233, ../sass/app.scss */
+/* line 3236, ../sass/app.scss */
 .hs-form label {
   color: white !important;
   font-family: proxima_nova_rgregular !important;
@@ -4001,17 +4006,17 @@ figure.alignnone {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3240, ../sass/app.scss */
+/* line 3243, ../sass/app.scss */
 .hs-form .hs-error-msgs label {
   color: pink !important;
   text-align: center !important;
 }
-/* line 3245, ../sass/app.scss */
+/* line 3248, ../sass/app.scss */
 .hs-form .hs-form-required {
   display: none;
 }
 
-/* line 3250, ../sass/app.scss */
+/* line 3253, ../sass/app.scss */
 #androidModal .hs-form label,
 .modal_white_form form label {
   color: #333 !important;
@@ -4020,7 +4025,7 @@ figure.alignnone {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3257, ../sass/app.scss */
+/* line 3260, ../sass/app.scss */
 #androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form textarea,
 .modal_white_form form input[type=text],
 .modal_white_form form input[type=email],
@@ -4039,7 +4044,7 @@ figure.alignnone {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3273, ../sass/app.scss */
+/* line 3276, ../sass/app.scss */
 #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   color: white;
