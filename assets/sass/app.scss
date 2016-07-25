@@ -3246,15 +3246,39 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 #androidModal .hs-form,
-.modal_white_form .hs-form{
-  label{color:#333!important;}
-  .hs-input{
+.modal_white_form form{
+  label{
+    color:#333!important;
+    font-family:proxima_nova_rgregular!important;
+    font-size:18px!important;
+    line-height:18px!important;
+    margin:6px 0!important;
+  }
+  input[type=text],input[type=email],textarea{
     text-align: left;
     border: 1px solid #888 !important;
     background-color:#f2f2f2!important;
     color:#444!important;
+
+    max-width: 100%!important;
+    width: 100%!important;
+    border-radius: 6px!important;
+    padding: 21px 15px!important;
+    font-family: proxima_nova_rgregular!important;
+    font-size:22px!important;
+    box-sizing: border-box!important;
+    height: 55px!important;
+    line-height: 23px;
+  }
+  input[type=submit]{
+    @extend .hs-button;
+    @extend .primary;
+    @extend .large;
+    color:white;
+    margin:0 auto;
   }
 }
+
 
 
 /* Fonts */

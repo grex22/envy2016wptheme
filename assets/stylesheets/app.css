@@ -161,7 +161,9 @@ a:hover {
   color: white !important;
 }
 /* line 190, ../sass/app.scss */
-.bluebg .cta-btn.primary {
+.bluebg .cta-btn.primary, .bluebg #androidModal .hs-form input.cta-btn[type=submit], #androidModal .hs-form .bluebg input.cta-btn[type=submit],
+.bluebg .modal_white_form form input.cta-btn[type=submit],
+.modal_white_form form .bluebg input.cta-btn[type=submit] {
   background: #f98e2b;
 }
 
@@ -2323,11 +2325,13 @@ ul.iconlist > li + li {
   padding-right: 5px;
 }
 /* line 1989, ../sass/app.scss */
-.verticals.large {
+.verticals.large, #androidModal .hs-form input.verticals[type=submit],
+.modal_white_form form input.verticals[type=submit] {
   width: 165px;
 }
 /* line 1992, ../sass/app.scss */
-.verticals.large i {
+.verticals.large i, #androidModal .hs-form input.verticals[type=submit] i,
+.modal_white_form form input.verticals[type=submit] i {
   font-size: 110px;
   width: 150px;
   height: 150px;
@@ -2665,11 +2669,13 @@ img.polaroid {
   margin-right: 12px;
 }
 /* line 2250, ../sass/app.scss */
-.cta-btn.primary {
+.cta-btn.primary, #androidModal .hs-form input.cta-btn[type=submit],
+.modal_white_form form input.cta-btn[type=submit] {
   background: #278dc1;
 }
 /* line 2252, ../sass/app.scss */
-.cta-btn.primary:hover {
+.cta-btn.primary:hover, #androidModal .hs-form input.cta-btn[type=submit]:hover,
+.modal_white_form form input.cta-btn[type=submit]:hover {
   background: #1e6e97;
 }
 /* line 2254, ../sass/app.scss */
@@ -3948,7 +3954,8 @@ figure.alignnone {
 }
 /* Hubspot Form Styles */
 /* line 3202, ../sass/app.scss */
-.hs-button {
+.hs-button, #androidModal .hs-form input[type=submit],
+.modal_white_form form input[type=submit] {
   background: #f98e2b !important;
   border: none !important;
   text-shadow: none !important;
@@ -4006,16 +4013,37 @@ figure.alignnone {
 
 /* line 3250, ../sass/app.scss */
 #androidModal .hs-form label,
-.modal_white_form .hs-form label {
+.modal_white_form form label {
   color: #333 !important;
+  font-family: proxima_nova_rgregular !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  margin: 6px 0 !important;
 }
-/* line 3251, ../sass/app.scss */
-#androidModal .hs-form .hs-input,
-.modal_white_form .hs-form .hs-input {
+/* line 3257, ../sass/app.scss */
+#androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form textarea,
+.modal_white_form form input[type=text],
+.modal_white_form form input[type=email],
+.modal_white_form form textarea {
   text-align: left;
   border: 1px solid #888 !important;
   background-color: #f2f2f2 !important;
   color: #444 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  border-radius: 6px !important;
+  padding: 21px 15px !important;
+  font-family: proxima_nova_rgregular !important;
+  font-size: 22px !important;
+  box-sizing: border-box !important;
+  height: 55px !important;
+  line-height: 23px;
+}
+/* line 3273, ../sass/app.scss */
+#androidModal .hs-form input[type=submit],
+.modal_white_form form input[type=submit] {
+  color: white;
+  margin: 0 auto;
 }
 
 /* Fonts */
