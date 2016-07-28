@@ -237,6 +237,140 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center more_bottom_margin">
+          <h2 class="">Frequently Asked Questions</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li role="presentation" class="active"><a href="#problems" aria-controls="problems" role="tab" data-toggle="tab">Problem</a></li>
+            <li role="presentation"><a href="#solutions" aria-controls="solutions" role="tab" data-toggle="tab">Solution</a></li>
+            <li role="presentation"><a href="#results" aria-controls="results" role="tab" data-toggle="tab">Results</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          <div class="tab-content">
+            <?php
+            $i = 1;
+            $id = "problems";
+            ?>
+            <div role="tabpanel" class="tab-pane active" id="<?php echo $id; ?>">
+              <div class="panel-group" id="<?php echo $id; ?>_accordion" role="tablist" aria-multiselectable="true">
+                <?php
+                $array = array(
+                  "How prevalent is theft in quick serve restaurants?" => "Internal theft is responsible for 75% of inventory shortages, according to the National Restaurant Association. The same study showed quick serve restaurants lose up to 7% of sales to employee theft. And a U.S. Chamber of Commerce study reported 75% of all employees will steal from their employer once. Half will steal repeatedly.",
+                  "How do I know if I have theft in my restaurant?" => "When we do our Revenue Recovery Analysis for a quick serve restaurant operator, we look at food and paper costs compared to ideal, industry-wide numbers, and geo-targeted information. Anything more than half a point difference suggests you have theft occurring in your restaurants.",
+                  "How does theft impact my bottom line?" => "Say an employee puts $50 in her pocket each shift. Working five days a week, that’s $1,000 a month of your sales. How much did you spend on the food she stole? At ideal it’s about 30%, or $300. So her theft bumps your food and paper costs up .3%. Your gap is probably much bigger than that. Get the idea? If you stop theft, you make money.",
+                  "What does Theft Spot do?" => "Theft Spot, powered by patent-pending Next Wave technology, puts stolen inventory back on your shelf and adds revenue to your bottom line. With our algorithm-driven technology, we look at every single transaction—even those without receipts—to identify, review, and verify suspicious events. Through our easy-to-use management reports we arm you with the evidence you need to counsel or terminate problem employees.",
+                  "What’s the difference between a surveillance system and Theft Spot?" => "Theft Spot is a theft detection system. We follow the money, helping you stop theft and add recovered revenue to your top-line sales. A surveillance system comes in handy if you have a break in or someone makes a claim against you because of a safety concern or accident.",
+                );
+
+                foreach($array as $q => $a): ?>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="<?php echo $id.$i; ?>_head">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#<?php echo $id; ?>_accordion" href="#<?php echo $id.$i; ?>" aria-expanded="false" aria-controls="<?php echo $id.$i; ?>">
+                          <?php echo $q; ?>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="<?php echo $id.$i; ?>" class="panel-collapse collapse <?php if($i == 1) echo 'in'; ?>" role="tabpanel" aria-labelledby="<?php echo $id.$i; ?>">
+                      <div class="panel-body">
+                        <?php echo $a; ?>
+                      </div>
+                    </div>
+                  </div>
+                  <?php
+                  $i++;
+                endforeach;
+                ?>
+              </div>
+            </div>
+            <?php
+            $i = 1;
+            $id = "solutions";
+            ?>
+            <div role="tabpanel" class="tab-pane" id="<?php echo $id; ?>">
+              <div class="panel-group" id="<?php echo $id; ?>_accordion" role="tablist" aria-multiselectable="true">
+                <?php
+                $array = array(
+                  "How does Theft Spot work?" => "The Next Wave technology integrates video surveillance, point of sale information, and speed of service systems along with a first-of-its-kind proprietary software complete with algorithms that actually teaches itself to find suspicious activity. You use the reports we provide to identify employees who need to be counseled or terminated.",
+                  "How much time does it take to look at the reports?" => "Our 'big data' approach to transaction analysis sorts through thousands of hours of video and millions of data points each day to identify suspicious transactions. Our Daily Algorithm Results serve up short video clips with transactional information. Looking at the flagged events can take as little as 20 minutes per day per restaurant.",
+                  "I have multiple sites, how do I manage all the reporting?" => "For multi-site installations, our Theft-Review Service reduces your time spent viewing the suspicious events and provides system-wide analysis of theft events that have been reviewed by a theft detection specialist and verified by one of our analysts. All you have to do is counsel or terminate your employees.",
+                  "How do you compare to your competition?" => "We’ve got plenty of imitators who will tell you they can do everything the Next Wave technology can. But our customers tell us a different story. And many have run our system side-by-side with their legacy surveillance system and/or P.O.S. providers making such claims. What we’re told is “Next Wave finds theft no one else can.”",
+                  "What about installation?" => "Most of our customers install our Theft Spot system themselves in conjunction with our on-call support team. But we also offer professional installation for your convenience.",
+                  "Do you offer a surveillance system?" => "Old school surveillance systems are necessary…but they don’t make you money. So for our customers who want to install Theft Spot with a companion surveillance system, we’ll do it. But we’re just as happy to work alongside your existing system."
+                );
+
+                foreach($array as $q => $a): ?>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="<?php echo $id.$i; ?>_head">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#<?php echo $id; ?>_accordion" href="#<?php echo $id.$i; ?>" aria-expanded="false" aria-controls="<?php echo $id.$i; ?>">
+                          <?php echo $q; ?>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="<?php echo $id.$i; ?>" class="panel-collapse collapse <?php if($i == 1) echo 'in'; ?>" role="tabpanel" aria-labelledby="<?php echo $id.$i; ?>">
+                      <div class="panel-body">
+                        <?php echo $a; ?>
+                      </div>
+                    </div>
+                  </div>
+                  <?php
+                  $i++;
+                endforeach;
+                ?>
+              </div>
+            </div>
+
+            <?php
+            $i = 1;
+            $id = "results";
+            ?>
+            <div role="tabpanel" class="tab-pane" id="<?php echo $id; ?>">
+              <div class="panel-group" id="<?php echo $id; ?>_accordion" role="tablist" aria-multiselectable="true">
+                <?php
+                $array = array(
+                  "What impact do you have on food and paper costs?" => "Across all of our customers, we’ve seen reductions in food and paper costs ranging from 0.5 percent to over 2.0 percent. Our average nationwide is 0.7 percent.",
+                  "How does it affect my bottom line?" => "Using the lowest number (0.5 percent) on the range of projected savings, a typical restaurant grossing $1,200,000 a year is very likely to see more than $18,000 in recovered revenue a year. Using our national average of 0.7 percent, the projected annual savings is $25,200.",
+                  "How much does Theft Spot cost?" => "For a typical lease payment option, Theft Spot costs $250 a month on a three-year service agreement. Other forms of payment may require a $900 on-board fee. On average we save our customers .7% in food and paper costs. Our costs come out to about .1% at a typical restaurant.",
+                );
+
+                foreach($array as $q => $a): ?>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="<?php echo $id.$i; ?>_head">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#<?php echo $id; ?>_accordion" href="#<?php echo $id.$i; ?>" aria-expanded="false" aria-controls="<?php echo $id.$i; ?>">
+                          <?php echo $q; ?>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="<?php echo $id.$i; ?>" class="panel-collapse collapse <?php if($i == 1) echo 'in'; ?>" role="tabpanel" aria-labelledby="<?php echo $id.$i; ?>">
+                      <div class="panel-body">
+                        <?php echo $a; ?>
+                      </div>
+                    </div>
+                  </div>
+                  <?php
+                  $i++;
+                endforeach;
+                ?>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap more_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center more_bottom_margin">
           <h2 class="">Stop Theft in its Tracks</h2><br>
           <button type="button" class="cta-btn cta-btn-lg orange" data-toggle="modal" data-target="#learn_more_modal">Contact Next Wave</button>
           <hr>
