@@ -256,7 +256,7 @@ a:hover {
 }
 /* line 270, ../sass/app.scss */
 .banner > .container #menu-primary-navigation > li .dropdown-toggle {
-  padding-right: 18px;
+  padding-right: 12px;
 }
 /* line 272, ../sass/app.scss */
 .banner > .container #menu-primary-navigation > li .dropdown-toggle:after {
@@ -437,7 +437,7 @@ a:hover {
 }
 /* line 444, ../sass/app.scss */
 .banner > .container .navbar-nav > li > a {
-  padding: 15px 13px 15px 20px;
+  padding: 15px 12px 15px 12px;
 }
 @media (max-width: 992px) {
   /* line 444, ../sass/app.scss */

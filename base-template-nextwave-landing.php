@@ -20,7 +20,7 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-lg-7 col-md-7 text-center even_more_bottom_margin more_top_margin">
-                <h2 style="color:white">Introducing the next wave of Envysion loss prevention solutions</h2>
+                <h2 style="color:white">The next wave of Envysion loss prevention solutions</h2>
                 <p class="lead"><img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/envysion-brand-nextwave-white@2x.png" id="envy_nextwave_logo"></p>
               </div>
               <div class="col-lg-4 col-md-5 text-center">
