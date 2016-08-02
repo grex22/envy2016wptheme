@@ -80,6 +80,15 @@
           <hr>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <div class="videowrapper">
+            <iframe frameborder="0" src="https://www.youtube.com/embed/zcxX5Ibrb-Y" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -374,6 +383,31 @@
           <h2 class="">Stop Theft in its Tracks</h2><br>
           <button type="button" class="cta-btn cta-btn-lg orange" data-toggle="modal" data-target="#learn_more_modal">Contact Next Wave</button>
           <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap more_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center more_bottom_margin">
+          <h3 class="">About Envysion Next Wave</h3>
+          <p class="lead">We're a technology company with roots in the security industry,
+solving complex problems through integrated systems and video analysis.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 more_bottom_margin">
+          <p>Go figure. At our tender age of three, we’ve become an industry leader in theft detection.</p>
+          <p>It started when seasoned security businessman Ken Trovato and twenty-something technology whiz Scott Hieronymus failed to interest a local fast food operator in a security system.</p>
+          <p>Out of that failed sales call came the discovery of a growing problem in the quick serve restaurant industry that had yet to be solved. With an increasing percentage of business coming through the drive-thru window, internal theft was on the rise — gobbling up food and paper costs and driving down top-line sales.</p>
+        </div>
+        <div class="col-xs-6 more_bottom_margin">
+          <p>Out of months of inventive discussions and countless late nights of programming, an initial proto-type was born. With early adopters in the Burger King system eager to test out the new invention, improvements continued to be made. Today, the patent-pending technology is at work in hundreds of quick serve restaurants across the country recovering millions in sales revenue.</p>
+          <p>Originally known simply as the Next Wave Theft Detection System, the product is now marketed as Theft Spot powered by Next Wave.</p>
+          <p>Note: The late Bill Harloe was one of the early adopters in the Burger King concept that helped us pioneer this technology. A video of Bill’s testimonial remains on our site as a tribute to him.</p>
         </div>
       </div>
     </div>

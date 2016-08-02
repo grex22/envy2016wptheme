@@ -3282,6 +3282,23 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
   }
 }
 
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /* Fonts */
