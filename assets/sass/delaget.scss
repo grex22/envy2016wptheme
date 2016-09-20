@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'venera';
+    src: url('/assets/fonts/venera-900-webfont.woff2') format('woff2'),
+         url('/assets/fonts/venera-900-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blue_gradient_bg,
+#main_wrap.blue_gradient_bg{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b2949+0,0b2949+100 */
+  background: #0b2a4a; /* Old browsers */
+  background: -moz-linear-gradient(top,  #0b2a4a 0%, #02162b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #0b2a4a 0%,#02162b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #0b2a4a 0%,#02162b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b2a4a', endColorstr='#02162b',GradientType=0 ); /* IE6-9 */
+
+  color:white;
+}
+.blue_gradient_bg h1,
+.blue_gradient_bg h2,
+.blue_gradient_bg h3,
+.blue_gradient_bg h4{
+  color:white!important;
+}
+.blue_gradient_bg div.mesh{
+  background-image: url(../img/delaget/mesh.png);
+  background-repeat: repeat;
+  background-size: inherit;
+  color:white;
+}
+
+.venera{
+  font-family:"venera"!important;
+}
+
+.section_box{
+  padding:60px 0;
+}
+.section_box.hero{
+  padding-bottom:15px;
+  h2{font-size:45px;}
+}
+.qsr_badge{max-width:330px!important;width:80%!important;margin-bottom:20px;}
+
+.continue_prompt{
+  margin:40px 0 0;
+  padding-bottom:45px;
+  display:inline-block;
+  position:relative;
+  color:white;
+  &:after{
+    content:"";
+    position:absolute;
+    width:44px;
+    height:40px;
+    background-image:url('../img/delaget/down-caret.png');
+    bottom:0;
+    display: inline-block;
+    right: 50%;
+    margin: 0 -22px 0 0;
+  }
+}
+
+.gray_wrap.gray_wrap_gradient{
+  background: #cdcdcd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cdcdcd 0%, #f5f5f5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cdcdcd 0%,#f5f5f5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cdcdcd 0%,#f5f5f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdcdcd', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+  
+  p.lead{
+    color:#333;
+    font-size:25px;
+  }
+  p{color:#333;}
+}
+.delaget_feature_box{
+  font-size:16px;
+  hr{border-top:3px solid #ccc;}
+  h3{
+    font-family:"proxima_nova_rgbold";
+    color:#103a71;
+    font-size:22px;
+  }
+}
+
+.delaget_blue{
+  color:#103a71!important;
+}
+
+.delaget_form_wrap{
+  h3{
+    font-size:30px;
+  }
+  p{font-size:18px;margin-bottom:25px;}
+  .hs-form input.hs-button{
+    //if anyone ever sees this.. just know I'm very, very sorry...
+    font-family:venera!important;
+    color:#103a71!important;
+    border-radius:0!important;
+    border:4px solid #f1efee!important;
+    background: #d3d0cd!important;
+    font-size: 20px!important;
+  }
+}
+
+.laptop_image_cropped{
+  @media(min-width:1100px){
+    display:none;
+  }
+  display:block;
+  text-align:center;
+}
+.laptop_image{
+  width: 520px;
+  height: 498px;
+  position: absolute;
+  bottom: -334px;
+  right: 0;
+  z-index: 1;
+  
+  img{width:100%;height:auto;}
+  
+  @media(max-width:1100px){
+    display:none;
+  }
+}
+
+.laptop_overlay_helper{
+  z-index:10;
+  h2,h3,img,.continue_prompt{
+    text-shadow:0 0 12px rgba(0,0,0,.95);
+  }
+}

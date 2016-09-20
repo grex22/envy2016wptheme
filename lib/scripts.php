@@ -14,6 +14,10 @@ function roots_scripts() {
   wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '9a2dd99b82ca338b034e8730b94139d2');
   wp_enqueue_style('roots_custom', get_template_directory_uri() . '/assets/stylesheets/app.css', false);
   wp_enqueue_style('simplyscroll_css', get_template_directory_uri() . '/assets/simplyscroll/jquery.simplyscroll.css', false);
+  
+  if ( is_page_template( 'template-delaget.php' ) ) {
+    wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/assets/stylesheets/delaget.css' );
+  }
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline

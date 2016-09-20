@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'venera';
+  src: url("/assets/fonts/venera-900-webfont.woff2") format("woff2"), url("/assets/fonts/venera-900-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 9, ../sass/delaget.scss */
+.blue_gradient_bg,
+#main_wrap.blue_gradient_bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b2949+0,0b2949+100 */
+  background: #0b2a4a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0b2a4a 0%, #02162b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0b2a4a 0%, #02162b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0b2a4a 0%, #02162b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b2a4a', endColorstr='#02162b',GradientType=0 );
+  /* IE6-9 */
+  color: white;
+}
+
+/* line 20, ../sass/delaget.scss */
+.blue_gradient_bg h1,
+.blue_gradient_bg h2,
+.blue_gradient_bg h3,
+.blue_gradient_bg h4 {
+  color: white !important;
+}
+
+/* line 26, ../sass/delaget.scss */
+.blue_gradient_bg div.mesh {
+  background-image: url(../img/delaget/mesh.png);
+  background-repeat: repeat;
+  background-size: inherit;
+  color: white;
+}
+
+/* line 33, ../sass/delaget.scss */
+.venera {
+  font-family: "venera" !important;
+}
+
+/* line 37, ../sass/delaget.scss */
+.section_box {
+  padding: 60px 0;
+}
+
+/* line 40, ../sass/delaget.scss */
+.section_box.hero {
+  padding-bottom: 15px;
+}
+/* line 42, ../sass/delaget.scss */
+.section_box.hero h2 {
+  font-size: 45px;
+}
+
+/* line 44, ../sass/delaget.scss */
+.qsr_badge {
+  max-width: 330px !important;
+  width: 80% !important;
+  margin-bottom: 20px;
+}
+
+/* line 46, ../sass/delaget.scss */
+.continue_prompt {
+  margin: 40px 0 0;
+  padding-bottom: 45px;
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+/* line 52, ../sass/delaget.scss */
+.continue_prompt:after {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  background-image: url("../img/delaget/down-caret.png");
+  bottom: 0;
+  display: inline-block;
+  right: 50%;
+  margin: 0 -22px 0 0;
+}
+
+/* line 65, ../sass/delaget.scss */
+.gray_wrap.gray_wrap_gradient {
+  background: #cdcdcd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cdcdcd 0%, #f5f5f5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cdcdcd 0%, #f5f5f5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cdcdcd 0%, #f5f5f5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdcdcd', endColorstr='#f5f5f5',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 72, ../sass/delaget.scss */
+.gray_wrap.gray_wrap_gradient p.lead {
+  color: #333;
+  font-size: 25px;
+}
+/* line 76, ../sass/delaget.scss */
+.gray_wrap.gray_wrap_gradient p {
+  color: #333;
+}
+
+/* line 78, ../sass/delaget.scss */
+.delaget_feature_box {
+  font-size: 16px;
+}
+/* line 80, ../sass/delaget.scss */
+.delaget_feature_box hr {
+  border-top: 3px solid #ccc;
+}
+/* line 81, ../sass/delaget.scss */
+.delaget_feature_box h3 {
+  font-family: "proxima_nova_rgbold";
+  color: #103a71;
+  font-size: 22px;
+}
+
+/* line 88, ../sass/delaget.scss */
+.delaget_blue {
+  color: #103a71 !important;
+}
+
+/* line 93, ../sass/delaget.scss */
+.delaget_form_wrap h3 {
+  font-size: 30px;
+}
+/* line 96, ../sass/delaget.scss */
+.delaget_form_wrap p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* line 97, ../sass/delaget.scss */
+.delaget_form_wrap .hs-form input.hs-button {
+  font-family: venera !important;
+  color: #103a71 !important;
+  border-radius: 0 !important;
+  border: 4px solid #f1efee !important;
+  background: #d3d0cd !important;
+  font-size: 20px !important;
+}
+
+/* line 108, ../sass/delaget.scss */
+.laptop_image_cropped {
+  display: block;
+  text-align: center;
+}
+@media (min-width: 1100px) {
+  /* line 108, ../sass/delaget.scss */
+  .laptop_image_cropped {
+    display: none;
+  }
+}
+
+/* line 115, ../sass/delaget.scss */
+.laptop_image {
+  width: 520px;
+  height: 498px;
+  position: absolute;
+  bottom: -334px;
+  right: 0;
+  z-index: 1;
+}
+/* line 123, ../sass/delaget.scss */
+.laptop_image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1100px) {
+  /* line 115, ../sass/delaget.scss */
+  .laptop_image {
+    display: none;
+  }
+}
+
+/* line 130, ../sass/delaget.scss */
+.laptop_overlay_helper {
+  z-index: 10;
+}
+/* line 132, ../sass/delaget.scss */
+.laptop_overlay_helper h2, .laptop_overlay_helper h3, .laptop_overlay_helper img, .laptop_overlay_helper .continue_prompt {
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.95);
+}
