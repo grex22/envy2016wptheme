@@ -12,7 +12,7 @@
       get_template_part('templates/header');
     }
   ?>
-  <div id="main_wrap" class="blue_gradient_bg">
+  <div id="main_wrap" class="blue_gradient_bg relative">
     <div class="section_box hero mesh">
       <div class="container">
         <div class="row">

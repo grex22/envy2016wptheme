@@ -30,7 +30,25 @@
 
 <div class="section_box text-center">
   <div class="container more_bottom_margin">
-    <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/delaget/logos-and-badge.png" alt="Envysion and Delaget Integration"> 
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <a href="http://envysion.com">
+            <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/delaget/envysion-sm.png" alt="Envysion and Delaget Integration"> 
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/delaget/qsr-badge-sm.png" alt="Envysion and Delaget Integration"> 
+          </div> 
+          <div class="col-sm-4 text-center">
+            <a href="https://delaget.com">
+            <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/delaget/delaget-sm.png" alt="Envysion and Delaget Integration"> 
+            </a>
+          </div> 
+        </div>  
+      </div>  
+    </div>  
   </div>  
   &copy; Copyright Envysion All Rights Reserved
 </div>
