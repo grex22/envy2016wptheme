@@ -30,6 +30,7 @@
               <div class="col-md-6 text-center-sm text-center-xs">
                 <h2>Improve your store stats.</h2>
                 <p class="lead">Reduce loss to employee theft and error by 25% - 40%. Find out how with Envysion + Delaget</p>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/envysion-delaget.png"><br><br>
                 <a href="/delaget" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
               <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
