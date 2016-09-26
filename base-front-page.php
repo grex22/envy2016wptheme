@@ -19,6 +19,7 @@
         <li data-target="#home_carousel" data-slide-to="0" class="active"></li>
         <li data-target="#home_carousel" data-slide-to="1"></li>
         <li data-target="#home_carousel" data-slide-to="2"></li>
+        <li data-target="#home_carousel" data-slide-to="3"></li>
       </ol>
 
       <!-- Wrapper for slides -->
