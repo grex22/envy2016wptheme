@@ -24,7 +24,7 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-      
+        <!--
         <div class="item active" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bg.png')">
           <div class="container">
             <div class="row">
@@ -34,14 +34,15 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/envysion-delaget.png"><br><br>
                 <a href="/delaget" class="cta-btn cta-btn-lg orange">Learn More</a>
               </div>
-              <div class="col-md-6 hidden-sm hidden-xs no_right_padding">
+              <div class="col-md-5 hidden-sm hidden-xs no_right_padding">
                 <img src="assets/img/qsr-badge-homepage.png">
               </div>
             </div>
           </div>
         </div>
+        -->
       
-        <div class="item" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
+        <div class="item active" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
           <div class="container">
             <div class="row">
               <div class="col-md-6 text-center-sm text-center-xs">
