@@ -726,6 +726,21 @@ h2.bold-n-big{
 
 /* iQmetrix Landing Page */
 
+.material-icons.big-orange-icon-circle,
+.fa.big-orange-icon-circle{
+  border: 1px solid #ddd;  
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  line-height: 156px;
+  font-size: 65px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size:65px;
+  color:$orange;
+
+}
+
 .gray_wrap.webinar_cta_wrap{
   background-image:url('../img/bokeh.jpg')!important;
   background-position:top center;
@@ -896,7 +911,6 @@ h2.bold-n-big{
   font-size: 65px;
   margin-bottom: 10px;
   display: inline-block;
-
 }
 
 .feature-grid .row > div{
