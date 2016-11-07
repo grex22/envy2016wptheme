@@ -150,16 +150,15 @@
       </div>
     </div>
   </div>
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2 class="bluetext pn_light more_bottom_margin">What our users are saying:</h2>
-      </div>
-    </div>
-  </div>
 
   <div id="quote_carousel_1" class="carousel fade quote-carousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="pn_light no_bottom_margin" style="font-size:29px;margin-top:25px;">What our users are saying:</h2>
+        </div>
+      </div>
+    </div>
     <!-- Indicators -->
     <!--
     <ol class="carousel-indicators">
