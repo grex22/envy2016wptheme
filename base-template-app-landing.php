@@ -25,6 +25,9 @@
                 <a href="https://itunes.apple.com/us/app/envysion/id1097606625?ls=1&mt=8" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
                   <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/ios-store-btn.png" alt="Download Envysion Mobile App in iOS App Store">
                 </a>
+                <a href="https://play.google.com/store/apps/details?id=com.envysion.app" class="app-store-btn" title="Download Envysion Mobile App in Google Play Store">
+                  <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/google-store-btn.png" alt="Download Envysion Mobile App in Google Play Store">
+                </a>
               </div>
               <div class="col-md-5 col-md-pull-7 text-center">
                 <div id="iosScreenCarouselWrap">
@@ -45,7 +48,7 @@
                       <div class="item">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/screen4.png">
                       </div>
-                      
+
                       <div class="item">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/screen5.png">
                       </div>
@@ -115,7 +118,7 @@
       </div>
     </div>
   </div>
-  
+
   <div id="quote_carousel_1" class="carousel fade quote-carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -127,7 +130,7 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      
+
 
       <div class="item active">
         <div class="container">
@@ -140,7 +143,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="item">
         <div class="container">
           <div class="row">
@@ -189,7 +192,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
+
   <div class="wrap more_padding">
     <div class="container">
       <div class="row">
@@ -198,50 +201,14 @@
           <a href="https://itunes.apple.com/us/app/envysion/id1097606625?ls=1&mt=8" class="app-store-btn" title="Download Envysion Mobile App in iOS App Store">
             <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/ios-store-btn.png" alt="Download Envysion Mobile App in iOS App Store">
           </a>
+          <a href="https://play.google.com/store/apps/details?id=com.envysion.app" class="app-store-btn" title="Download Envysion Mobile App in Google Play Store">
+            <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/mobileapp/google-store-btn.png" alt="Download Envysion Mobile App in Google Play Store">
+          </a>
+          <br><br>
         </div>
       </div>
     </div>
   </div>
-  <div class="blurry_wrap" style="padding-bottom:25px;">
-    <div class="container">
-      <div class="row padded">
-        <div class="col-sm-8 col-centered text-center padded">
-          <div class="text-center">
-            <h4><i class="fa fa-android fa-3x" style="color:#8bc34a"></i></h4>
-          </div>
-          <h2 class="text-center">Have an Android device?</h2>
-          <h3 class="text-center no_top_margin pn_light">Don't worry - we've got an app for you in the works!<br><a data-toggle="modal" href="#androidModal" class="orangetext">Click here</a> to receive updates on the upcoming release.</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="androidModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Get notified when our Android app is available</h4>
-        </div>
-        <div class="modal-body">
-          <!--[if lte IE 8]>
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-          <![endif]-->
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-          <script>
-            hbspt.forms.create({ 
-            portalId: '444576',
-            formId: '8c9e0613-9e73-4f24-b8fd-b176573e41e5'
-            });
-          </script>
-
-        </div>
-        <div class="modal-footer">
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-  
 
   <?php get_template_part('templates/footer'); ?>
   </div>
