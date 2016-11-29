@@ -13,7 +13,7 @@
       get_template_part('templates/header');
     }
   ?>
-  
+
   <div id="main_wrap">
     <div class="call-to-action-box ctab-mobilelp-padding fullscreen-bg escalator-video">
       <video loop muted autoplay poster="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/iqmetrix/video-poster.jpg" class="fullscreen-bg__video">
@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center col-md-offset-3">
-              
+
                 <h3 style="color:white;font-family: proxima_novalight;font-size: 29px;margin-bottom: 0;">The holidays are here.</h3>
                 <h1 style="color:white;font-weight:900;margin-top: 0;">Are you ready?</h1>
                 <p class="lead">Cut out the chaos and take on this season with confidence using data insights and video intelligence.</p>
@@ -32,7 +32,7 @@
                 <br>
                 <br>
                 <a href="#feelyourpain" class="smooth_scroll" style="font-size:60px"><i class="fa fa-inverse fa-angle-down"></i><span id="feelyourpain"></span></a>
-                
+
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
             <h2 class="text-center pn_light bluetext larger">We feel your pain.</h2>
             <p class="text-center padded">Between cranking out promotions, getting temp staff up and running, and preparing for the inevitable onslaught of foot traffic, the holidays can feel heinous. We understand how important it is to make the most of the holidays, which is why Envysion &amp; iQmetrix are teaming up to provide helpful resources so you can <span class="orangetext">#SurviveTheSeason</span> like a pro.</p>
             <div class="text-center">
-              <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/iqmetrix/iqmetrix-plus-envysion-white.png" style="margin:10px 0;"> 
+              <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/iqmetrix/iqmetrix-plus-envysion-white.png" style="margin:10px 0;">
             </div>
           </div>
         </div>
@@ -81,6 +81,7 @@
       -->
     </div>
   </div>
+  <!--
   <div class="gray_wrap more_padding webinar_cta_wrap">
     <div class="container">
       <div class="row">
@@ -102,11 +103,12 @@
             <li>Improve policy and procedure compliance</li>
           </ul>
         </div>
-      </div> 
+      </div>
     </div>
-  </div> 
+  </div>
+  -->
   <div class="wrap more_padding">
-    <div class="container">      
+    <div class="container">
       <div class="col-sm-10 col-centered feature-grid">
         <div class="row">
           <div class="col-sm-12">
@@ -209,7 +211,7 @@
     </a>
     -->
   </div>
-   
+
   <div class="modal fade modal_white_form" id="learn_more_modal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -231,8 +233,8 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-  
-  
+
+
 
 
   <?php get_template_part('templates/footer'); ?>
