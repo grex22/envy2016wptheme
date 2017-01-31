@@ -3754,28 +3754,38 @@ ul.footer_nav li a:hover {
 
 /*Overrides*/
 /* line 3130, ../sass/app.scss */
+.ecs-event-list {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 3133, ../sass/app.scss */
+.ecs-event-list li h4 {
+  margin: 10px 0 2px;
+}
+
+/* line 3136, ../sass/app.scss */
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
-/* line 3135, ../sass/app.scss */
+/* line 3141, ../sass/app.scss */
 .yarpp-thumbnail {
   border: none !important;
   margin: 5px 15px 5px 5px !important;
 }
 
-/* line 3139, ../sass/app.scss */
+/* line 3145, ../sass/app.scss */
 .yarpp-related {
   margin-top: 45px;
 }
 
-/* line 3140, ../sass/app.scss */
+/* line 3146, ../sass/app.scss */
 .yarpp-thumbnail-title {
   max-height: 4em !important;
 }
 
-/* line 3143, ../sass/app.scss */
+/* line 3149, ../sass/app.scss */
 .yarpp-thumbnails-horizontal {
   margin-bottom: 30px !important;
 }
@@ -3785,107 +3795,107 @@ ul.footer_nav li a:hover {
    ========================================================================== */
 /* Larger gutter Utility Classes */
 /*.row.gutter-90 {margin-left:-45px;margin-right:-45px}*/
-/* line 3153, ../sass/app.scss */
+/* line 3159, ../sass/app.scss */
 .row.gutter-90 > [class*="col-"] {
   padding-left: 45px;
   padding-right: 45px;
 }
 @media (max-width: 991px) {
-  /* line 3153, ../sass/app.scss */
+  /* line 3159, ../sass/app.scss */
   .row.gutter-90 > [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 3160, ../sass/app.scss */
+/* line 3166, ../sass/app.scss */
 .transparent {
   opacity: 0;
 }
 
-/* line 3164, ../sass/app.scss */
+/* line 3170, ../sass/app.scss */
 .no_bottom_margin {
   margin-bottom: 0px !important;
 }
 
-/* line 3165, ../sass/app.scss */
+/* line 3171, ../sass/app.scss */
 .no_top_margin {
   margin-top: 0px !important;
 }
 
-/* line 3166, ../sass/app.scss */
+/* line 3172, ../sass/app.scss */
 .more_bottom_margin {
   margin-bottom: 20px;
 }
 
-/* line 3167, ../sass/app.scss */
+/* line 3173, ../sass/app.scss */
 .more_top_margin {
   margin-top: 20px;
 }
 
-/* line 3168, ../sass/app.scss */
+/* line 3174, ../sass/app.scss */
 .even_more_bottom_margin {
   margin-bottom: 40px !important;
 }
 
-/* line 3169, ../sass/app.scss */
+/* line 3175, ../sass/app.scss */
 .no_right_padding {
   padding-right: 0;
 }
 
-/* line 3170, ../sass/app.scss */
+/* line 3176, ../sass/app.scss */
 .no_left_padding {
   padding-left: 0;
 }
 
-/* line 3171, ../sass/app.scss */
+/* line 3177, ../sass/app.scss */
 .padded {
   padding: 20px;
 }
 
-/* line 3172, ../sass/app.scss */
+/* line 3178, ../sass/app.scss */
 .inline {
   display: inline;
 }
 
-/* line 3173, ../sass/app.scss */
+/* line 3179, ../sass/app.scss */
 .block {
   display: block;
 }
 
-/* line 3174, ../sass/app.scss */
+/* line 3180, ../sass/app.scss */
 .relative {
   position: relative;
 }
 
 @media (max-width: 768px) {
-  /* line 3175, ../sass/app.scss */
+  /* line 3181, ../sass/app.scss */
   .hide-on-xs {
     display: none;
   }
 }
 
-/* line 3180, ../sass/app.scss */
+/* line 3186, ../sass/app.scss */
 .bluetext {
   color: #278dc1 !important;
 }
 
-/* line 3181, ../sass/app.scss */
+/* line 3187, ../sass/app.scss */
 .white {
   color: white !important;
 }
 
-/* line 3182, ../sass/app.scss */
+/* line 3188, ../sass/app.scss */
 .orangetext {
   color: #f98e2b !important;
 }
 
-/* line 3183, ../sass/app.scss */
+/* line 3189, ../sass/app.scss */
 .pn_light {
   font-family: "proxima_novalight" !important;
 }
 
-/* line 3184, ../sass/app.scss */
+/* line 3190, ../sass/app.scss */
 .pn_reg_bold {
   font-family: "proxima_nova_rgbold" !important;
 }
@@ -3894,33 +3904,33 @@ ul.footer_nav li a:hover {
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
-/* line 3191, ../sass/app.scss */
+/* line 3197, ../sass/app.scss */
 .aligncenter {
   display: block;
   margin: 0 auto;
 }
 
-/* line 3192, ../sass/app.scss */
+/* line 3198, ../sass/app.scss */
 .alignleft {
   float: left;
 }
 
-/* line 3193, ../sass/app.scss */
+/* line 3199, ../sass/app.scss */
 .alignright {
   float: right;
 }
 
-/* line 3194, ../sass/app.scss */
+/* line 3200, ../sass/app.scss */
 figure.alignnone {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 3197, ../sass/app.scss */
+/* line 3203, ../sass/app.scss */
 .main img.alignleft {
   margin: 0 30px 20px 0;
 }
-/* line 3198, ../sass/app.scss */
+/* line 3204, ../sass/app.scss */
 .main img.alignright {
   margin: 0 0px 20px 30px;
 }
@@ -3928,126 +3938,126 @@ figure.alignnone {
 /* ==========================================================================
    Responsive Text Alignment
    ========================================================================== */
-/* line 3206, ../sass/app.scss */
+/* line 3212, ../sass/app.scss */
 .text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
   text-align: left;
 }
 
-/* line 3209, ../sass/app.scss */
+/* line 3215, ../sass/app.scss */
 .text-center-not-xs, .text-center-not-sm, .text-center-not-md, .text-center-not-lg {
   text-align: center;
 }
 
-/* line 3212, ../sass/app.scss */
+/* line 3218, ../sass/app.scss */
 .text-right-not-xs, .text-right-not-sm, .text-right-not-md, .text-right-not-lg {
   text-align: right;
 }
 
-/* line 3215, ../sass/app.scss */
+/* line 3221, ../sass/app.scss */
 .text-justify-not-xs, .text-justify-not-sm, .text-justify-not-md, .text-justify-not-lg {
   text-align: justify;
 }
 
 @media (max-width: 766px) {
-  /* line 3221, ../sass/app.scss */
+  /* line 3227, ../sass/app.scss */
   .text-left-not-xs, .text-center-not-xs, .text-right-not-xs, .text-justify-not-xs {
     text-align: inherit;
   }
 
-  /* line 3224, ../sass/app.scss */
+  /* line 3230, ../sass/app.scss */
   .text-left-xs {
     text-align: left;
   }
 
-  /* line 3227, ../sass/app.scss */
+  /* line 3233, ../sass/app.scss */
   .text-center-xs {
     text-align: center;
   }
 
-  /* line 3230, ../sass/app.scss */
+  /* line 3236, ../sass/app.scss */
   .text-right-xs {
     text-align: right;
   }
 
-  /* line 3233, ../sass/app.scss */
+  /* line 3239, ../sass/app.scss */
   .text-justify-xs {
     text-align: justify;
   }
 }
 @media (min-width: 767px) and (max-width: 991px) {
-  /* line 3238, ../sass/app.scss */
+  /* line 3244, ../sass/app.scss */
   .text-left-not-sm, .text-center-not-sm, .text-right-not-sm, .text-justify-not-sm {
     text-align: inherit;
   }
 
-  /* line 3241, ../sass/app.scss */
+  /* line 3247, ../sass/app.scss */
   .text-left-sm {
     text-align: left;
   }
 
-  /* line 3244, ../sass/app.scss */
+  /* line 3250, ../sass/app.scss */
   .text-center-sm {
     text-align: center;
   }
 
-  /* line 3247, ../sass/app.scss */
+  /* line 3253, ../sass/app.scss */
   .text-right-sm {
     text-align: right;
   }
 
-  /* line 3250, ../sass/app.scss */
+  /* line 3256, ../sass/app.scss */
   .text-justify-sm {
     text-align: justify;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 3255, ../sass/app.scss */
+  /* line 3261, ../sass/app.scss */
   .text-left-not-md, .text-center-not-md, .text-right-not-md, .text-justify-not-md {
     text-align: inherit;
   }
 
-  /* line 3258, ../sass/app.scss */
+  /* line 3264, ../sass/app.scss */
   .text-left-md {
     text-align: left;
   }
 
-  /* line 3261, ../sass/app.scss */
+  /* line 3267, ../sass/app.scss */
   .text-center-md {
     text-align: center;
   }
 
-  /* line 3264, ../sass/app.scss */
+  /* line 3270, ../sass/app.scss */
   .text-right-md {
     text-align: right;
   }
 
-  /* line 3267, ../sass/app.scss */
+  /* line 3273, ../sass/app.scss */
   .text-justify-md {
     text-align: justify;
   }
 }
 @media (min-width: 1200px) {
-  /* line 3272, ../sass/app.scss */
+  /* line 3278, ../sass/app.scss */
   .text-left-not-lg, .text-center-not-lg, .text-right-not-lg, .text-justify-not-lg {
     text-align: inherit;
   }
 
-  /* line 3275, ../sass/app.scss */
+  /* line 3281, ../sass/app.scss */
   .text-left-lg {
     text-align: left;
   }
 
-  /* line 3278, ../sass/app.scss */
+  /* line 3284, ../sass/app.scss */
   .text-center-lg {
     text-align: center;
   }
 
-  /* line 3281, ../sass/app.scss */
+  /* line 3287, ../sass/app.scss */
   .text-right-lg {
     text-align: right;
   }
 
-  /* line 3284, ../sass/app.scss */
+  /* line 3290, ../sass/app.scss */
   .text-justify-lg {
     text-align: justify;
   }
@@ -4055,7 +4065,7 @@ figure.alignnone {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-/* line 3292, ../sass/app.scss */
+/* line 3298, ../sass/app.scss */
 #more-overlay-link, #client-login-mobile {
   display: none;
 }
@@ -4067,29 +4077,29 @@ figure.alignnone {
       text-align:center;
     }
   }*/
-  /* line 3302, ../sass/app.scss */
+  /* line 3308, ../sass/app.scss */
   #more-overlay-link {
     display: block;
   }
 
-  /* line 3303, ../sass/app.scss */
+  /* line 3309, ../sass/app.scss */
   #client-login-mobile {
     display: block;
   }
 
-  /* line 3304, ../sass/app.scss */
+  /* line 3310, ../sass/app.scss */
   .more_link_li {
     display: none !important;
   }
 }
 @media (max-width: 1200px) {
-  /* line 3312, ../sass/app.scss */
+  /* line 3318, ../sass/app.scss */
   .diagram_halves.arrow {
     display: none !important;
   }
 }
 /* Hubspot Form Styles */
-/* line 3319, ../sass/app.scss */
+/* line 3325, ../sass/app.scss */
 .hbspt-form .submitted-message {
   margin: 30px 0 40px;
   padding: 20px;
@@ -4098,12 +4108,12 @@ figure.alignnone {
   font-size: 16px;
 }
 
-/* line 3327, ../sass/app.scss */
+/* line 3333, ../sass/app.scss */
 body.page-template-template-nextwave-landing #hubspot_form_footer {
   display: none !important;
 }
 
-/* line 3329, ../sass/app.scss */
+/* line 3335, ../sass/app.scss */
 .hs-button, #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   background: #f98e2b !important;
@@ -4118,16 +4128,16 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   border-radius: 6px !important;
 }
 
-/* line 3342, ../sass/app.scss */
+/* line 3348, ../sass/app.scss */
 .hs-form {
   text-align: left;
 }
-/* line 3343, ../sass/app.scss */
+/* line 3349, ../sass/app.scss */
 .hs-form .actions {
   text-align: center;
   margin-left: 0 !important;
 }
-/* line 3345, ../sass/app.scss */
+/* line 3351, ../sass/app.scss */
 .hs-form .hs-input {
   max-width: 100% !important;
   width: 100% !important;
@@ -4143,7 +4153,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3360, ../sass/app.scss */
+/* line 3366, ../sass/app.scss */
 .hs-form label {
   color: white !important;
   font-family: proxima_nova_rgregular !important;
@@ -4151,17 +4161,17 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3367, ../sass/app.scss */
+/* line 3373, ../sass/app.scss */
 .hs-form .hs-error-msgs label {
   color: pink !important;
   text-align: center !important;
 }
-/* line 3372, ../sass/app.scss */
+/* line 3378, ../sass/app.scss */
 .hs-form .hs-form-required {
   display: none;
 }
 
-/* line 3377, ../sass/app.scss */
+/* line 3383, ../sass/app.scss */
 #androidModal .hs-form label,
 .modal_white_form form label {
   color: #333 !important;
@@ -4170,7 +4180,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3384, ../sass/app.scss */
+/* line 3390, ../sass/app.scss */
 #androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form textarea,
 .modal_white_form form input[type=text],
 .modal_white_form form input[type=email],
@@ -4189,14 +4199,14 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3400, ../sass/app.scss */
+/* line 3406, ../sass/app.scss */
 #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   color: white;
   margin: 0 auto;
 }
 
-/* line 3409, ../sass/app.scss */
+/* line 3415, ../sass/app.scss */
 .videowrapper {
   float: none;
   clear: both;
@@ -4207,7 +4217,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 0;
 }
 
-/* line 3418, ../sass/app.scss */
+/* line 3424, ../sass/app.scss */
 .videowrapper iframe {
   position: absolute;
   top: 0;

@@ -251,6 +251,23 @@
     </div>
     <div class="row text-center"><a href="http://envysion.com/case-studies/" class="cta-btn cta-btn-lg orange">View More</a></div>
   </div>
+	
+	<div class="gray_wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center-xs">
+					<h2 class="bold-n-big">WHERE WE'LL BE</h2>
+					<p class="lead">Envysion attends a variety of tradeshows and association events throughout the year. Find out where we'll be next!</p>
+					<a href="<?php echo site_url(); ?>/events/" class="cta-btn cta-btn-lg orange">Full Calendar</a>
+				</div>
+				<div class="col-sm-6 text-center-xs">
+					<h4 class="bold-n-big">Upcoming Events</h4>
+					<hr>
+					<?php echo do_shortcode('[ecs-list-events]'); ?>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -355,6 +372,8 @@
       </div>
     </div>
   </div>
+	
+	
 
   <?php get_template_part('templates/footer'); ?>
   
