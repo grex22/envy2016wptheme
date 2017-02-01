@@ -258,7 +258,7 @@
 				<div class="col-sm-6 col-md-5 col-md-offset-1 text-center-xs">
 					<h2 class="bold-n-big">WHERE WE'LL BE</h2>
 					<p class="lead">Envysion attends a variety of tradeshows and association events throughout the year. Find out where we'll be next!</p>
-					<a href="<?php echo site_url(); ?>/events/" class="cta-btn cta-btn-lg orange">Full Calendar</a>
+					<a href="<?php echo site_url(); ?>/events/" class="cta-btn cta-btn-md">Full Calendar</a>
 				</div>
 				<div class="col-sm-6 text-center-xs">
 					<h3 class="bold-n-big" style="margin-bottom:20px;">Upcoming Events</h3>
