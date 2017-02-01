@@ -255,15 +255,14 @@
 	<div class="gray_wrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 text-center-xs">
+				<div class="col-sm-6 col-md-5 col-md-offset-1 text-center-xs">
 					<h2 class="bold-n-big">WHERE WE'LL BE</h2>
 					<p class="lead">Envysion attends a variety of tradeshows and association events throughout the year. Find out where we'll be next!</p>
 					<a href="<?php echo site_url(); ?>/events/" class="cta-btn cta-btn-lg orange">Full Calendar</a>
 				</div>
 				<div class="col-sm-6 text-center-xs">
-					<h4 class="bold-n-big">Upcoming Events</h4>
-					<hr>
-					<?php echo do_shortcode('[ecs-list-events]'); ?>
+					<h3 class="bold-n-big" style="margin-bottom:20px;">Upcoming Events</h3>
+					<?php echo do_shortcode('[ecs-list-events limit="4"]'); ?>
 				</div>
 			</div>
 		</div>
