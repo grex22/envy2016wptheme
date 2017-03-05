@@ -86,7 +86,7 @@ $secondaryfont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
    ========================================================================== */
 
 .tribe-events-list .tribe-events-event-image{max-width:30%;}
-	 
+
 h1,h2,h3,h4,h5,h6{
   font-family:$mainfont;
   font-weight:200;
@@ -731,7 +731,7 @@ h2.bold-n-big{
 
 .material-icons.big-orange-icon-circle,
 .fa.big-orange-icon-circle{
-  border: 1px solid #ddd;  
+  border: 1px solid #ddd;
   border-radius: 50%;
   height: 160px;
   width: 160px;
@@ -750,14 +750,14 @@ h2.bold-n-big{
   background-size:cover;
   color:white;
   padding:60px 0;
-  
+
   .webinar_attract{
     background:#fff;
     border-top:6px solid #f98e2b;
     border-bottom:6px solid #aa671d;
     padding:20px 80px;
     text-align:center;
-    
+
     h3{
       font-family:$pn_reg_bold;
       color:#b9b9b9;
@@ -769,7 +769,7 @@ h2.bold-n-big{
       margin:20px 0 25px;
     }
     h4{margin-bottom:30px;color:#aaa}
-    
+
     .giant_button{
       display:block;
       background:#f98e2b;
@@ -781,7 +781,7 @@ h2.bold-n-big{
       margin:15px -80px -20px;
     }
   }
-  
+
   .webinar_summary{
     padding-top:20px;
     font-size:21px;
@@ -792,7 +792,7 @@ h2.bold-n-big{
     }
     li{font-family:$pn_light;margin-bottom:10px;}
   }
-  
+
 }
 
 .resource_widget{
@@ -2416,6 +2416,15 @@ img.polaroid{
   font-size: 17px;
 }
 
+.cta-btn.cta-btn-md{
+  text-transform: none;
+  padding: 17px 23px;
+  border-radius: 2px;
+  font-size: 18px;
+  letter-spacing: 0;
+  font-family:$pn_light!important;
+}
+
 /* Case Studies Template */
 body.page-template-template-case-studies-php{
 
@@ -3124,6 +3133,51 @@ ul.footer_nav{
 
   @include image-2x("../img/envysion-brand-white@2x.png", 132px, 32px);
 }
+
+/* ==========================================================================
+Panera Page
+========================================================================== */
+.panera_title{
+  line-height: 58px;
+  font-size: 61px;
+  margin-top:0;
+}
+.triangle-bg-mobile-version{overflow:hidden;}
+.triangle-bg{position:relative;}
+.triangle-bg:before{
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 2000px;
+  height: 2000px;
+  background-color: rgba(39, 141, 193, 0.90);
+  transform: rotate(45deg);
+  transform-origin: top right;
+  top: 50%;
+  right: 50%;
+}
+
+@media(max-width:991px){
+  .triangle-bg-mobile-version{
+    // background-color: rgba(39, 141, 193, 0.70);
+    background-color: rgba(29, 48, 80, 0.52);
+  }
+  .triangle-bg:before{
+    display:none;
+  }
+}
+@media(max-width:767px){
+  .panera_title{line-height:45px;}
+}
+
+img.panera_hardware{
+  max-width: 85%;
+  width: 765px;
+  margin-top: -170px;
+  margin-bottom:30px;
+}
+.panera_features_columns > div{margin-bottom:40px;}
+.panera_features_columns img{height:100px;margin-bottom:20px;}
 
 /*Overrides*/
 
