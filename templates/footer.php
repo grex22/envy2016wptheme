@@ -13,7 +13,11 @@
 
 <div id="hubspot_form_footer" class="call-to-action-box" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/home-bokeh.jpg')">
   <div class="container">
-    <h2 class="text-center">Could video be doing more for you?</h2>
+		<?php if(is_page_template('template-sme-landing.php')): ?>
+			<h2 class="text-center">Advance the Industry by Joining our Team</h2>
+		<?php else: ?>
+			<h2 class="text-center">Could video be doing more for you?</h2>
+		<?php endif; ?>
     <div class="row">
       <div class="col-sm-offset-3 col-sm-6">
         <!--[if lte IE 8]>

@@ -68,7 +68,9 @@
 							</div>
 						</div>
 					</div>
+					<hr style="border-top:#ddd dotted 1px">
 				</div>
+				
 			</div>
 			<div class="row more_bottom_margin">
 				<div class="col-sm-8 col-centered text-center">
@@ -109,8 +111,8 @@
 							One of the biggest advantages to working with Envysion is knowing that more great products and services are always in the pipeline. It’s so exciting to see a company constantly going to the drawing board trying to get better instead of sitting back and enjoying their previous successes."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/kfc.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/KFC_logo.svg" height="80">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
@@ -130,8 +132,8 @@
 							From maximizing sales to minimizing loss, we have placed our faith in Envysion to be our trusted advisor for many years and the Envysion team is a critical partner of our organization."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/sprint-preferred.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/Sprint_Nextel_logo.svg.png" height="80">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
@@ -152,8 +154,8 @@
 							Envysion has been the ideal partner for a growing company like ours. We can rely on high-quality continuing training and support around each of the tools we use, so everyone on our team is more comfortable and proficient with the system. It’s translated into greater adoption and a stronger return on our investment."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/kfc.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/KFC_logo.svg" height="80">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
@@ -174,8 +176,8 @@
 							As long as you have a mobile connection, check out your stores anytime anywhere. Also the audio feed is amazing. Not only can we see our employees and what they are doing, but we can hear them and really get a good understanding of what’s important to them and how we can actually improve our business in every single way."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/att-portables.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/att-authorizedretailer.png" height="62">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
@@ -196,7 +198,7 @@
 							We use Envysion to do throughput audits&mdash;operational things like being ready for the shift, all hands on deck, all the food prepared. If Envysion shows us that those elements are in place, we know we're going to bring more customers through the doors, which results in higher sales."
 							</h2>
 							<div class="row">
-								<div class="col-sm-4 col-sm-offset-2 text-right">
+								<div class="col-sm-5 text-right">
 									<img style="margin:7px 17px 0 0" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/chipotle.png">
 								</div>
 								<div class="col-sm-6 text-left">
@@ -218,8 +220,8 @@
 							Envysion has proven concrete ROI through their creative approach to solving problems most companies assume as sunken costs of conducting business. They’re the ideal partner to help us continue streamlining our current operations and maximizing profitability to accomplish our longer term goals."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/elpolloloco.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/Elpolloloco-logo.png" height="80">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
@@ -240,8 +242,8 @@
 							We have found Envysion to be a powerful asset to increase our sales by improving our team and discovering missed sales opportunities. While Envysion has been a great security resource, helping avoid break-ins, employee theft and greatly reducing fraudulent transactions, it has worked out to be much, much more than that."
 							</h2>
 							<div class="row">
-								<div class="col-sm-3 col-sm-offset-2 text-right">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/sprint-preferred.png">
+								<div class="col-sm-5 text-right">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/Sprint_Nextel_logo.svg.png" height="80">
 								</div>
 								<div class="col-sm-6 text-left">
 									<p class="attrib">
