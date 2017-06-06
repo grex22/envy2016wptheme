@@ -624,6 +624,23 @@ h2.bold-n-big{
   font-size:28px;
   letter-spacing: .1em;
 }
+h2.headline-with-pinstripe{
+	position:relative;
+	&:before{
+    content: "";
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    display: block;
+    top: 46%;
+    position: absolute;
+		z-index: -1;
+	}
+	span{
+		background:#fff;
+		padding:0 20px;
+	}
+}
 .report-button-wrap{
   background:white;
   border:none;
@@ -1114,6 +1131,13 @@ h2.bold-n-big{
 .carousel.quote-carousel{
   background:$blue;
   color:white;
+	&.light-scheme{
+		background:#e6e6e6;
+		color:#333;
+		h2{
+			color:#333;
+		}
+	}
   .item{padding:65px 0 70px;height:auto!important;}
   .item.weird_height{height:auto!important;min-height:340px!important;padding:75px 0 90px;}
 
@@ -1473,6 +1497,10 @@ h2.bold-n-big{
     padding-bottom:0px;
     padding-top:80px;
   }
+	
+	&.ctab-sme-hero{
+		padding:70px 0;
+	}
 
   h1{
     color:lighten($blue,11);
@@ -3238,6 +3266,7 @@ img.panera_hardware{
   }
 }
 .bluetext{color:$blue!important;}
+.bluetext_brighter{color:#65c8fb!important;}
 .white{color:white!important}
 .orangetext{color:$orange!important}
 .pn_light{font-family:$pn_light!important;}
@@ -3483,6 +3512,10 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
     height: 100%;
 }
 
+.ctab-sme-hero{
+	h1{font-size:51px;}
+}
+
 
 
 /* Fonts */
@@ -3517,6 +3550,8 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
     font-style: normal;
 
 }
+
+.pn_reg_bold_italic{font-family:$pn_reg_bold_italic}
 
 
 
