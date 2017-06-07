@@ -4228,11 +4228,18 @@ figure.alignnone {
 }
 
 /* line 3416, ../sass/app.scss */
+.modal_white_form .hbspt-form .submitted-message {
+  background-color: transparent;
+  padding: 0;
+  font-size: 17px;
+}
+
+/* line 3422, ../sass/app.scss */
 body.page-template-template-nextwave-landing #hubspot_form_footer {
   display: none !important;
 }
 
-/* line 3418, ../sass/app.scss */
+/* line 3424, ../sass/app.scss */
 .hs-button, #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   background: #f98e2b !important;
@@ -4247,16 +4254,16 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   border-radius: 6px !important;
 }
 
-/* line 3431, ../sass/app.scss */
+/* line 3437, ../sass/app.scss */
 .hs-form {
   text-align: left;
 }
-/* line 3432, ../sass/app.scss */
+/* line 3438, ../sass/app.scss */
 .hs-form .actions {
   text-align: center;
   margin-left: 0 !important;
 }
-/* line 3434, ../sass/app.scss */
+/* line 3440, ../sass/app.scss */
 .hs-form .hs-input {
   max-width: 100% !important;
   width: 100% !important;
@@ -4272,7 +4279,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3449, ../sass/app.scss */
+/* line 3455, ../sass/app.scss */
 .hs-form label {
   color: white !important;
   font-family: proxima_nova_rgregular !important;
@@ -4280,17 +4287,17 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3456, ../sass/app.scss */
+/* line 3462, ../sass/app.scss */
 .hs-form .hs-error-msgs label {
   color: pink !important;
   text-align: center !important;
 }
-/* line 3461, ../sass/app.scss */
+/* line 3467, ../sass/app.scss */
 .hs-form .hs-form-required {
   display: none;
 }
 
-/* line 3466, ../sass/app.scss */
+/* line 3472, ../sass/app.scss */
 #androidModal .hs-form label,
 .modal_white_form form label {
   color: #333 !important;
@@ -4299,7 +4306,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3473, ../sass/app.scss */
+/* line 3479, ../sass/app.scss */
 #androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form input[type=tel], #androidModal .hs-form textarea,
 .modal_white_form form input[type=text],
 .modal_white_form form input[type=email],
@@ -4319,14 +4326,14 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3489, ../sass/app.scss */
+/* line 3495, ../sass/app.scss */
 #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   color: white;
   margin: 0 auto;
 }
 
-/* line 3498, ../sass/app.scss */
+/* line 3504, ../sass/app.scss */
 .videowrapper {
   float: none;
   clear: both;
@@ -4337,7 +4344,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 0;
 }
 
-/* line 3507, ../sass/app.scss */
+/* line 3513, ../sass/app.scss */
 .videowrapper iframe {
   position: absolute;
   top: 0;
@@ -4346,7 +4353,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 100%;
 }
 
-/* line 3516, ../sass/app.scss */
+/* line 3522, ../sass/app.scss */
 .ctab-sme-hero h1 {
   font-size: 51px;
 }
@@ -4367,7 +4374,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3554, ../sass/app.scss */
+/* line 3560, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }

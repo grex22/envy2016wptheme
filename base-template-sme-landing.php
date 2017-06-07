@@ -304,6 +304,7 @@
 						});
 					</script>
 
+					
           <?php
             if(function_exists('gravity_form')):
               //gravity_form( 1, false, false, false, null, true, 150 ); //(for development instance on localhost)
