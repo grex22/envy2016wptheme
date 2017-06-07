@@ -4300,9 +4300,10 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin: 6px 0 !important;
 }
 /* line 3473, ../sass/app.scss */
-#androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form textarea,
+#androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form input[type=tel], #androidModal .hs-form textarea,
 .modal_white_form form input[type=text],
 .modal_white_form form input[type=email],
+.modal_white_form form input[type=tel],
 .modal_white_form form textarea {
   text-align: left;
   border: 1px solid #888 !important;
