@@ -4297,7 +4297,13 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   display: none;
 }
 
-/* line 3472, ../sass/app.scss */
+/* line 3469, ../sass/app.scss */
+.modal_white_form .hs-error-msgs label {
+  color: maroon !important;
+  text-align: center !important;
+}
+
+/* line 3476, ../sass/app.scss */
 #androidModal .hs-form label,
 .modal_white_form form label {
   color: #333 !important;
@@ -4306,7 +4312,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   line-height: 18px !important;
   margin: 6px 0 !important;
 }
-/* line 3479, ../sass/app.scss */
+/* line 3483, ../sass/app.scss */
 #androidModal .hs-form input[type=text], #androidModal .hs-form input[type=email], #androidModal .hs-form input[type=tel], #androidModal .hs-form textarea,
 .modal_white_form form input[type=text],
 .modal_white_form form input[type=email],
@@ -4326,14 +4332,14 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 55px !important;
   line-height: 23px;
 }
-/* line 3495, ../sass/app.scss */
+/* line 3499, ../sass/app.scss */
 #androidModal .hs-form input[type=submit],
 .modal_white_form form input[type=submit] {
   color: white;
   margin: 0 auto;
 }
 
-/* line 3504, ../sass/app.scss */
+/* line 3508, ../sass/app.scss */
 .videowrapper {
   float: none;
   clear: both;
@@ -4344,7 +4350,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 0;
 }
 
-/* line 3513, ../sass/app.scss */
+/* line 3517, ../sass/app.scss */
 .videowrapper iframe {
   position: absolute;
   top: 0;
@@ -4353,7 +4359,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   height: 100%;
 }
 
-/* line 3522, ../sass/app.scss */
+/* line 3526, ../sass/app.scss */
 .ctab-sme-hero h1 {
   font-size: 51px;
 }
@@ -4374,7 +4380,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3560, ../sass/app.scss */
+/* line 3564, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }

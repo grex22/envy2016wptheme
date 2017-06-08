@@ -25,10 +25,18 @@
         <![endif]-->
         <script charset="utf-8" type="text/javascript" src="http://js.hsforms.net/forms/v2.js"></script>
         <script>
+					<?php if(is_page_template('template-sme-landing.php')): ?>
+					hbspt.forms.create({ 
+						sfdcCampaignId: '701f3000001Ltm1AAC',
+						portalId: '444576',
+						formId: 'a6bc0f6f-d016-4b88-b874-b223122c549e'
+					});
+					<?php else: ?>
           hbspt.forms.create({
             portalId: '444576',
             formId: '5f706d0d-448a-44fe-b1c3-3a4c2d59c2a0'
           });
+					<?php endif; ?>
         </script>
         <h4 class="text-center no_top_margin white">or call 877.258.9441</h4>
       </div>
