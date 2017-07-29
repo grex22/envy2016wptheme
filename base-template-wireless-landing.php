@@ -79,7 +79,7 @@
           <div class="col-sm-4 text-center">
             <img width="150" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wlp-shield.svg" alt="Envysion Reduces Theft">
             <h3 class="more_bottom_margin">Reduce Theft</h3>
-            <p>Receive alerts of possible employee theft (including commission fraud) and external theft. Quickly take action with the video, audio, and receipt details at your fintertips.</p>
+            <p>Receive alerts of possible employee theft (including commission fraud) and external theft. Quickly take action with the video, audio, and receipt details at your fingertips.</p>
             <hr>
           </div>
           <div class="col-sm-4 text-center">
@@ -117,7 +117,7 @@
                 Daniel Martinez, District Manager, N Touch Wireless
               </div>
             </div>
-            <div class="testimonial">
+            <!--<div class="testimonial">
               <p>We find the feedback and reporting to be invaluable tools for molding our employee's behaviors. We use the system for sales observations, rather than standing next to our people and watching them, thus getting a more realistic picture of their processes. We have found Envysion to be a powerful asset to increase our sales by improving our team and discovering missed sales opportunities. While Envysion has been a great security resource, helping avoid break-ins, employee theft and greatly reducing fraudulent transactions, it has worked out to be much, much more than that.</p>
               <div class="testimonial_attrib">
                 Mark Long, Vice President, CCT Wireless<br>
@@ -125,6 +125,7 @@
 
               </div>
             </div>
+						-->
           </div>
           <div class="col-sm-6">
             <div class="testimonial">
@@ -139,19 +140,21 @@
                 Kerri Mumford-Asheboro, Store Manager<br>N Touch Wireless
               </div>
             </div>
+						<!--
             <div class="testimonial">
               <p>Envysion is a great resource we use for coaching and training. For my District Managers Envysion saves them time and money.  Instead of driving from store to store they have the ability to check in regularly with their stores and inspect whether we are exhibiting good behaviors. Envysion has helped us increase sales by inspecting sales to see if we are maximizing and again helping us inspect if our reps are customer focused. Additionally we are able to help prevent fraud.  We look forward to continue using Envysion and learn a new practices on how to use Envysion to help us improve every day.  </p>
               <div class="testimonial_attrib">
                 Elthon Munoz, AT&amp;T Portables
               </div>
             </div>
+						-->
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="wrap more_padding dark_blue_wrap">
+  <div class="wrap more_padding dark_blue_wrap hidden">
     <div class="container">
       <div class="col-sm-9 col-centered feature-grid">
         <div class="row">
@@ -165,7 +168,7 @@
     </div>
   </div>
 
-  <div class="wrap more_padding">
+  <div class="wrap more_padding gray_wrap">
     <div class="container">
       <div class="row">
         <div class="col-sm-10 col-centered feature-grid">
@@ -177,6 +180,10 @@
           </div>
         </div>
       </div>
+		</div>
+	</div>
+	<div class="wrap more_padding">
+    <div class="container">
       <div class="row">
         <div class="col-sm-10 col-centered text-center">
           <h2 class="bold-n-big no_top_margin">HOW OUR SYSTEM WORKS:</h2>
@@ -216,13 +223,27 @@
       </div>
     </div>
   </div>
+	
+	<div class="wrap gray_wrap more_padding">
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="pn_bold orangetext">Ready to get started?</h2>
+					<p class="lead">Learn how video can help you can boost sales, reduce theft, and streamline operations.</p>
+					<button type="button" class="cta-btn cta-btn-lg orange more_bottom_margin" data-toggle="modal" data-target="#learn_more_modal">Learn More&hellip;</button>
+				</div>
+			</div>
+		</div>
+	
+	</div>
 
   <div class="modal fade modal_white_form" id="learn_more_modal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Complete the form below to learn how video can you can boost sales, reduce theft, and streamline operations.</h4>
+          <h4 class="modal-title">Complete the form below to learn how video can help you can boost sales, reduce theft, and streamline operations.</h4>
         </div>
         <div class="modal-body">
           <?php
