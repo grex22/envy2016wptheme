@@ -15,7 +15,7 @@
   ?>
 
   <div id="main_wrap">
-    <div class="call-to-action-box ctab-mobilelp-padding fullscreen-bg escalator-video">
+    <div class="call-to-action-box ctab-mobilelp-padding fullscreen-bg wireless-video">
       <video loop muted autoplay poster="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/retail-vid.jpg" class="fullscreen-bg__video">
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/retail-vid.webm" type="video/webm">
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/retail-vid.mp4" type="video/mp4">
@@ -37,34 +37,6 @@
     </div>
   </div>
 
-  <!--
-  <div class="gray_wrap more_padding webinar_cta_wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-md-offset-1">
-          <div class="webinar_attract">
-            <h3>FREE LIVE WEBINAR</h3>
-            <h2 class="bluetext pn_light"><a href="https://attendee.gototraining.com/r/8153718025708558338">Using Video Intelligence to Boost Sales and Ensure an Awesome Customer Experience this Holiday Season</a></h2>
-            <h4>with Qwynn McDowell</h4>
-            <a href="https://attendee.gototraining.com/r/8153718025708558338" class="giant_button">REGISTER</a>
-          </div>
-        </div>
-        <div class="col-md-3 webinar_summary">
-          <strong>Learn how you can:</strong>
-          <ul>
-            <li>Offer an excellent customer experience</li>
-            <li>Prevent theft and fraud interally</li>
-            <li>Stop order-taking and maximize opportunities</li>
-            <li>Improve coaching and accountability</li>
-            <li>Improve policy and procedure compliance</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
-
-
 
   <div class="wrap more_padding">
     <div class="container">
@@ -74,85 +46,96 @@
             <img width="150" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wlp-chart.svg" alt="Envysion Boost Sales">
             <h3 class="more_bottom_margin">Boost Sales</h3>
             <p>See the metrics you need to optimize your sales process, capture missed opportunities, improve sales training, recognize top performers, and improve the customer experience. </p>
-            <hr>
           </div>
           <div class="col-sm-4 text-center">
             <img width="150" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wlp-shield.svg" alt="Envysion Reduces Theft">
             <h3 class="more_bottom_margin">Reduce Theft</h3>
             <p>Receive alerts of possible employee theft (including commission fraud) and external theft. Quickly take action with the video, audio, and receipt details at your fingertips.</p>
-            <hr>
           </div>
           <div class="col-sm-4 text-center">
             <img width="150" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wlp-gears.svg" alt="Envysion Streamline Operations">
             <h3 class="more_bottom_margin">Streamline Operations</h3>
             <p>Keep an eye on process efficiency and policy compliance so you can make proactive improvements and address issues before they impact your profitability. </p>
-            <hr>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="wrap more_padding" style="padding-top:0;">
+  <div id="quote_carousel_1" class="carousel fade quote-carousel light-scheme">
     <div class="container">
-      <div class="col-sm-12 col-centered">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="bold-n-big text-center no_top_margin more_bottom_margin">WHAT OUR CUSTOMERS ARE SAYING:</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="testimonial">
-              <p>From maximizing sales to minimizing loss, we have placed our faith in Envysion to be our trusted advisor for many years and the Envysion team is a critical partner of our organization.</p>
-              <div class="testimonial_attrib">
-                  Jeremy Roberts, Director of Operations, N Touch Wireless<br>
-                  Sprint Preferred Retailer
-              </div>
-            </div>
-            <div class="testimonial">
-              <p>Since using Envysion's sales reporting, which contains real live video of transactions done within the store, accountability has reached an all-time high.</p>
-              <div class="testimonial_attrib">
-                Daniel Martinez, District Manager, N Touch Wireless
-              </div>
-            </div>
-            <!--<div class="testimonial">
-              <p>We find the feedback and reporting to be invaluable tools for molding our employee's behaviors. We use the system for sales observations, rather than standing next to our people and watching them, thus getting a more realistic picture of their processes. We have found Envysion to be a powerful asset to increase our sales by improving our team and discovering missed sales opportunities. While Envysion has been a great security resource, helping avoid break-ins, employee theft and greatly reducing fraudulent transactions, it has worked out to be much, much more than that.</p>
-              <div class="testimonial_attrib">
-                Mark Long, Vice President, CCT Wireless<br>
-                Sprint Preferred Retailer
-
-              </div>
-            </div>
-						-->
-          </div>
-          <div class="col-sm-6">
-            <div class="testimonial">
-              <p>Envysion has become a vital part of my everyday routine. The simplicity of the system and the scope it covers has made my job much more efficient. The value Envysion brings to my business is unparalleled! I would recommend Envysion for anyone who wants to free up time, make more money, and see their business grow.</p>
-              <div class="testimonial_attrib">
-                Klay Bingham, Chief of Staff<br>BrightStar Wireless, Inc
-              </div>
-            </div>
-            <div class="testimonial">
-              <p>I have really been able to coach and train my team using Envysion. I feel they now have a better understanding of how the whole sales process works and how the numbers work.</p>
-              <div class="testimonial_attrib">
-                Kerri Mumford-Asheboro, Store Manager<br>N Touch Wireless
-              </div>
-            </div>
-						<!--
-            <div class="testimonial">
-              <p>Envysion is a great resource we use for coaching and training. For my District Managers Envysion saves them time and money.  Instead of driving from store to store they have the ability to check in regularly with their stores and inspect whether we are exhibiting good behaviors. Envysion has helped us increase sales by inspecting sales to see if we are maximizing and again helping us inspect if our reps are customer focused. Additionally we are able to help prevent fraud.  We look forward to continue using Envysion and learn a new practices on how to use Envysion to help us improve every day.  </p>
-              <div class="testimonial_attrib">
-                Elthon Munoz, AT&amp;T Portables
-              </div>
-            </div>
-						-->
-          </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="no_bottom_margin text-center pn_reg_bold bluetext" style="font-size:29px;margin-top:35px;">Reasons Our Customers Love Us</h2>
         </div>
       </div>
     </div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <?php
+      $quotes = array(
+        array(
+          'quote' => "From maximizing sales to minimizing loss, we have placed our faith in Envysion to be our trusted advisor for many years and the Envysion team is a critical partner of our organization.",
+          'attrib'=>"Jeremy Roberts, Director of Operations<br>N Touch Wireless, Sprint Preferred Retailer"
+        ),
+        array(
+          'quote' => "Since using Envysion's sales reporting, which contains real live video of transactions done within the store, accountability has reached an all-time high.",
+          'attrib'=>"Daniel Martinez, District Manager<br>N Touch Wireless"
+        ),
+        array(
+          'quote' => "We find the feedback and reporting to be invaluable tools for molding our employee's behaviors. We use the system for remote sales observations, thus getting a more realistic picture of their processes.",
+          'attrib'=>"Mark Long, Vice President<br>CCT Wireless, Sprint Preferred Retailer"
+        ),
+        array(
+          'quote' => "Envysion has become a vital part of my everyday routine. The simplicity of the system and the scope it covers has made my job much more efficient. The value Envysion brings to my business is unparalleled!",
+          'attrib'=>"Klay Bingham, Chief of Staff<br>BrightStar Wireless, Inc"
+        ),
+        array(
+          'quote' => "I have really been able to coach and train my team using Envysion. I feel they now have a better understanding of how the whole sales process works and how the numbers work.",
+          'attrib'=>"Kerri Mumford-Asheboro, Store Manager<br>N Touch Wireless"
+        ),
+        array(
+          'quote' => "Envysion is a great resource we use for coaching and training. Instead of driving from store to store they have the ability to check in regularly with their stores and inspect whether we are exhibiting good behaviors.",
+          'attrib'=>"Elthon Munoz, AT&amp;T Portables"
+        )
+      );
+      foreach($quotes as $i => $q): ?>
+      <div class="item<?php if($i == 0) echo " active"; ?>">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-centered text-center">
+              <h2 class="quote">
+              <?php echo $q['quote'];?>"
+              </h2>
+              <div class="row">
+                <!--<div class="col-sm-5 text-right text-center-xs">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/smepage/KFC_logo.svg" height="80">
+                </div>-->
+                <div class="col-sm-offset-2 col-sm-8 text-center text-center-xs">
+                  <p class="attrib">
+                  <?php echo $q['attrib'];?>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <?php endforeach; ?>
+    </div>
+
+    <a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
+      <span class="fa fa-angle-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#quote_carousel_1" role="button" data-slide="next">
+      <span class="fa fa-angle-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
   </div>
+
 
   <div class="wrap more_padding dark_blue_wrap hidden">
     <div class="container">
@@ -168,12 +151,13 @@
     </div>
   </div>
 
-  <div class="wrap more_padding gray_wrap">
+  <div class="wrap">
     <div class="container">
       <div class="row">
         <div class="col-sm-10 col-centered feature-grid">
           <div class="row">
             <div class="col-sm-12">
+              <br>
               <h2 class="text-center pn_light bluetext no_top_margin" style="font-size:46px;">Shorten the cycle of coaching and behavior change with video</h2>
               <p class="text-center padded">See and hear each interaction across all your stores with our easy-to-use video management system. Hone in on the interactions that matter most with exception-based reports. Save and share video clips to showcase best practices and coach struggling employees to improve behaviors. Then, save time and money by reviewing performance in our easy-to-use desktop or mobile application instead of traveling to observe on-location.</p>
             </div>
@@ -219,13 +203,14 @@
               </ul>
             </div>
           </div>
+          <br>
         </div>
       </div>
     </div>
   </div>
-	
+
 	<div class="wrap gray_wrap more_padding">
-	
+
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
@@ -235,7 +220,7 @@
 				</div>
 			</div>
 		</div>
-	
+
 	</div>
 
   <div class="modal fade modal_white_form" id="learn_more_modal">

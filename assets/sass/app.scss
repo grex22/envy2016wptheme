@@ -847,9 +847,25 @@ h2.headline-with-pinstripe{
   }
 }
 
+@media (min-width: 972px) and (max-width:1143px) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+    height: 133%;
+  }
+}
+
 @media (max-width: 767px) {
-  .fullscreen-bg {
+  .fullscreen-bg.escalator-video {
     background: url('../img/iqmetrix/video-poster-40.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg.wireless-video {
+    background: url('../img/wirelesslp/retail-vid.jpg') center center / cover no-repeat;
+  }
+  .fullscreen-bg.wireless-video h1 {
+    text-shadow:0 0 8px rgba(0,0,0,.5);
+    font-size:3em!important;
   }
 
   .fullscreen-bg__video {

@@ -22,7 +22,7 @@
 
                 <h1 class="bluetext_brighter"><span class="pn_reg_bold_italic">Leverage your expertise</span> to improve industry solutions</h1>
                 <p class="lead">
-									We're passionate about helping retailers reduce theft &amp; loss and increase proﬁtability with innovative video-based technology. Join our team to advance the industry solutions with your extensive experience. 
+									We're passionate about helping retailers reduce theft &amp; loss and increase proﬁtability with innovative video-based technology. Join our team to advance the industry solutions with your extensive experience.
 								</p>
                 <button type="button" class="cta-btn cta-btn-lg orange" data-toggle="modal" data-target="#learn_more_modal">Learn More&hellip;</button>
                 <br>
@@ -70,7 +70,7 @@
 					</div>
 					<hr style="border-top:#ddd dotted 1px">
 				</div>
-				
+
 			</div>
 			<div class="row more_bottom_margin">
 				<div class="col-sm-8 col-centered text-center">
@@ -145,7 +145,7 @@
           </div>
         </div>
       </div>
-			
+
 			<div class="item">
         <div class="container">
           <div class="row">
@@ -167,7 +167,7 @@
           </div>
         </div>
       </div>
-			
+
 			<div class="item">
         <div class="container">
           <div class="row">
@@ -189,7 +189,7 @@
           </div>
         </div>
       </div>
-			
+
 			<div class="item">
         <div class="container">
           <div class="row">
@@ -211,7 +211,7 @@
           </div>
         </div>
       </div>
-			
+
 			<div class="item">
         <div class="container">
           <div class="row">
@@ -233,7 +233,7 @@
           </div>
         </div>
       </div>
-			
+
 			<div class="item">
         <div class="container">
           <div class="row">
@@ -270,7 +270,7 @@
 
     </div>
     <!-- Left and right controls -->
-    
+
     <a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
       <span class="fa fa-angle-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -279,9 +279,9 @@
       <span class="fa fa-angle-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-    
+
   </div>
-	
+
   <div class="modal fade modal_white_form" id="learn_more_modal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -290,21 +290,21 @@
           <h4 class="modal-title">Leverage your expertise to improve the industry and create an additional revenue stream. Complete the form to learn more!</h4>
         </div>
         <div class="modal-body">
-				
-					
+
+
 					<!--[if lte IE 8]>
 					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
 					<![endif]-->
 					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 					<script>
-						hbspt.forms.create({ 
+						hbspt.forms.create({
 							sfdcCampaignId: '701f3000001Ltm1AAC',
 							portalId: '444576',
 							formId: 'a6bc0f6f-d016-4b88-b874-b223122c549e'
 						});
 					</script>
 
-					
+
           <?php
             if(function_exists('gravity_form')):
               //gravity_form( 1, false, false, false, null, true, 150 ); //(for development instance on localhost)
