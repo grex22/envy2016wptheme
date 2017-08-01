@@ -172,10 +172,14 @@
         <div class="col-sm-10 col-centered text-center">
           <h2 class="bold-n-big no_top_margin">HOW OUR SYSTEM WORKS:</h2>
           <hr>
-          <img class="img-responsive" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/how-enyvsion-works.png" style="margin:10px 0 55px;">
+          <img class="hidden-xs img-responsive" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wirelessHowItWorksGraphic_webReady.png" style="margin:10px 0 55px;">
+          <div class="visible-xs text-center">
+            <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wirelessHowItWorksGraphic_webReady_split1.png" width="400" style="max-width:100%;margin-bottom:20px;"><br>
+            <img src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/wirelessHowItWorksGraphic_webReady_split2.png" width="400" style="max-width:100%;margin-bottom:50px;">
+          </div>
           <h2 class="bold-n-big no_top_margin more_bottom_margin">SO YOU CAN ADDRESS:</h2>
           <div class="row">
-            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
+            <div class="col-sm-4 text-left cap-col-width-at-340">
               <h4><strong>Sales Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Customer engagement</li>
@@ -184,7 +188,7 @@
                 <li>Wireless account analysis</li>
               </ul>
             </div>
-            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
+            <div class="col-sm-4 text-left cap-col-width-at-340">
               <h4><strong>Loss Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Safe procedure compliance</li>
@@ -193,7 +197,7 @@
                 <li>Commission fraud</li>
               </ul>
             </div>
-            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
+            <div class="col-sm-4 text-left cap-col-width-at-340">
               <h4><strong>Operational Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Employee clock-ins/outs</li>
