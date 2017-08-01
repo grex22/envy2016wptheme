@@ -175,7 +175,7 @@
           <img class="img-responsive" src="<?php get_stylesheet_directory_uri(); ?>/assets/img/wirelesslp/how-enyvsion-works.png" style="margin:10px 0 55px;">
           <h2 class="bold-n-big no_top_margin more_bottom_margin">SO YOU CAN ADDRESS:</h2>
           <div class="row">
-            <div class="col-sm-4 text-left ">
+            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
               <h4><strong>Sales Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Customer engagement</li>
@@ -184,7 +184,7 @@
                 <li>Wireless account analysis</li>
               </ul>
             </div>
-            <div class="col-sm-4 text-left ">
+            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
               <h4><strong>Loss Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Safe procedure compliance</li>
@@ -193,7 +193,7 @@
                 <li>Commission fraud</li>
               </ul>
             </div>
-            <div class="col-sm-4 text-left ">
+            <div class="col-sm-4 text-left col-centered cap-col-width-at-340">
               <h4><strong>Operational Behaviors</strong></h4>
               <ul class="fancy-bullet-list">
                 <li>Employee clock-ins/outs</li>
