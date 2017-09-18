@@ -124,7 +124,7 @@
 							$wid = get_sub_field('wistia_id');
 							if($wid):
 								//  Initiate curl
-								$url = "http://fast.wistia.com/oembed?url=".urlencode("http://home.wistia.com/medias/".$wid."?embedType=api&handle=oEmbedVideo&width=220");
+								$url = "https://fast.wistia.com/oembed?url=".urlencode("https://home.wistia.com/medias/".$wid."?embedType=api&handle=oEmbedVideo&width=220");
 
 								$ch = curl_init();
 								// Disable SSL verification
@@ -142,7 +142,7 @@
 								$v_player = $data['html'];
 								$thumb = $data['thumbnail_url'];
 
-								$v_player = '<a href="http://fast.wistia.net/embed/iframe/'.$wid.'?autoPlay=true&controlsVisibleOnLoad=true&playButton=false&playerColor=36ABFF&popover=true&version=v1&videoHeight=360&videoWidth=640" class="wistiathumb wistia-popover[height=360,playerColor=F36F36,width=640]"><img src="'.$thumb.'&image_play_button=1&image_play_button_color=36ABFFe0" alt="" /></a>';
+								$v_player = '<a href="https://fast.wistia.net/embed/iframe/'.$wid.'?autoPlay=true&controlsVisibleOnLoad=true&playButton=false&playerColor=36ABFF&popover=true&version=v1&videoHeight=360&videoWidth=640" class="wistiathumb wistia-popover[height=360,playerColor=F36F36,width=640]"><img src="'.$thumb.'&image_play_button=1&image_play_button_color=36ABFFe0" alt="" /></a>';
 
 							endif;
 						break;

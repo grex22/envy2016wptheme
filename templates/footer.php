@@ -33,6 +33,7 @@
 					});
 					<?php else: ?>
           hbspt.forms.create({
+						sfdcCampaignId: '70133000001UVF1AAO',
             portalId: '444576',
             formId: '5f706d0d-448a-44fe-b1c3-3a4c2d59c2a0'
           });
