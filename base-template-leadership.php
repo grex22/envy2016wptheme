@@ -521,7 +521,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 						// item´s offset top
 						position = $item.data( 'offsetTop' );
 
-					scrollExtra = -50;
+					scrollExtra = -70;
 
 					// if a preview exists and previewPos is different (different row) from item´s top then close it
 					if( typeof preview != 'undefined' ) {

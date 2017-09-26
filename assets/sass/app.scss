@@ -3642,10 +3642,10 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 .og-grid li > a:focus{text-decoration:none;}
 .og-grid li > a small{color:#555;}
 
-.og-grid li > a img {filter:grayscale(100%) brightness(1.5);border-radius:4px;}
+.og-grid li > a img {filter:grayscale(100%) brightness(1.35);border-radius:4px;}
 .og-grid li > a{position:relative;}
 .og-grid li > p{margin:-4px 0 0 0!important;}
-.og-grid li .imgwrap{position:relative}
+.og-grid li .imgwrap{position:relative;overflow: hidden;max-height: 220px;}
 .og-grid li .imgwrap:after{
 	z-index:99;
 	height:100%;

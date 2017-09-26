@@ -4511,7 +4511,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
 
 /* line 3645, ../sass/app.scss */
 .og-grid li > a img {
-  filter: grayscale(100%) brightness(1.5);
+  filter: grayscale(100%) brightness(1.35);
   border-radius: 4px;
 }
 
@@ -4528,6 +4528,8 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
 /* line 3648, ../sass/app.scss */
 .og-grid li .imgwrap {
   position: relative;
+  overflow: hidden;
+  max-height: 220px;
 }
 
 /* line 3649, ../sass/app.scss */
