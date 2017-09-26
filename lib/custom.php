@@ -763,3 +763,4 @@ function register_taxonomy_customer_industry() {
 
 add_image_size('customer_logo',90,90,false);
 add_image_size('call_out_block_image',450,225,true);
+add_image_size( 'headshot_square', '300', '300', true ); 

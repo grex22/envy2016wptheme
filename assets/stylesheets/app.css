@@ -4462,6 +4462,327 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-size: 51px;
 }
 
+/* leadership bio expander */
+/* line 3618, ../sass/app.scss */
+.og-grid {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 3626, ../sass/app.scss */
+.og-grid li {
+  text-align: left;
+  display: inline-block;
+  margin: 10px 5px 0 5px;
+  vertical-align: top;
+  height: auto;
+}
+
+/* line 3634, ../sass/app.scss */
+.og-grid li > a,
+.og-grid li > a img {
+  border: none;
+  outline: none;
+  display: block;
+  position: relative;
+}
+
+/* line 3641, ../sass/app.scss */
+.og-grid li > a > h3 {
+  color: #777 !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 13px;
+  margin-top: 7px;
+}
+
+/* line 3642, ../sass/app.scss */
+.og-grid li > a:focus {
+  text-decoration: none;
+}
+
+/* line 3643, ../sass/app.scss */
+.og-grid li > a small {
+  color: #555;
+}
+
+/* line 3645, ../sass/app.scss */
+.og-grid li > a img {
+  filter: grayscale(100%) brightness(1.5);
+  border-radius: 4px;
+}
+
+/* line 3646, ../sass/app.scss */
+.og-grid li > a {
+  position: relative;
+}
+
+/* line 3647, ../sass/app.scss */
+.og-grid li > p {
+  margin: -4px 0 0 0 !important;
+}
+
+/* line 3648, ../sass/app.scss */
+.og-grid li .imgwrap {
+  position: relative;
+}
+
+/* line 3649, ../sass/app.scss */
+.og-grid li .imgwrap:after {
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(25, 25, 68, 0.2);
+}
+
+/* line 3659, ../sass/app.scss */
+.og-grid li .imgwrap:before {
+  content: "Read Bio";
+  position: absolute;
+  display: inline-block;
+  bottom: 20px;
+  left: 0;
+  color: white;
+  font-weight: 700;
+  background-color: #278dc1;
+  font-size: 13px;
+  padding: 6px 20px 6px 15px;
+  line-height: 13px;
+  z-index: 100;
+}
+
+/* line 3674, ../sass/app.scss */
+.og-grid li.og-expanded > a::after {
+  top: auto;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #ddd;
+  border-width: 15px;
+  left: 50%;
+  margin: -20px 0 0 -15px;
+}
+
+/* line 3688, ../sass/app.scss */
+.og-expander {
+  position: absolute;
+  background: #ddd;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 3700, ../sass/app.scss */
+.og-expander-inner {
+  padding: 25px 30px;
+  height: 100%;
+}
+
+/* line 3705, ../sass/app.scss */
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* line 3714, ../sass/app.scss */
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 1px;
+  background: #888;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 3727, ../sass/app.scss */
+.og-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 3733, ../sass/app.scss */
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #333;
+}
+
+/* line 3738, ../sass/app.scss */
+.og-fullimg,
+.og-details {
+  width: auto;
+  float: left;
+  height: 100%;
+  overflow: hidden auto;
+  position: relative;
+}
+
+/* line 3747, ../sass/app.scss */
+.og-details {
+  padding: 0 40px 0 20px;
+}
+
+/* line 3751, ../sass/app.scss */
+.og-fullimg {
+  text-align: center;
+}
+
+/* line 3755, ../sass/app.scss */
+.og-fullimg img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* line 3761, ../sass/app.scss */
+.og-details h3 {
+  font-weight: 300;
+  font-size: 52px;
+  padding: 0px 0 10px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/* line 3769, ../sass/app.scss */
+.og-details p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+}
+
+/* line 3776, ../sass/app.scss */
+.og-details a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border: 3px solid #333;
+  display: inline-block;
+  margin: 30px 0 0;
+  outline: none;
+}
+
+/* line 3789, ../sass/app.scss */
+.og-details a::before {
+  content: '\2192';
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 3795, ../sass/app.scss */
+.og-details a:hover {
+  border-color: #999;
+  color: #999;
+}
+
+/* line 3800, ../sass/app.scss */
+.og-loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ddd;
+  box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  -webkit-animation: loader 0.5s infinite ease-in-out both;
+  -moz-animation: loader 0.5s infinite ease-in-out both;
+  animation: loader 0.5s infinite ease-in-out both;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    background: #ddd;
+  }
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
+}
+@-moz-keyframes loader {
+  0% {
+    background: #ddd;
+  }
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
+}
+@keyframes loader {
+  0% {
+    background: #ddd;
+  }
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
+}
+@media screen and (max-width: 830px) {
+  /* line 3835, ../sass/app.scss */
+  .og-expander h3 {
+    font-size: 32px;
+  }
+
+  /* line 3836, ../sass/app.scss */
+  .og-expander p {
+    font-size: 13px;
+  }
+
+  /* line 3837, ../sass/app.scss */
+  .og-expander a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 3843, ../sass/app.scss */
+  .og-fullimg {
+    display: none;
+  }
+
+  /* line 3844, ../sass/app.scss */
+  .og-details {
+    float: none;
+    width: 100%;
+  }
+}
 /* Fonts */
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on February 27, 2016 */
 @font-face {
@@ -4478,7 +4799,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3650, ../sass/app.scss */
+/* line 3882, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }
