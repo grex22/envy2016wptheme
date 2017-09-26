@@ -138,11 +138,11 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
           <?php include roots_template_path(); ?>
 					
 					<div class="teammembers-grid">
-					<?php
+						<ul id="og-grid-l" class="og-grid">
+						<?php
 						
 						if(have_rows('leadership_team_member')):
-							echo "<h2>Leadership Team</h2><hr>";
-							echo '<ul id="og-grid-l" class="og-grid">';
+							echo "<h2>Leadership Team</h2>";
 							while ( have_rows('leadership_team_member') ) : the_row();
 
 									$name = get_sub_field('name');
@@ -161,18 +161,9 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 									</li>
 									<?php
 							endwhile;
-							echo "</ul>";
 						endif;
-						
-					?>
-					</div>
-					
-					<div class="teammembers-grid">
-					<?php
-						
 						if(have_rows('board_member')):
-							echo "<h2>Board of Directors</h2><hr>";
-							echo '<ul id="og-grid-b" class="og-grid">';
+							echo "<h2>Board of Directors</h2>";
 							while ( have_rows('board_member') ) : the_row();
 
 									$name = get_sub_field('name');
@@ -191,10 +182,10 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 									</li>
 									<?php
 							endwhile;
-							echo "</ul>";
 						endif;
 						
-					?>
+						?>
+						</ul>
 					</div>
 
         </div><!-- /.main -->
@@ -399,7 +390,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 			var Grid = (function() {
 
 					// list of items
-					var $grid = $( '.og-grid' ),
+					var $grid = $( '#og-grid-l' ),
 					// the items
 					$items = $grid.children( 'li' ),
 					// current expanded item's index
@@ -426,7 +417,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 					support = Modernizr.csstransitions,
 					// default settings
 					settings = {
-						minHeight : 500,
+						minHeight : 450,
 						speed : 350,
 						easing : 'ease'
 					};
@@ -514,7 +505,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 						
 						var $item = $( this ).parent();
 						// check if item already opened
-						current === $item.index() ? hidePreview() : showPreview( $item );
+						current === $item.parent().children('li').index($item) ? hidePreview() : showPreview( $item );
 						return false;
 
 					} );
@@ -530,7 +521,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 						// item´s offset top
 						position = $item.data( 'offsetTop' );
 
-					scrollExtra = 0;
+					scrollExtra = -50;
 
 					// if a preview exists and previewPos is different (different row) from item´s top then close it
 					if( typeof preview != 'undefined' ) {
@@ -570,7 +561,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 				// the preview obj / overlay
 				function Preview( $item ) {
 					this.$item = $item;
-					this.expandedIdx = this.$item.index();
+					this.expandedIdx = this.$item.parent().children('li').index(this.$item);
 					this.create();
 					this.update();
 				}
@@ -592,13 +583,14 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 						}
 					},
 					update : function( $item ) {
-
+						console.log(current);
 						if( $item ) {
 							this.$item = $item;
 						}
 						
 						// if already expanded remove class "og-expanded" from current item and add it to new item
 						if( current !== -1 ) {
+							
 							var $currentItem = $items.eq( current );
 							$currentItem.removeClass( 'og-expanded' );
 							this.$item.addClass( 'og-expanded' );
@@ -607,8 +599,8 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 						}
 
 						// update current value
-						current = this.$item.index();
-
+						current = this.$item.parent().children('li').index(this.$item);
+						console.log(current);
 						// update preview´s content
 						var $itemEl = this.$item.children( 'a' ),
 							eldata = {
