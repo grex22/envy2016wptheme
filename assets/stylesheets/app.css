@@ -4479,9 +4479,11 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin: 10px 5px 0 5px;
   vertical-align: top;
   height: auto;
+  max-width: 220px;
+  line-height: 18px;
 }
 
-/* line 3634, ../sass/app.scss */
+/* line 3636, ../sass/app.scss */
 .og-grid li > a,
 .og-grid li > a img {
   border: none;
@@ -4490,49 +4492,50 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   position: relative;
 }
 
-/* line 3641, ../sass/app.scss */
+/* line 3643, ../sass/app.scss */
 .og-grid li > a > h3 {
   color: #777 !important;
   font-weight: 600 !important;
   font-size: 18px !important;
-  line-height: 13px;
-  margin-top: 7px;
+  line-height: 11px !important;
+  margin-top: 7px !important;
+  margin-bottom: 6px !important;
 }
 
-/* line 3642, ../sass/app.scss */
+/* line 3644, ../sass/app.scss */
 .og-grid li > a:focus {
   text-decoration: none;
 }
 
-/* line 3643, ../sass/app.scss */
+/* line 3645, ../sass/app.scss */
 .og-grid li > a small {
   color: #555;
 }
 
-/* line 3645, ../sass/app.scss */
+/* line 3647, ../sass/app.scss */
 .og-grid li > a img {
   filter: grayscale(100%) brightness(1.35);
   border-radius: 4px;
 }
 
-/* line 3646, ../sass/app.scss */
+/* line 3648, ../sass/app.scss */
 .og-grid li > a {
   position: relative;
 }
 
-/* line 3647, ../sass/app.scss */
+/* line 3649, ../sass/app.scss */
 .og-grid li > p {
   margin: -4px 0 0 0 !important;
 }
 
-/* line 3648, ../sass/app.scss */
+/* line 3650, ../sass/app.scss */
 .og-grid li .imgwrap {
   position: relative;
   overflow: hidden;
   max-height: 220px;
 }
 
-/* line 3649, ../sass/app.scss */
+/* line 3651, ../sass/app.scss */
 .og-grid li .imgwrap:after {
   z-index: 99;
   height: 100%;
@@ -4544,7 +4547,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   background-color: rgba(25, 25, 68, 0.2);
 }
 
-/* line 3659, ../sass/app.scss */
+/* line 3661, ../sass/app.scss */
 .og-grid li .imgwrap:before {
   content: "Read Bio";
   position: absolute;
@@ -4560,7 +4563,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   z-index: 100;
 }
 
-/* line 3674, ../sass/app.scss */
+/* line 3676, ../sass/app.scss */
 .og-grid li.og-expanded > a::after {
   top: auto;
   border: solid transparent;
@@ -4575,7 +4578,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin: -20px 0 0 -15px;
 }
 
-/* line 3688, ../sass/app.scss */
+/* line 3690, ../sass/app.scss */
 .og-expander {
   position: absolute;
   background: #ddd;
@@ -4588,13 +4591,13 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   overflow: hidden;
 }
 
-/* line 3700, ../sass/app.scss */
+/* line 3702, ../sass/app.scss */
 .og-expander-inner {
   padding: 25px 30px;
   height: 100%;
 }
 
-/* line 3705, ../sass/app.scss */
+/* line 3707, ../sass/app.scss */
 .og-close {
   position: absolute;
   width: 40px;
@@ -4605,7 +4608,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   z-index: 999;
 }
 
-/* line 3715, ../sass/app.scss */
+/* line 3717, ../sass/app.scss */
 .og-close::before,
 .og-close::after {
   content: '';
@@ -4619,20 +4622,20 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   transform: rotate(45deg);
 }
 
-/* line 3728, ../sass/app.scss */
+/* line 3730, ../sass/app.scss */
 .og-close::after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-/* line 3734, ../sass/app.scss */
+/* line 3736, ../sass/app.scss */
 .og-close:hover::before,
 .og-close:hover::after {
   background: #333;
 }
 
-/* line 3739, ../sass/app.scss */
+/* line 3741, ../sass/app.scss */
 .og-fullimg,
 .og-details {
   width: auto;
@@ -4642,24 +4645,24 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   position: relative;
 }
 
-/* line 3748, ../sass/app.scss */
+/* line 3750, ../sass/app.scss */
 .og-details {
   padding: 0 40px 0 20px;
 }
 
-/* line 3752, ../sass/app.scss */
+/* line 3754, ../sass/app.scss */
 .og-fullimg {
   text-align: center;
 }
 
-/* line 3756, ../sass/app.scss */
+/* line 3758, ../sass/app.scss */
 .og-fullimg img {
   display: inline-block;
   max-height: 100%;
   max-width: 100%;
 }
 
-/* line 3762, ../sass/app.scss */
+/* line 3764, ../sass/app.scss */
 .og-details h3 {
   font-weight: 300;
   font-size: 52px;
@@ -4668,7 +4671,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin-top: 0;
 }
 
-/* line 3770, ../sass/app.scss */
+/* line 3772, ../sass/app.scss */
 .og-details p {
   font-weight: 400;
   font-size: 16px;
@@ -4676,7 +4679,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   color: #666;
 }
 
-/* line 3777, ../sass/app.scss */
+/* line 3779, ../sass/app.scss */
 .og-details a {
   font-weight: 700;
   font-size: 16px;
@@ -4690,20 +4693,20 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   outline: none;
 }
 
-/* line 3790, ../sass/app.scss */
+/* line 3792, ../sass/app.scss */
 .og-details a::before {
   content: '\2192';
   display: inline-block;
   margin-right: 10px;
 }
 
-/* line 3796, ../sass/app.scss */
+/* line 3798, ../sass/app.scss */
 .og-details a:hover {
   border-color: #999;
   color: #999;
 }
 
-/* line 3801, ../sass/app.scss */
+/* line 3803, ../sass/app.scss */
 .og-loading {
   width: 20px;
   height: 20px;
@@ -4759,28 +4762,28 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   }
 }
 @media screen and (max-width: 830px) {
-  /* line 3836, ../sass/app.scss */
+  /* line 3838, ../sass/app.scss */
   .og-expander h3 {
     font-size: 32px;
   }
 
-  /* line 3837, ../sass/app.scss */
+  /* line 3839, ../sass/app.scss */
   .og-expander p {
     font-size: 13px;
   }
 
-  /* line 3838, ../sass/app.scss */
+  /* line 3840, ../sass/app.scss */
   .og-expander a {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 3844, ../sass/app.scss */
+  /* line 3846, ../sass/app.scss */
   .og-fullimg {
     display: none;
   }
 
-  /* line 3845, ../sass/app.scss */
+  /* line 3847, ../sass/app.scss */
   .og-details {
     float: none;
     width: 100%;
@@ -4802,7 +4805,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3883, ../sass/app.scss */
+/* line 3885, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }

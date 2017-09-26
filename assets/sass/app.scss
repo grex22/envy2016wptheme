@@ -3629,6 +3629,8 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
 	height: auto;
+	max-width:220px;
+	line-height:18px;
 }
 
 .og-grid li > a,
@@ -3638,7 +3640,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 	display: block;
 	position: relative;
 }
-.og-grid li > a > h3{color:#777!important;font-weight:600!important;font-size:18px!important;line-height:13px;margin-top:7px;}
+.og-grid li > a > h3{color:#777!important;font-weight:600!important;font-size:18px!important;line-height:11px!important;margin-top:7px!important;margin-bottom:6px!important;}
 .og-grid li > a:focus{text-decoration:none;}
 .og-grid li > a small{color:#555;}
 

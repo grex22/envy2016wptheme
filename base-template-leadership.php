@@ -155,7 +155,7 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 											<div class="imgwrap">
 												<img src="<?php echo $img['sizes']['headshot_square']; ?>" width="220" height="220" alt="<?php echo $name; ?>">
 											</div>
-											<h3 class="no_bottom_margin"><?php echo $name; ?></h3>
+											<h3><?php echo $name; ?></h3>
 											<p><small><?php echo $title; ?></small></p>
 										</a>
 									</li>
