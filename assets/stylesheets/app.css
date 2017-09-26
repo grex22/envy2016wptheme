@@ -4647,22 +4647,24 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
 
 /* line 3750, ../sass/app.scss */
 .og-details {
-  padding: 0 40px 0 20px;
+  padding: 0 30px 0 20px;
+  overflow-x: auto;
+  margin-right: 35px;
 }
 
-/* line 3754, ../sass/app.scss */
+/* line 3756, ../sass/app.scss */
 .og-fullimg {
   text-align: center;
 }
 
-/* line 3758, ../sass/app.scss */
+/* line 3760, ../sass/app.scss */
 .og-fullimg img {
   display: inline-block;
   max-height: 100%;
   max-width: 100%;
 }
 
-/* line 3764, ../sass/app.scss */
+/* line 3766, ../sass/app.scss */
 .og-details h3 {
   font-weight: 300;
   font-size: 52px;
@@ -4671,7 +4673,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin-top: 0;
 }
 
-/* line 3772, ../sass/app.scss */
+/* line 3774, ../sass/app.scss */
 .og-details p {
   font-weight: 400;
   font-size: 16px;
@@ -4679,7 +4681,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   color: #666;
 }
 
-/* line 3779, ../sass/app.scss */
+/* line 3781, ../sass/app.scss */
 .og-details a {
   font-weight: 700;
   font-size: 16px;
@@ -4693,20 +4695,20 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   outline: none;
 }
 
-/* line 3792, ../sass/app.scss */
+/* line 3794, ../sass/app.scss */
 .og-details a::before {
   content: '\2192';
   display: inline-block;
   margin-right: 10px;
 }
 
-/* line 3798, ../sass/app.scss */
+/* line 3800, ../sass/app.scss */
 .og-details a:hover {
   border-color: #999;
   color: #999;
 }
 
-/* line 3803, ../sass/app.scss */
+/* line 3805, ../sass/app.scss */
 .og-loading {
   width: 20px;
   height: 20px;
@@ -4762,28 +4764,28 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   }
 }
 @media screen and (max-width: 830px) {
-  /* line 3838, ../sass/app.scss */
+  /* line 3840, ../sass/app.scss */
   .og-expander h3 {
     font-size: 32px;
   }
 
-  /* line 3839, ../sass/app.scss */
+  /* line 3841, ../sass/app.scss */
   .og-expander p {
     font-size: 13px;
   }
 
-  /* line 3840, ../sass/app.scss */
+  /* line 3842, ../sass/app.scss */
   .og-expander a {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 3846, ../sass/app.scss */
+  /* line 3848, ../sass/app.scss */
   .og-fullimg {
     display: none;
   }
 
-  /* line 3847, ../sass/app.scss */
+  /* line 3849, ../sass/app.scss */
   .og-details {
     float: none;
     width: 100%;
@@ -4805,7 +4807,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3885, ../sass/app.scss */
+/* line 3887, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }
