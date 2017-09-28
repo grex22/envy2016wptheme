@@ -153,6 +153,9 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 									<li>
 										<a href="#" data-title="<?php echo $name; ?>" data-description="<?php echo $bio; ?>">
 											<div class="imgwrap">
+												<div class="headshot-overlay">
+													<span class="hs-overlay-text">Read Bio</span>
+												</div>
 												<img src="<?php echo $img['sizes']['headshot_square']; ?>" width="220" height="220" alt="<?php echo $name; ?>">
 											</div>
 											<h3><?php echo $name; ?></h3>
@@ -174,6 +177,9 @@ $resources_post_types = array('casestudy','whitepaper','video','webinars','podca
 									<li>
 										<a href="#" data-title="<?php echo $name; ?>" data-description="<?php echo $bio; ?>">
 											<div class="imgwrap">
+												<div class="headshot-overlay">
+													<span class="hs-overlay-text">Read Bio</span>
+												</div>
 												<img src="<?php echo $img['sizes']['headshot_square']; ?>" width="220" height="220" alt="<?php echo $name; ?>">
 											</div>
 											<h3 class="no_bottom_margin"><?php echo $name; ?></h3>

@@ -3648,6 +3648,36 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 .og-grid li > a{position:relative;}
 .og-grid li > p{margin:-4px 0 0 0!important;}
 .og-grid li .imgwrap{position:relative;overflow: hidden;max-height: 220px;}
+.og-grid li .imgwrap{
+	.headshot-overlay {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(16, 95, 136, 0.6);
+		overflow: hidden;
+		width: 0;
+		height: 100%;
+		transition: .3s ease;
+		z-index:90;
+		.hs-overlay-text{
+			  white-space: nowrap; 
+				color: white;
+				font-size: 20px;
+				position: absolute;
+				overflow: hidden;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+		}
+	}
+	&:hover{
+		.headshot-overlay{
+			width:100%;
+		}
+	}
+}
 .og-grid li .imgwrap:after{
 	z-index:99;
 	height:100%;
@@ -3671,6 +3701,10 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 	padding:6px 20px 6px 15px;
 	line-height:13px;
 	z-index:100;
+	transition:opacity .2s;
+}
+.og-grid li .imgwrap:hover:before{
+	opacity:0;
 }
 
 .og-grid li.og-expanded > a::after {
@@ -3751,6 +3785,10 @@ body.page-template-template-nextwave-landing #hubspot_form_footer{display:none!i
 	padding: 0 30px 0 20px;
 	overflow-x: auto;
 	margin-right:35px;
+	h3{
+	  color: #278dc1;
+		font-weight: 700;
+	}
 }
 
 .og-fullimg {

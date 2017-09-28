@@ -4535,7 +4535,37 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   max-height: 220px;
 }
 
-/* line 3651, ../sass/app.scss */
+/* line 3652, ../sass/app.scss */
+.og-grid li .imgwrap .headshot-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(16, 95, 136, 0.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .3s ease;
+  z-index: 90;
+}
+/* line 3663, ../sass/app.scss */
+.og-grid li .imgwrap .headshot-overlay .hs-overlay-text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 3676, ../sass/app.scss */
+.og-grid li .imgwrap:hover .headshot-overlay {
+  width: 100%;
+}
+
+/* line 3681, ../sass/app.scss */
 .og-grid li .imgwrap:after {
   z-index: 99;
   height: 100%;
@@ -4547,7 +4577,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   background-color: rgba(25, 25, 68, 0.2);
 }
 
-/* line 3661, ../sass/app.scss */
+/* line 3691, ../sass/app.scss */
 .og-grid li .imgwrap:before {
   content: "Read Bio";
   position: absolute;
@@ -4561,9 +4591,15 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   padding: 6px 20px 6px 15px;
   line-height: 13px;
   z-index: 100;
+  transition: opacity .2s;
 }
 
-/* line 3676, ../sass/app.scss */
+/* line 3706, ../sass/app.scss */
+.og-grid li .imgwrap:hover:before {
+  opacity: 0;
+}
+
+/* line 3710, ../sass/app.scss */
 .og-grid li.og-expanded > a::after {
   top: auto;
   border: solid transparent;
@@ -4578,7 +4614,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin: -20px 0 0 -15px;
 }
 
-/* line 3690, ../sass/app.scss */
+/* line 3724, ../sass/app.scss */
 .og-expander {
   position: absolute;
   background: #ddd;
@@ -4591,13 +4627,13 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   overflow: hidden;
 }
 
-/* line 3702, ../sass/app.scss */
+/* line 3736, ../sass/app.scss */
 .og-expander-inner {
   padding: 25px 30px;
   height: 100%;
 }
 
-/* line 3707, ../sass/app.scss */
+/* line 3741, ../sass/app.scss */
 .og-close {
   position: absolute;
   width: 40px;
@@ -4608,7 +4644,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   z-index: 999;
 }
 
-/* line 3717, ../sass/app.scss */
+/* line 3751, ../sass/app.scss */
 .og-close::before,
 .og-close::after {
   content: '';
@@ -4622,20 +4658,20 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   transform: rotate(45deg);
 }
 
-/* line 3730, ../sass/app.scss */
+/* line 3764, ../sass/app.scss */
 .og-close::after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-/* line 3736, ../sass/app.scss */
+/* line 3770, ../sass/app.scss */
 .og-close:hover::before,
 .og-close:hover::after {
   background: #333;
 }
 
-/* line 3741, ../sass/app.scss */
+/* line 3775, ../sass/app.scss */
 .og-fullimg,
 .og-details {
   width: auto;
@@ -4645,26 +4681,31 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   position: relative;
 }
 
-/* line 3750, ../sass/app.scss */
+/* line 3784, ../sass/app.scss */
 .og-details {
   padding: 0 30px 0 20px;
   overflow-x: auto;
   margin-right: 35px;
 }
+/* line 3788, ../sass/app.scss */
+.og-details h3 {
+  color: #278dc1;
+  font-weight: 700;
+}
 
-/* line 3756, ../sass/app.scss */
+/* line 3794, ../sass/app.scss */
 .og-fullimg {
   text-align: center;
 }
 
-/* line 3760, ../sass/app.scss */
+/* line 3798, ../sass/app.scss */
 .og-fullimg img {
   display: inline-block;
   max-height: 100%;
   max-width: 100%;
 }
 
-/* line 3766, ../sass/app.scss */
+/* line 3804, ../sass/app.scss */
 .og-details h3 {
   font-weight: 300;
   font-size: 52px;
@@ -4673,7 +4714,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   margin-top: 0;
 }
 
-/* line 3774, ../sass/app.scss */
+/* line 3812, ../sass/app.scss */
 .og-details p {
   font-weight: 400;
   font-size: 16px;
@@ -4681,7 +4722,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   color: #666;
 }
 
-/* line 3781, ../sass/app.scss */
+/* line 3819, ../sass/app.scss */
 .og-details a {
   font-weight: 700;
   font-size: 16px;
@@ -4695,20 +4736,20 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   outline: none;
 }
 
-/* line 3794, ../sass/app.scss */
+/* line 3832, ../sass/app.scss */
 .og-details a::before {
   content: '\2192';
   display: inline-block;
   margin-right: 10px;
 }
 
-/* line 3800, ../sass/app.scss */
+/* line 3838, ../sass/app.scss */
 .og-details a:hover {
   border-color: #999;
   color: #999;
 }
 
-/* line 3805, ../sass/app.scss */
+/* line 3843, ../sass/app.scss */
 .og-loading {
   width: 20px;
   height: 20px;
@@ -4764,28 +4805,28 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   }
 }
 @media screen and (max-width: 830px) {
-  /* line 3840, ../sass/app.scss */
+  /* line 3878, ../sass/app.scss */
   .og-expander h3 {
     font-size: 32px;
   }
 
-  /* line 3841, ../sass/app.scss */
+  /* line 3879, ../sass/app.scss */
   .og-expander p {
     font-size: 13px;
   }
 
-  /* line 3842, ../sass/app.scss */
+  /* line 3880, ../sass/app.scss */
   .og-expander a {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 650px) {
-  /* line 3848, ../sass/app.scss */
+  /* line 3886, ../sass/app.scss */
   .og-fullimg {
     display: none;
   }
 
-  /* line 3849, ../sass/app.scss */
+  /* line 3887, ../sass/app.scss */
   .og-details {
     float: none;
     width: 100%;
@@ -4807,7 +4848,7 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 3887, ../sass/app.scss */
+/* line 3925, ../sass/app.scss */
 .pn_reg_bold_italic {
   font-family: "proxima_nova_rgbold_italic";
 }
