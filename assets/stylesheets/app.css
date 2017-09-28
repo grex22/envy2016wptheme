@@ -4689,8 +4689,8 @@ body.page-template-template-nextwave-landing #hubspot_form_footer {
 }
 /* line 3788, ../sass/app.scss */
 .og-details h3 {
-  color: #278dc1;
-  font-weight: 700;
+  color: #278dc1 !important;
+  font-weight: 700 !important;
 }
 
 /* line 3794, ../sass/app.scss */
