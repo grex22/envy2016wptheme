@@ -1,0 +1,268 @@
+/* Parapet and ODS Landing Page Templates */
+/* line 8, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-form .hs-input,
+body.page-template-template-ods .hs-form .hs-input {
+  background: rgba(212, 212, 212, 0.6) !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+/* line 12, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-form .hs-input::-webkit-input-placeholder,
+body.page-template-template-ods .hs-form .hs-input::-webkit-input-placeholder {
+  /* Chrome */
+  color: #f2f2f2;
+}
+/* line 15, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-form .hs-input:-ms-input-placeholder,
+body.page-template-template-ods .hs-form .hs-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #f2f2f2;
+}
+/* line 18, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-form .hs-input::-moz-placeholder,
+body.page-template-template-ods .hs-form .hs-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #f2f2f2;
+  opacity: 1;
+}
+/* line 22, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-form .hs-input:-moz-placeholder,
+body.page-template-template-ods .hs-form .hs-input:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #f2f2f2;
+  opacity: 1;
+}
+/* line 27, ../sass/parapet-ods.scss */
+body.page-template-template-parapet .hs-button,
+body.page-template-template-ods .hs-button {
+  border-radius: 0 !important;
+}
+
+/* line 32, ../sass/parapet-ods.scss */
+.callout-p {
+  color: #333;
+  font-size: 19px;
+  line-height: 33px;
+}
+
+/* line 38, ../sass/parapet-ods.scss */
+#iphone-cameras {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 100%;
+}
+@media (max-width: 990px) {
+  /* line 38, ../sass/parapet-ods.scss */
+  #iphone-cameras {
+    position: relative;
+    top: auto;
+    max-height: 300px;
+  }
+}
+
+/* line 51, ../sass/parapet-ods.scss */
+.formula-box {
+  padding: 30px;
+  margin: 4px 40px 13px;
+  background: #f0f0f0;
+  position: relative;
+}
+/* line 57, ../sass/parapet-ods.scss */
+.formula-box img {
+  max-width: 80%;
+  width: 220px;
+}
+/* line 60, ../sass/parapet-ods.scss */
+.formula-box:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  bottom: 40px;
+  left: 50%;
+  border-left: 2px solid #ddd;
+  transform: translate(-50%);
+}
+@media (max-width: 990px) {
+  /* line 71, ../sass/parapet-ods.scss */
+  .formula-box:before {
+    display: none;
+  }
+}
+/* line 74, ../sass/parapet-ods.scss */
+.formula-box.orangebg {
+  background: #f78c26;
+}
+/* line 76, ../sass/parapet-ods.scss */
+.formula-box.orangebg:before {
+  display: none;
+}
+/* line 77, ../sass/parapet-ods.scss */
+.formula-box.orangebg .checkmark-list li {
+  color: #fff !important;
+}
+/* line 80, ../sass/parapet-ods.scss */
+.formula-box.formula-box-equals:after {
+  content: "=";
+  font-weight: bolder;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #f78c26;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  bottom: -22px;
+  line-height: 52px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 43px;
+  left: 50%;
+  transform: translate(-25px);
+  z-index: 10;
+}
+/* line 99, ../sass/parapet-ods.scss */
+.formula-box.formula-box-plus:after {
+  content: "+";
+  font-weight: bolder;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #f78c26;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  bottom: -22px;
+  line-height: 52px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 43px;
+  left: 50%;
+  transform: translate(-25px);
+  z-index: 10;
+}
+
+/* line 120, ../sass/parapet-ods.scss */
+ul.checkmark-list {
+  list-style: none;
+  margin: 15px 0;
+}
+/* line 124, ../sass/parapet-ods.scss */
+ul.checkmark-list li {
+  line-height: 24px;
+  margin-bottom: 14px;
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+  color: #666666;
+}
+/* line 131, ../sass/parapet-ods.scss */
+ul.checkmark-list li:before {
+  content: "\f00c";
+  color: #399fd3;
+  font-size: 19px;
+  position: absolute;
+  left: -32px;
+  top: 1px;
+  font-family: FontAwesome;
+}
+
+/* line 142, ../sass/parapet-ods.scss */
+.white ul.checkmark-list li:before {
+  color: white;
+}
+
+/* line 144, ../sass/parapet-ods.scss */
+.triangle-corners {
+  z-index: 1;
+  position: absolute;
+  width: 20%;
+  max-width: 240px;
+  height: auto;
+}
+/* line 151, ../sass/parapet-ods.scss */
+.triangle-corners.tri-top {
+  left: 0;
+  top: 0;
+}
+/* line 155, ../sass/parapet-ods.scss */
+.triangle-corners.tri-bottom {
+  right: 0;
+  bottom: -1px;
+  transform: rotate(180deg);
+  width: 40%;
+  max-width: 500px;
+}
+@media (max-width: 767px) {
+  /* line 144, ../sass/parapet-ods.scss */
+  .triangle-corners {
+    display: none;
+  }
+}
+
+/* line 167, ../sass/parapet-ods.scss */
+#parapet-splash {
+  position: absolute;
+  z-index: 3;
+  max-width: 580px !important;
+  width: 43.5%;
+  bottom: -50px;
+  right: 3%;
+}
+@media (max-width: 767px) {
+  /* line 167, ../sass/parapet-ods.scss */
+  #parapet-splash {
+    display: none;
+  }
+}
+@media (min-width: 767px) and (max-width: 990px) {
+  /* line 167, ../sass/parapet-ods.scss */
+  #parapet-splash {
+    position: absolute;
+    z-index: 3;
+    max-width: 580px !important;
+    width: 60.5%;
+    bottom: -20px;
+    right: -15%;
+  }
+}
+
+/* line 187, ../sass/parapet-ods.scss */
+.scroll_prompt {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  background-image: url("../img/delaget/down-caret.png");
+  bottom: 15px;
+  right: 50%;
+  margin-left: -22px;
+}
+@media (max-width: 700px) {
+  /* line 187, ../sass/parapet-ods.scss */
+  .scroll_prompt {
+    display: none;
+  }
+}
+
+/* line 200, ../sass/parapet-ods.scss */
+#chicken_bg {
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 990px) {
+  /* line 205, ../sass/parapet-ods.scss */
+  .middle_line:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    bottom: 20px;
+    left: 50%;
+    border-left: 2px solid #ddd;
+    transform: translate(-50%);
+  }
+}

@@ -18,6 +18,10 @@ function roots_scripts() {
   if ( is_page_template( 'template-delaget.php' ) ) {
     wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/assets/stylesheets/delaget.css' );
   }
+	
+	if ( is_page_template( 'template-parapet.php' ) || is_page_template( 'template-ods.php' )) {
+    wp_enqueue_style( 'parapet-ods', get_stylesheet_directory_uri() . '/assets/stylesheets/parapet-ods.css' );
+  }
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline

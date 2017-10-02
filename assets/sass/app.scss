@@ -2539,6 +2539,22 @@ img.polaroid{
   font-family:$pn_light!important;
 }
 
+.btn-lg.btn-clear{
+		color: $orange;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 20px 40px;
+    background: transparent;
+		transition:.3s;
+		
+		&:hover{
+			background:rgba(200,200,200,.3);
+		}
+}
+
 /* Case Studies Template */
 body.page-template-template-case-studies-php{
 
@@ -2921,6 +2937,7 @@ div.postcta{
    Content
    ========================================================================== */
 h2.larger{font-size:35px;}
+h2.larger_2x{font-size:3.3em;}
 .content {
   margin-top:45px;
   padding-bottom:50px;
@@ -3340,9 +3357,11 @@ img.panera_hardware{
 .more_bottom_margin{margin-bottom:20px;}
 .more_top_margin{margin-top:20px;}
 .even_more_bottom_margin{margin-bottom:40px!important;}
+.even_more_padding{padding:80px 0}
 .no_right_padding{padding-right: 0;}
 .no_left_padding{padding-left: 0;}
 .padded{padding:20px;}
+.more_padded{padding:40px;}
 .inline{display:inline}
 .block{display:block}
 .relative{position:relative}
@@ -3355,8 +3374,12 @@ img.panera_hardware{
 .bluetext_brighter{color:#65c8fb!important;}
 .white{color:white!important}
 .orangetext{color:$orange!important}
+.orangebg{background-color:$orange!important}
 .pn_light{font-family:$pn_light!important;}
 .pn_reg_bold{font-family:$pn_reg_bold!important;}
+.pn_reg_bold_italic{font-family:$pn_reg_bold_italic!important;}
+.text-uppercase{text-transform:uppercase!important;}
+.overflow-hidden{overflow:hidden!important;}
 
 /* ==========================================================================
    WordPress Generated Classes
