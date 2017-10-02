@@ -87,12 +87,12 @@
       </div>
     </div>
   </div>
-	<div class="wrap dark_blue_wrap">
+	<div class="wrap">
 		<div class="container even_more_bottom_margin">
 			<div class="row more_padding">
 				<div class="col-sm-12 text-center">
-					<h2 class="pn_reg_bold white">Here's how it works:</h2>
-					<h3 class="pn_reg_bold white">Powerful solutions alone, <span class="bluetext pn_reg_bold_italic">even better together</span></h3>
+					<h2 class="pn_reg_bold">Here's how it works:</h2>
+					<h3 class="pn_reg_bold">Powerful solutions alone, <span class="bluetext pn_reg_bold_italic">even better together</span></h3>
 				</div>
 			</div>
 			<div class="formula-box formula-box-plus">
@@ -148,6 +148,18 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="wrap even_more_padding relative" id="chicken_bg" style="background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/parapetods/chicken-bg.jpg);">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-10 col-md-offset-1 text-center">
+					<h2 class="larger_2x pn_light bluetext_brighter more_bottom_margin">ZAK Family Foods LLC uses Envysion to create a Culture of Excellence.</h2>
+					<p class="lead white">See how Envysion is helping restaurant leaders reduce loss and boost the bottom line with integrated managed video + loss prevention solutions.</p>
+					<a href="https://envysion.com/case-studies/" target="_blank" class="btn btn-lg btn-clear">case studies</a>
+				</div>
+      </div>
+    </div>
+  </div>
 	
 	<div class="wrap gray_wrap even_more_padding relative">
     <div class="container">
