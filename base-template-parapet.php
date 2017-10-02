@@ -75,9 +75,9 @@
   </div>
 	<div id="quote_carousel_1" class="carousel fade quote-carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <!--<ol class="carousel-indicators">
       <li data-target="#quote_carousel_1" data-slide-to="0" class="active"></li>
-    </ol>
+    </ol>-->
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -95,14 +95,14 @@
 
     </div>
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
+    <!--<a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
       <span class="fa fa-angle-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#quote_carousel_1" role="button" data-slide="next">
       <span class="fa fa-angle-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a>-->
   </div>
 	
 	
@@ -183,9 +183,9 @@
     <div class="container">
       <div class="row ">
         <div class="col-md-10 col-md-offset-1 text-center">
-					<h2 class="larger_2x pn_light bluetext more_bottom_margin">ZAK Family Foods LLC uses Envysion to create a Culture of Excellence.</h2>
-					<p class="lead white">Learn how ZAK Family Foods LLC is using Envysion to boost same-store sales up to 20% and build a culture of accountability.</p>
-					<a href="https://envysion.com/media/CS_QSR_005_04.17.pdf" target="_blank" class="btn btn-lg btn-clear">download case study</a>
+					<h2 class="larger_2x pn_light bluetext_brighter more_bottom_margin">ZAK Family Foods LLC uses Envysion to create a Culture of Excellence.</h2>
+					<p class="lead white">See how Envysion is helping restaurant leaders reduce loss and boost the bottom line with integrated managed video + loss prevention solutions.</p>
+					<a href="https://envysion.com/case-studies/" target="_blank" class="btn btn-lg btn-clear">case studies</a>
 				</div>
       </div>
     </div>

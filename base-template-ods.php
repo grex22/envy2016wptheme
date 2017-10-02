@@ -72,39 +72,7 @@
 				<a href="#hubspot_form_footer" class="btn btn-lg btn-clear smooth_scroll">Contact Us Today!</a>
 			</div>
 		</div>
-  </div>
-	<div id="quote_carousel_1" class="carousel fade quote-carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#quote_carousel_1" data-slide-to="0" class="active"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-centered text-center">
-              <h2 class="quote">The integration with Envysion’s own audits combined with other loss prevention services and reporting tools is so invaluable. Verified incident notifications take us directly to the specific transaction and timeframe with a single click, saving us much time in the field. We are fortunate to have a system such as Envysion in our restaurants!"</h2>
-              <p class="attrib">Mark Lambos, Development, Assets and Operations, Kendall House, Inc. KFC Franchisee</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#quote_carousel_1" role="button" data-slide="prev">
-      <span class="fa fa-angle-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#quote_carousel_1" role="button" data-slide="next">
-      <span class="fa fa-angle-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-	
+  </div>	
 	
   <div class="gray_wrap overflow-hidden relative">
     <div class="container">
