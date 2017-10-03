@@ -5,7 +5,7 @@
     <h4 class="text-center no_top_margin white">Fill out the form to contact our team, and we'll get in touch to schedule a meeting.</h4>
 
     <div class="row">
-      <div class="col-sm-offset-3 col-sm-6">
+      <div class="col-sm-offset-3 col-sm-6" id="footerform">
         <!--[if lte IE 8]>
         <script charset="utf-8" type="text/javascript" src="http://js.hsforms.net/forms/v2-legacy.js"></script>
         <![endif]-->
@@ -13,7 +13,8 @@
         <script>
           hbspt.forms.create({
             portalId: '444576',
-            formId: 'e541822f-3272-45a4-8a50-d9419bd503d9'
+            formId: 'e541822f-3272-45a4-8a50-d9419bd503d9',
+						target: '#footerform'
           });
         </script>
       </div>

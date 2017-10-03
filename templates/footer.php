@@ -19,7 +19,7 @@
 			<h2 class="text-center">Could video be doing more for you?</h2>
 		<?php endif; ?>
     <div class="row">
-      <div class="col-sm-offset-3 col-sm-6">
+      <div class="col-sm-offset-3 col-sm-6" id="footerform">
         <!--[if lte IE 8]>
         <script charset="utf-8" type="text/javascript" src="http://js.hsforms.net/forms/v2-legacy.js"></script>
         <![endif]-->
@@ -29,13 +29,15 @@
 					hbspt.forms.create({ 
 						sfdcCampaignId: '701f3000001Ltm1AAC',
 						portalId: '444576',
-						formId: 'a6bc0f6f-d016-4b88-b874-b223122c549e'
+						formId: 'a6bc0f6f-d016-4b88-b874-b223122c549e',
+						target: '#footerform'
 					});
 					<?php else: ?>
           hbspt.forms.create({
 						sfdcCampaignId: '70133000001UVF1AAO',
             portalId: '444576',
-            formId: '5f706d0d-448a-44fe-b1c3-3a4c2d59c2a0'
+            formId: '5f706d0d-448a-44fe-b1c3-3a4c2d59c2a0',
+						target: '#footerform'
           });
 					<?php endif; ?>
         </script>
