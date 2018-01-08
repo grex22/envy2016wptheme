@@ -20,6 +20,7 @@
               hbspt.forms.create({
                 portalId: '444576',
                 formId: 'a159d66d-a3b8-47b3-a5a2-02cd39edcf87',
+								sfdcCampaignId: '701f30000013aPaAAI',
 								target: '#footerform'
               });
             </script>
